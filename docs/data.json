@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-14T05:47:17.759Z",
-  "total": 90,
+  "updatedAt": "2026-05-14T05:58:07.772Z",
+  "total": 228,
   "articles": [
     {
       "id": 22,
@@ -21,22 +21,42 @@
       "fetched_at": "2026-05-14T05:44:18.515+00:00"
     },
     {
-      "id": 66,
-      "source_id": "cnki-kagu",
-      "source_name": "《考古》",
-      "source_short_name": "考古",
+      "id": 168,
+      "source_id": "cnki-wenw",
+      "source_name": "《文物》",
+      "source_short_name": "文物",
       "category": "考古文物",
-      "title": "武汉市盘龙城遗址王家嘴2021—2022年的发掘",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McerztMhdPq6RZGEYPpfwzRUV1SU0iBOYanhHk91bx8bNh5aBvN4ZUXCSW4TSgbBDI9Zl_t21SDK8mI2ROK6ao2UeDlhT2MEk9VkjJDnGqGa70ECugsSHJpA91_Er2SgfNRjt9Hz27qhrJoonuTgf228CVONRaDLl-C3FFbzymOZg==&uniplatform=NZKPT&language=CHS",
-      "author": "孙卓;崔庆圆;张昌平;",
-      "summary": "盘龙城遗址王家嘴2021-2022年发掘，探索商代聚落早期遗存年代与文化，属于先秦考古。",
-      "score": 60,
+      "title": "湖北荆州望山桥一号楚墓出土遣策",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfD6QiAhRawgFuWudr_LftlNSQUzfQsMjHXc6TEaWLHYmz56xEXfuhwl0wxoo2yPYgntchibVoKAxBoAynLUxSs0i8FFnDFbwHILcXF9--wImnsL7GzBJO1c1Hh8mvPag5If04pOuOhhD5j_N28euxKkzvPQV6hdMXF9gRPnNa6tw==&uniplatform=NZKPT&language=CHS",
+      "author": "罗小华;刘建业;",
+      "summary": "报道湖北荆州望山桥一号楚墓出土的遣策与卜筮祭祷竹简，属战国简帛出土文献。",
+      "score": 80,
       "tags": [
+        "出土文献",
         "考古发掘",
-        "先秦史"
+        "新出材料"
       ],
-      "published_at": "2026-03-24T16:00:00+00:00",
-      "fetched_at": "2026-05-14T05:44:24.199+00:00"
+      "published_at": "2026-04-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:31.283+00:00"
+    },
+    {
+      "id": 202,
+      "source_id": "cnki-zlbk",
+      "source_name": "《中国国家博物馆馆刊》",
+      "source_short_name": "国家博物馆刊",
+      "category": "考古文物",
+      "title": "山东淄博临淄区范家村战国墓M608发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeIGa8sSWsJ-U3CubAcNJRb3sW95LbPkZA42Ld9QqLJsDLqpDW4YcujUG12qDfLdwZ5VVmdt5ndA7OgpkQd3VXqNvPjgIyX89AdXsU34Av3iXObVYXiq9LLnA-100xq1XHqbmwvMz5SqSeAyEBoH6yRZSxG0Q1UFrQcwumpoTHM6w==&uniplatform=NZKPT&language=CHS",
+      "author": "陈魁\r\n;路俊福\r\n;常继文\r\n;李东江\r\n;王德安\r\n;王强\r\n;崔小非;",
+      "summary": "山东淄博范家村战国墓M608发掘简报，出土错金银三足铜壶及铜鼎内动物骨骼，为研究战国晚期齐国丧葬制度及青铜工艺提供新材料。",
+      "score": 75,
+      "tags": [
+        "青铜器",
+        "考古发掘",
+        "器物研究"
+      ],
+      "published_at": "2026-04-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:10.555+00:00"
     },
     {
       "id": 38,
@@ -58,18 +78,19 @@
       "fetched_at": "2026-05-14T05:44:54.73+00:00"
     },
     {
-      "id": 91,
+      "id": 56,
       "source_id": "cnki-kagu",
       "source_name": "《考古》",
       "source_short_name": "考古",
       "category": "考古文物",
-      "title": "西藏浪卡子县杂热山金银器窖藏",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mf6UHojB91W6ZHsU7fGEJPMuLE6kveLfjH6tqf_E5_6lK-XXat7gYtHRik5v7YkwOpCG16V5XSPMQZNwVnGvxiV2d7FaD6cWvCLtRFs34lJ2FIeA1znw-Yj_Jl06-1P_FAk8N_JM-9ReI4fyOlUfdJbLSww3oCRRHRTSsBL3Gd2-A==&uniplatform=NZKPT&language=CHS",
-      "author": "祝铭\r\n;伦珠群培;",
-      "summary": "杂热山发现金银器窖藏，含波斯萨珊王朝银币等，为研究7-8世纪青藏高原与周边文化交流及“高原丝绸之路”提供重要资料。",
-      "score": 40,
+      "title": "《六安白鹭洲——战国楚墓考古发掘与研究》简介",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdhNqZZsm0RG6nCnYA2lWV-dPEQ7Z_dfoJa3KmCPp32j3uL8gGc_thYXwvXSVL7zj8s6vMbPjROaIyw7jPfzVr1FVjIdcMaUo6LuiW053TPr0mnjSKLe3mp_Ld8XCyFU6J38ewWfiITlZWaa4_qYTwv6p9M7Gg8XUIjCDtB175caw==&uniplatform=NZKPT&language=CHS",
+      "author": "雨珩;",
+      "summary": "六安白鹭洲战国楚墓的全面介绍与研究，涉及墓葬形制与出土遗物，属战国楚文化考古。",
+      "score": 65,
       "tags": [
-        "器物研究"
+        "先秦史",
+        "考古发掘"
       ],
       "published_at": "2026-03-24T16:00:00+00:00",
       "fetched_at": "2026-05-14T05:44:24.199+00:00"
@@ -93,37 +114,19 @@
       "fetched_at": "2026-05-14T05:44:54.73+00:00"
     },
     {
-      "id": 88,
+      "id": 66,
       "source_id": "cnki-kagu",
       "source_name": "《考古》",
       "source_short_name": "考古",
       "category": "考古文物",
-      "title": "《丹江口金陂墓地》简介",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McA-qkVCSdnPQ6Qy6h2nYmF3iAFehH2g7hELGlUlxF4xFttb60DzOEyoS5TOLdb215zzxaVt8VYP6qjtrFgKapIdm-AD9i-NF7f9bvHWagp-Rad4WokaN5xhC-B0zqF7zYAxGCtV1CJidNCW5IMeNn7IsAFmXEwCjeqUM8S9Ezpjg==&uniplatform=NZKPT&language=CHS",
-      "author": "雨珩;",
-      "summary": "丹江口金陂墓地考古勘探和发掘，清理东周至明清墓葬256座，为研究东周至明清时期考古学文化提供资料。",
-      "score": 50,
+      "title": "武汉市盘龙城遗址王家嘴2021—2022年的发掘",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McerztMhdPq6RZGEYPpfwzRUV1SU0iBOYanhHk91bx8bNh5aBvN4ZUXCSW4TSgbBDI9Zl_t21SDK8mI2ROK6ao2UeDlhT2MEk9VkjJDnGqGa70ECugsSHJpA91_Er2SgfNRjt9Hz27qhrJoonuTgf228CVONRaDLl-C3FFbzymOZg==&uniplatform=NZKPT&language=CHS",
+      "author": "孙卓;崔庆圆;张昌平;",
+      "summary": "盘龙城遗址王家嘴2021-2022年发掘，探索商代聚落早期遗存年代与文化，属于先秦考古。",
+      "score": 60,
       "tags": [
         "考古发掘",
         "先秦史"
-      ],
-      "published_at": "2026-03-24T16:00:00+00:00",
-      "fetched_at": "2026-05-14T05:44:24.199+00:00"
-    },
-    {
-      "id": 56,
-      "source_id": "cnki-kagu",
-      "source_name": "《考古》",
-      "source_short_name": "考古",
-      "category": "考古文物",
-      "title": "《六安白鹭洲——战国楚墓考古发掘与研究》简介",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdhNqZZsm0RG6nCnYA2lWV-dPEQ7Z_dfoJa3KmCPp32j3uL8gGc_thYXwvXSVL7zj8s6vMbPjROaIyw7jPfzVr1FVjIdcMaUo6LuiW053TPr0mnjSKLe3mp_Ld8XCyFU6J38ewWfiITlZWaa4_qYTwv6p9M7Gg8XUIjCDtB175caw==&uniplatform=NZKPT&language=CHS",
-      "author": "雨珩;",
-      "summary": "六安白鹭洲战国楚墓的全面介绍与研究，涉及墓葬形制与出土遗物，属战国楚文化考古。",
-      "score": 65,
-      "tags": [
-        "先秦史",
-        "考古发掘"
       ],
       "published_at": "2026-03-24T16:00:00+00:00",
       "fetched_at": "2026-05-14T05:44:24.199+00:00"
@@ -147,6 +150,189 @@
       "fetched_at": "2026-05-14T05:44:24.199+00:00"
     },
     {
+      "id": 88,
+      "source_id": "cnki-kagu",
+      "source_name": "《考古》",
+      "source_short_name": "考古",
+      "category": "考古文物",
+      "title": "《丹江口金陂墓地》简介",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McA-qkVCSdnPQ6Qy6h2nYmF3iAFehH2g7hELGlUlxF4xFttb60DzOEyoS5TOLdb215zzxaVt8VYP6qjtrFgKapIdm-AD9i-NF7f9bvHWagp-Rad4WokaN5xhC-B0zqF7zYAxGCtV1CJidNCW5IMeNn7IsAFmXEwCjeqUM8S9Ezpjg==&uniplatform=NZKPT&language=CHS",
+      "author": "雨珩;",
+      "summary": "丹江口金陂墓地考古勘探和发掘，清理东周至明清墓葬256座，为研究东周至明清时期考古学文化提供资料。",
+      "score": 50,
+      "tags": [
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2026-03-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:44:24.199+00:00"
+    },
+    {
+      "id": 91,
+      "source_id": "cnki-kagu",
+      "source_name": "《考古》",
+      "source_short_name": "考古",
+      "category": "考古文物",
+      "title": "西藏浪卡子县杂热山金银器窖藏",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mf6UHojB91W6ZHsU7fGEJPMuLE6kveLfjH6tqf_E5_6lK-XXat7gYtHRik5v7YkwOpCG16V5XSPMQZNwVnGvxiV2d7FaD6cWvCLtRFs34lJ2FIeA1znw-Yj_Jl06-1P_FAk8N_JM-9ReI4fyOlUfdJbLSww3oCRRHRTSsBL3Gd2-A==&uniplatform=NZKPT&language=CHS",
+      "author": "祝铭\r\n;伦珠群培;",
+      "summary": "杂热山发现金银器窖藏，含波斯萨珊王朝银币等，为研究7-8世纪青藏高原与周边文化交流及“高原丝绸之路”提供重要资料。",
+      "score": 40,
+      "tags": [
+        "器物研究"
+      ],
+      "published_at": "2026-03-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:44:24.199+00:00"
+    },
+    {
+      "id": 158,
+      "source_id": "cnki-hxkg",
+      "source_name": "《华夏考古》",
+      "source_short_name": "华夏考古",
+      "category": "考古文物",
+      "title": "河南鹤壁辛村遗址杨晋庄地点西周墓葬发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Md926_mIyki4MX3yqy1NMiPucaRF6odGq_xvXGcepgUJVX0zgI5dZz_oZj1sqGcgmDaB6OCln_qqb6Kpjkn5xZH6hNdf9QkUQyMOk5hgpVyUkK60XX8zhHdq5Zjw-5UgUZ1kVTLN7NELnDnd7Tzmv0ElDdpUwAs0Vk0RHJ2T8SuJA==&uniplatform=NZKPT&language=CHS",
+      "author": "高振龙;",
+      "summary": "河南鹤壁辛村遗址杨晋庄地点西周墓葬发掘简报，清理224座墓及马坑，出土有铭铜器，涉及西周葬俗与族属研究。",
+      "score": 85,
+      "tags": [
+        "青铜器",
+        "考古发掘",
+        "出土文献"
+      ],
+      "published_at": "2026-03-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:04.079+00:00"
+    },
+    {
+      "id": 181,
+      "source_id": "cnki-nmwc",
+      "source_name": "《草原文物》",
+      "source_short_name": "草原文物",
+      "category": "考古文物",
+      "title": "晋公墓不用墓道考——兼论闻喜上郭墓地三组大型墓墓主",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MesYIquMq7LJIAqB9JOPUbe2OY2dlP1PDfRLHbLo8B6w3WHAz9GdSLD2FIGNvmnrGd9Px-QY1ibA-drtqLhmVmae3nv9W1a1zTss-GcqcjCBXvg0a17PSkhlvBWZrQivCrgG2LC4kRIMR4nYeWFzYa6rRovlQHEKYlMXNBAyMliig==&uniplatform=NZKPT&language=CHS",
+      "author": "李凤翔;",
+      "summary": "通过闻喜上郭墓地大型墓的布局、葬制与随葬品，结合古曲沃与“曲沃代翼”历史，推断墓主为曲沃桓叔、庄伯、晋武公，并重新讨论晋系墓葬等级。",
+      "score": 78,
+      "tags": [
+        "青铜器",
+        "先秦史",
+        "考古发掘"
+      ],
+      "published_at": "2026-03-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:42.748+00:00"
+    },
+    {
+      "id": 252,
+      "source_id": "cnki-kagu",
+      "source_name": "《考古》",
+      "source_short_name": "考古",
+      "category": "考古文物",
+      "title": "《六安白鹭洲——战国楚墓考古发掘与研究》简介",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfDA5KDbg3I2d6wEFBAbdGgiNngFebjvoA0rRYlgYFxRwnyCP-Rt8DSptcwYib8EioHFmK2UGNG1Vq33POC5sw265ZrKyADuUt_6gclXdt27_r4IXs-HABNhZ9al0h63aEmGCsivN34k6_GxJ4WcmzxQcBkfQ0NYiwl3FbtbIKhOg==&uniplatform=NZKPT&language=CHS",
+      "author": "雨珩;",
+      "summary": "介绍六安白鹭洲战国楚墓考古发掘与研究，涉及楚墓形制与出土遗物，与先秦史、出土文献相关。",
+      "score": 55,
+      "tags": [
+        "出土文献",
+        "先秦史",
+        "考古发掘"
+      ],
+      "published_at": "2026-03-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:37.584+00:00"
+    },
+    {
+      "id": 222,
+      "source_id": "cnki-kagu",
+      "source_name": "《考古》",
+      "source_short_name": "考古",
+      "category": "考古文物",
+      "title": "三星堆器物坑形成过程分析与背景蠡测",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MflVHWdG-tP2f1i8eTCF_xtoPWJzHnnvubR4RUtJeDsXpEm2kzzuAW1Etbnm94pBW0vSZ4btzFFtr_4AOJOuJc0THLptl-k1Nrn04NT4B85rNwd5YRImanCCrnW2eqGrHF-vO3SNw3v9gCaYGTvzpaVpBKc85Ou8CCM31dshS7Y0A==&uniplatform=NZKPT&language=CHS",
+      "author": "赵昊;",
+      "summary": "分析三星堆器物坑形成过程，认为是商周更替影响向蜀地扩散的非周期性仪式事件，与先秦史及青铜器文化相关。",
+      "score": 65,
+      "tags": [
+        "青铜器",
+        "先秦史",
+        "考古发掘"
+      ],
+      "published_at": "2026-03-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:37.584+00:00"
+    },
+    {
+      "id": 240,
+      "source_id": "cnki-kagu",
+      "source_name": "《考古》",
+      "source_short_name": "考古",
+      "category": "考古文物",
+      "title": "武汉市盘龙城遗址王家嘴2021—2022年的发掘",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdHe-hBobRqLp-9eJqYfyqXQdCTtjfpyUdoB9Q1Sade-cs76UWl3_JxvU84nkpI1SheG8e6IVvd03IlL5k_R-wccR_rDvpkw5ePETe3GOSubLzjoeftDHiL4eGrnDkIqPMkZKcGAVaxCeCVS3K2xRmaofeOoAh8d-kcnS9kLtQ_8A==&uniplatform=NZKPT&language=CHS",
+      "author": "孙卓;崔庆圆;张昌平;",
+      "summary": "盘龙城遗址王家嘴2021—2022年发掘，探索商代早期遗存年代与文化，与先秦时期青铜器文化相关。",
+      "score": 60,
+      "tags": [
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2026-03-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:37.584+00:00"
+    },
+    {
+      "id": 256,
+      "source_id": "cnki-hxkg",
+      "source_name": "《华夏考古》",
+      "source_short_name": "华夏考古",
+      "category": "考古文物",
+      "title": "东周时期齐国与鲁国贵族棺椁制度研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfrrPG3u8Pgl5cJlf-m5lDpAErcvTgmkoAvMuIltMVSUVs6YZe9rDl4lyE5V2jdAgFDEslgRHytp09ONGO0ks-avB-0ED29nz4qGoTJ5Eqr76Vg2evdNvfYtHPdN2WF4FY7f1LgG-QGofS7J_aLDhx7nKdDQDpUtLOl6j-CYKou7Q==&uniplatform=NZKPT&language=CHS",
+      "author": "刘艳菲;王青;",
+      "summary": "研究东周时期齐国与鲁国贵族棺椁制度，涉及礼制等级，与先秦史相关，未直接涉及金文。",
+      "score": 55,
+      "tags": [
+        "先秦史",
+        "器物研究"
+      ],
+      "published_at": "2026-03-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:58.429+00:00"
+    },
+    {
+      "id": 277,
+      "source_id": "cnki-nmwc",
+      "source_name": "《草原文物》",
+      "source_short_name": "草原文物",
+      "category": "考古文物",
+      "title": "内蒙古锡林浩特市毛登牧场辽墓清理简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeicfJFX27-dgiwxIMYmS5tUM-Yxj3e0AGiz6nq9ysxzEwgJ0lZYgLpH6iTuFq-Qtu7SW_PUzQhwR4fW5aKD-HYB7EW2tsIKkPWF8PDVreruK79YM0OPYepFNrvmNIagJwwak5CoioXMZ7fzH9S4M2CP6MJdBrKHJV6ifyNfwAQOA==&uniplatform=NZKPT&language=CHS",
+      "author": "曹鹏\r\n;柏嘎力\r\n;呼和\r\n;萨仁图雅\r\n;乌兰\r\n;纪兵\r\n;那阳太\r\n;王内贤\r\n;赵菲;",
+      "summary": "内蒙古辽墓清理，出土琥珀、铜器等，体现中原与草原文化融合，属考古发掘和辽代历史研究（据题推断）。",
+      "score": 40,
+      "tags": [
+        "考古发掘"
+      ],
+      "published_at": "2026-03-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:35.397+00:00"
+    },
+    {
+      "id": 279,
+      "source_id": "cnki-kagu",
+      "source_name": "《考古》",
+      "source_short_name": "考古",
+      "category": "考古文物",
+      "title": "西藏浪卡子县杂热山金银器窖藏",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McdYaBONrmjfUDNZP6yTuPbhdb4NJDZuP4m0DYZMZp3lVf7YB54h5TuWwp11h3GUCJ2x5uNZ264TfsSpKIiL4KtjNL_bpJPcvKyRGB44HXrzuJ3O5UC5T3uUicpA-VQcRMUyj_J_YQemkyCFbizYCrle_RzkU_YKQCng2tFS7bFkQ==&uniplatform=NZKPT&language=CHS",
+      "author": "祝铭\r\n;伦珠群培;",
+      "summary": "2006年在西藏浪卡子县发现金银器窖藏，含波斯萨珊王朝银币等，反映公元7—8世纪青藏高原与周边文化交流及高原丝绸之路的走向。",
+      "score": 30,
+      "tags": [
+        "出土文献",
+        "历史年代",
+        "器物研究"
+      ],
+      "published_at": "2026-03-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:37.584+00:00"
+    },
+    {
       "id": 48,
       "source_id": "cnki-zyww",
       "source_name": "《中原文物》",
@@ -164,6 +350,25 @@
       ],
       "published_at": "2026-03-19T16:00:00+00:00",
       "fetched_at": "2026-05-14T05:44:48.007+00:00"
+    },
+    {
+      "id": 53,
+      "source_id": "cnki-zyww",
+      "source_name": "《中原文物》",
+      "source_short_name": "中原文物",
+      "category": "考古文物",
+      "title": "郑州商城内城城门再探寻",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McVnO5hsQapT_KHUVx4Zh_oQMRUiP3JO4tU6hv1qFZ7b0objqLkNBBJWOs-JCP-T7ZCj4et_rUcif5peUdOZTIRdR-hK9y-dRByQOaVTserr6gFWuNoB7lqLQQqT4N1es-pPvBEOlPeCFFXRSiZMCsUPXumksT80Vpau1d95Ecb0Q==&uniplatform=NZKPT&language=CHS",
+      "author": "梁法伟;张华贞;杨树刚;",
+      "summary": "重新梳理郑州商城的城墙缺口，认定并推测内城11处城门，并对东城门进行复原。属于商代城址考古，关联青铜文化背景。",
+      "score": 70,
+      "tags": [
+        "考古发掘",
+        "器物研究",
+        "先秦史"
+      ],
+      "published_at": "2026-03-19T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:44:48.006+00:00"
     },
     {
       "id": 70,
@@ -203,23 +408,114 @@
       "fetched_at": "2026-05-14T05:45:00.644+00:00"
     },
     {
-      "id": 53,
+      "id": 200,
+      "source_id": "cnki-zyww",
+      "source_name": "《中原文物》",
+      "source_short_name": "中原文物",
+      "category": "考古文物",
+      "title": "河南荥阳南城遗址2021年度二里岗文化遗存发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfgdUpYZDnAZh15fZVPndTxtn6EruYuWckxrxLWF5eZiNQ-LDiNAm-m8blUtwlNiCF6Odc_TYLBzNMfvzKpkrk3wh1cmfAjXnvjmgg9HlPvggyGn_t0O7zOTE1Oy91EjQVzMocY1J4gqwzdAFQd9IDRc-8U-TgO9mDpz_S7mQXWHw==&uniplatform=NZKPT&language=CHS",
+      "author": "张继华;陈康;郑龙龙;郭士嘉;姜楠;马欣;李世豪;白天雨;丁琳;高靖尧;王淇;钱豪;史念;徐晶;郭紫薇;宋勍;杨汉锟;刘洋;杨赞赞;孙广贺;",
+      "summary": "河南荥阳南城遗址2021年发掘简报，出土丰富二里岗文化遗存，包括陶器、石器等，判断为早商王畿重要次级聚落。",
+      "score": 75,
+      "tags": [
+        "考古发掘",
+        "青铜器",
+        "先秦史"
+      ],
+      "published_at": "2026-03-19T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:51.785+00:00"
+    },
+    {
+      "id": 215,
+      "source_id": "cnki-zyww",
+      "source_name": "《中原文物》",
+      "source_short_name": "中原文物",
+      "category": "考古文物",
+      "title": "由王庄遗址出土圭形石器谈中国史前时期的玉圭",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McotFNZcGuGZTnBDkGorXhyS9bNNRrUd4IhI4_hXiytMRlXpGzQQkLGpnzpQ-Hox2wvyRUXlDVWuHnXLUjCVrBRa2ZGfABkdUnD91LonKM6vvERDxvHO62XATIGXiPwHzXMdIl9NPn7RAfsnAFnJ0hscAOtwysivW9aG59bOwTvpQ==&uniplatform=NZKPT&language=CHS",
+      "author": "李超;",
+      "summary": "由河南王庄遗址出土圭形石器探讨史前玉圭，认为其为中国史前丧葬礼器，为商周玉石圭渊源提供关键线索。",
+      "score": 70,
+      "tags": [
+        "器物研究",
+        "青铜器",
+        "先秦史"
+      ],
+      "published_at": "2026-03-19T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:51.785+00:00"
+    },
+    {
+      "id": 246,
       "source_id": "cnki-zyww",
       "source_name": "《中原文物》",
       "source_short_name": "中原文物",
       "category": "考古文物",
       "title": "郑州商城内城城门再探寻",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McVnO5hsQapT_KHUVx4Zh_oQMRUiP3JO4tU6hv1qFZ7b0objqLkNBBJWOs-JCP-T7ZCj4et_rUcif5peUdOZTIRdR-hK9y-dRByQOaVTserr6gFWuNoB7lqLQQqT4N1es-pPvBEOlPeCFFXRSiZMCsUPXumksT80Vpau1d95Ecb0Q==&uniplatform=NZKPT&language=CHS",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfZPPsTBv8RzluF-cl0YA2i0pXVyjJogQR-qqOpue-T3KGR8nSMHhYRMDgwKjKHPWGih7uVA2IA7oLXzQRzstGZ0IciTpAoEOJe21oSYsBgpOyafSGhhbROqtGzS5rdsQ_i_158b-BvHTuO4PowUf_ShJLYTH-QbrdjqLorTl042Q==&uniplatform=NZKPT&language=CHS",
       "author": "梁法伟;张华贞;杨树刚;",
-      "summary": "重新梳理郑州商城的城墙缺口，认定并推测内城11处城门，并对东城门进行复原。属于商代城址考古，关联青铜文化背景。",
-      "score": 70,
+      "summary": "探讨郑州商城内城城门，结合考古发现与城墙缺口，认定并推测11处城门，对一东城门进行复原，涉及商代城址研究。",
+      "score": 60,
       "tags": [
-        "考古发掘",
+        "先秦史",
+        "考古发掘"
+      ],
+      "published_at": "2026-03-19T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:51.785+00:00"
+    },
+    {
+      "id": 265,
+      "source_id": "cnki-ggbw",
+      "source_name": "《故宫博物院院刊》",
+      "source_short_name": "故宫院刊",
+      "category": "考古文物",
+      "title": "欧亚草原东部的鹤嘴斧研究——兼论萨彦-阿尔泰与中国北方的早期文化交流",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McH6bOPXYr1fzk9CUh_KCVrg0TQIJTx4YbIUhKJyPQaMEUkTFND6ECZeb6INJS-RK0_b7hHx6tmmQ4HtD2aTn1qJcZDxLl1cJRD7iT7Nqm56KyBtfCKPQQH-crrXOiJ86rt3dfsDKu5liuSjugFSeglqTsp7gkFC2zhh3Tav-i1tQ==&uniplatform=NZKPT&language=CHS",
+      "author": "张文珊;邵会秋;",
+      "summary": "研究欧亚草原东部鹤嘴斧的起源与传播，兼论萨彦-阿尔泰与中国北方的早期文化交流，涉及先秦器物。",
+      "score": 50,
+      "tags": [
         "器物研究",
         "先秦史"
       ],
       "published_at": "2026-03-19T16:00:00+00:00",
-      "fetched_at": "2026-05-14T05:44:48.006+00:00"
+      "fetched_at": "2026-05-14T05:55:04.079+00:00"
+    },
+    {
+      "id": 271,
+      "source_id": "cnki-zyww",
+      "source_name": "《中原文物》",
+      "source_short_name": "中原文物",
+      "category": "考古文物",
+      "title": "陕西咸阳成任汉墓出土金铜佛像的年代与性质",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MesAQ_tzCUxTU4jfwO1UZaH94ok8yKdOmX4p1OWBqgpcAnhEzauMtis78eCRLu5uLqvd5Gcd0X64OEeHOc6sWo7CO8W14eM5i-tyF_T9N8kRNtSq8HUTUxjbo6wn6nFwdLKxDJUv88At-ZoGIju7vVNSj9NXHL_eW61_FNA_-rEHA==&uniplatform=NZKPT&language=CHS",
+      "author": "李龙俊;刘振;",
+      "summary": "讨论陕西咸阳成任汉墓出土金铜佛像的年代与性质，推定为东汉中期，反驳十六国时期盗墓带入说，涉及汉代佛教文物。",
+      "score": 45,
+      "tags": [
+        "器物研究",
+        "历史年代"
+      ],
+      "published_at": "2026-03-19T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:51.785+00:00"
+    },
+    {
+      "id": 272,
+      "source_id": "cnki-ggbw",
+      "source_name": "《故宫博物院院刊》",
+      "source_short_name": "故宫院刊",
+      "category": "考古文物",
+      "title": "欧亚草原秦汉漆器的流通及相关问题",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdMJgoHb6VFZ45NGDacZR0Bu-_hKPBvoiiCspKvAe9V9e4_t-DMuLnnrtlaNBDwOv-kkX2_kaf2L6hcfGpr1Ffu-Za9utO8XajjP5KA12IqurrX95K3Lyq1R3cR94MlSTUQqRoi_zjRl6FEfUOHWigQ2W0zttsTM3CC30WAaJR56g==&uniplatform=NZKPT&language=CHS",
+      "author": "戴玥;马云飞;",
+      "summary": "探讨秦汉漆器在欧亚草原的流通，涉及匈奴与汉王朝的经济贸易，与出土文献、先秦史相关。",
+      "score": 45,
+      "tags": [
+        "出土文献",
+        "先秦史"
+      ],
+      "published_at": "2026-03-19T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:04.079+00:00"
     },
     {
       "id": 3,
@@ -236,25 +532,6 @@
         "金文考释",
         "出土文献",
         "历史年代"
-      ],
-      "published_at": "2026-03-14T16:00:00+00:00",
-      "fetched_at": "2026-05-14T05:44:48.007+00:00"
-    },
-    {
-      "id": 58,
-      "source_id": "cnki-kgyw",
-      "source_name": "《考古与文物》",
-      "source_short_name": "考古与文物",
-      "category": "考古文物",
-      "title": "甘肃宁县石家墓地新见北方文化遗存辨析",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McjPe-5_tlTBjYpgq_LTQsXVGI5DrOcZZg5ZCzpd-W0RedtaGMoDgJzVg2sKuk_MPf1LHRItZQoVGLF4boPF-nFpa4E5iyuJG8ivXrUTUsDeIyz7Uwa02bz0CA3EVyIIG9blkglYFhbbEhMOqaisOxxCbWe4v4bSNxnqAce1X3_-A==&uniplatform=NZKPT&language=CHS",
-      "author": "王永安;",
-      "summary": "分析石家墓地北方文化遗存，涉及春秋至秦汉戎狄、西戎族属的青铜器与器物，与先秦民族及青铜文化相关。",
-      "score": 65,
-      "tags": [
-        "青铜器",
-        "考古发掘",
-        "先秦史"
       ],
       "published_at": "2026-03-14T16:00:00+00:00",
       "fetched_at": "2026-05-14T05:44:48.007+00:00"
@@ -279,6 +556,381 @@
       "fetched_at": "2026-05-14T05:44:54.73+00:00"
     },
     {
+      "id": 58,
+      "source_id": "cnki-kgyw",
+      "source_name": "《考古与文物》",
+      "source_short_name": "考古与文物",
+      "category": "考古文物",
+      "title": "甘肃宁县石家墓地新见北方文化遗存辨析",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McjPe-5_tlTBjYpgq_LTQsXVGI5DrOcZZg5ZCzpd-W0RedtaGMoDgJzVg2sKuk_MPf1LHRItZQoVGLF4boPF-nFpa4E5iyuJG8ivXrUTUsDeIyz7Uwa02bz0CA3EVyIIG9blkglYFhbbEhMOqaisOxxCbWe4v4bSNxnqAce1X3_-A==&uniplatform=NZKPT&language=CHS",
+      "author": "王永安;",
+      "summary": "分析石家墓地北方文化遗存，涉及春秋至秦汉戎狄、西戎族属的青铜器与器物，与先秦民族及青铜文化相关。",
+      "score": 65,
+      "tags": [
+        "青铜器",
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:44:48.007+00:00"
+    },
+    {
+      "id": 98,
+      "source_id": "cnki-ydxk",
+      "source_name": "《殷都学刊》",
+      "source_short_name": "殷都学刊",
+      "category": "出土文献",
+      "title": "格姬簋铭文与西周制度补论",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfjkRbDEH1yxjql4fRwK9v1hflGW-EG0kRTbFyQ6kJs55Ws-_O5TBBnodIbMIcxjl6OFCeRjhfasbGqa7eK1_qpEP_TT3cuzKOTo0KN1pWXWGso-1JAfrJ1xrdAXjjPZUDbh4fHxhwfZq9actP9_aAYfhyy-ah3-p_t-BnQ0LwcVQ==&uniplatform=NZKPT&language=CHS",
+      "author": "张亮;",
+      "summary": "本文考释格姬簋铭文，结合聘礼制度，分析西周王朝政治运作、继承法及诸侯国权力博弈，涉及金文考释与西周制度。",
+      "score": 95,
+      "tags": [
+        "金文考释",
+        "青铜器",
+        "先秦史"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:38.889+00:00"
+    },
+    {
+      "id": 110,
+      "source_id": "cnki-ydxk",
+      "source_name": "《殷都学刊》",
+      "source_short_name": "殷都学刊",
+      "category": "出土文献",
+      "title": "论格姬簋及其反映的西周制度",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mfphmp5VnGb38xkS-meWIhX4sHVNLH7hPLIOnAkQ2JNxC1mgeyQatGaVwQj2KZYPy0i2kLIipqv-ZbYAOXTUYNJ8LLFHiQyZR1mv2IKMvSMI8H4YFUG2rzO9azdn1xYQMjkQ3z-V8QYQtyEgg6LgA2jjaZ_X4K-rwT5_ViEmqN9Zw==&uniplatform=NZKPT&language=CHS",
+      "author": "黄锦前;",
+      "summary": "考释格姬簋铭文难句，讨论其反映的西周继承制度、晋倗霸等国历史及河东战略格局。",
+      "score": 92,
+      "tags": [
+        "金文考释",
+        "青铜器",
+        "先秦史"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:30.886+00:00"
+    },
+    {
+      "id": 111,
+      "source_id": "cnki-ydxk",
+      "source_name": "《殷都学刊》",
+      "source_short_name": "殷都学刊",
+      "category": "出土文献",
+      "title": "“司母戊鼎”应改称“司戊鼎”",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McQIiPDen28a4tzABTQjZJ8xK-tsSVPprPEOv9iz-1PND5R6ZWHghkb2vIZWOuh-7Psi7khafnusRjxTI6H8_mqZkFXUgtKNd2tTRcXcJEyD5MkhQIiR7uUOS-QaiFstaSzPwqN5cBbj0iVKaWbuarUrRTaLpXySuGCJp0PEfkOHg==&uniplatform=NZKPT&language=CHS",
+      "author": "张立东;",
+      "summary": "本文通过分析“司母戊鼎”铭文及殷墟相关铭文，结合金文与甲骨文例，论证该鼎应改称“司戊鼎”，涉及金文考释与青铜器铭文研究。",
+      "score": 92,
+      "tags": [
+        "金文考释",
+        "青铜器",
+        "出土文献"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:38.889+00:00"
+    },
+    {
+      "id": 113,
+      "source_id": "cnki-kgyw",
+      "source_name": "《考古与文物》",
+      "source_short_name": "考古与文物",
+      "category": "考古文物",
+      "title": "康叔封康时间及康丘地望辩证",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfAlMgLTMpYwhBF9yhfyUVOqOYiVgk8FsVanD63Js-PXuuu3v1hKjd1HbvUf6wW-vrm_3uhEWr7ncnmXDq_M5nH8GC98sRR4TxdlN2LPda5-q-GV8b9c990_E5vlQZNNewg-UzpCBXI09bYzdhT_MAHTMF3S1-Gd_fOM1IxaNxB-Q==&uniplatform=NZKPT&language=CHS",
+      "author": "韩驰;宁镇疆;",
+      "summary": "通过沬司徒疑簋等金文和清华简等文献，考证康叔封康的时间应在周公东征后，并推断康丘地望在河南汝州东北。",
+      "score": 92,
+      "tags": [
+        "金文考释",
+        "出土文献",
+        "历史年代"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:58.429+00:00"
+    },
+    {
+      "id": 114,
+      "source_id": "cnki-zlbk",
+      "source_name": "《中国国家博物馆馆刊》",
+      "source_short_name": "国家博物馆刊",
+      "category": "考古文物",
+      "title": "曹子季射戎鬲及相关问题",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Me22Cx2TWfknNiIC_fHVdircejaV1weaVFEhFleVs69n5aiDAUVyYuTtoG011aGR1KTpUVrkV3_NX7krVNFc9nMiH1ZVzxFzv9hPiBITjgn9VaUFmCwDtn89XV4BdHCdgOYoTwqluSLKUKrEbIlc-bN1WJMl1dC2adYwhvWLhPDyw==&uniplatform=NZKPT&language=CHS",
+      "author": "何晓歌;",
+      "summary": "分析美国科尔比学院藏春秋曹国铜鬲之器形、纹饰及铭文，铭文记曹子季射戎作器，为研究先秦历史及青铜器提供新材料。",
+      "score": 92,
+      "tags": [
+        "金文考释",
+        "青铜器",
+        "新出材料"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:10.555+00:00"
+    },
+    {
+      "id": 124,
+      "source_id": "cnki-ydxk",
+      "source_name": "《殷都学刊》",
+      "source_short_name": "殷都学刊",
+      "category": "出土文献",
+      "title": "山东大学博物馆藏■师臣鼎铭文考",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeyV4XlUT3CT8-Y6l1Fr8LACbfAsOLVxNboAb_WbBLwNFGfBwc_t2KRCGjJe4_XbUzThFX1r2AKbXadxgJcNyuf3TX_EjeVxCAwZa8zflQE665dgrRzvBJ0PDLapFBIaYvZiigml_WXebxMWaHnqeH9OOqdr0bqV3mSHGFM5t7Q7Q==&uniplatform=NZKPT&language=CHS",
+      "author": "郭润佳;",
+      "summary": "考释山东大学博物馆藏■师臣鼎铭文，探讨■国与邿国、穀国的关系及历史背景。",
+      "score": 90,
+      "tags": [
+        "金文考释",
+        "青铜器",
+        "先秦史"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:30.886+00:00"
+    },
+    {
+      "id": 155,
+      "source_id": "cnki-ydxk",
+      "source_name": "《殷都学刊》",
+      "source_short_name": "殷都学刊",
+      "category": "出土文献",
+      "title": "卜辞所见“召方”问题补论",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mffpb6mBprIAyTmuGt9515pmWm2HvO89F8FhY0BSrbswGsf__bAsw4vnm-g2cVH4LxWnZfpppz8YK3XTbatGQKaSHKOcQwLEvOicxrdNmdedck9JPOaOmqmniTbEGgu3zOzqzQ5Fmn4mHu6q0Q44ZJ3xHFeFs7j1mAoM0eAeWP_dA==&uniplatform=NZKPT&language=CHS",
+      "author": "李发;",
+      "summary": "本文对卜辞所见“召方”相关问题进行补论，通过系联与有限排谱，推断伐召方事件的持续时间和召方地理位置，涉及甲骨文与商代史。",
+      "score": 85,
+      "tags": [
+        "甲骨文",
+        "先秦史",
+        "历史年代"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:38.889+00:00"
+    },
+    {
+      "id": 161,
+      "source_id": "cnki-ydxk",
+      "source_name": "《殷都学刊》",
+      "source_short_name": "殷都学刊",
+      "category": "出土文献",
+      "title": "商文明铜戈的器型来源与功能演化",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeyV4XlUT3CT8-Y6l1Fr8LACbfAsOLVxNboAb_WbBLwNFGfBwc_t2KRSSTVRbPpoKksovSSmkqcoFmz6DkjBSozxlqqlCKhgFP4WZ7cUDSwTI7TRjLS-ffIWHhpaNrA5M3oabrk_v9MiCy1x6LTovo26A3VvYA6QwpqFiLfjgzzrQ==&uniplatform=NZKPT&language=CHS",
+      "author": "郭静云;",
+      "summary": "从器物形状探讨商文明铜戈的器型来源与功能演化，认为其核心功能为测日法器，后演变为兵器。",
+      "score": 82,
+      "tags": [
+        "青铜器",
+        "器物研究",
+        "考古发掘"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:30.886+00:00"
+    },
+    {
+      "id": 162,
+      "source_id": "cnki-ydxk",
+      "source_name": "《殷都学刊》",
+      "source_short_name": "殷都学刊",
+      "category": "出土文献",
+      "title": "卜葬卜辞所见殷先王法定配偶的丧葬礼制考",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfjkRbDEH1yxjql4fRwK9v1hflGW-EG0kRTbFyQ6kJs55Ws-_O5TBBnXbNyDsefQESCviU45rRP5SXEs0YNH9DMTO77-sRaSLpmVKHrXZSytW4EgSUZJM-KwzQEEMlcN8XAg0HPcG2n1VNK6UQETA-eLJooLQv_tmQNRWrPLB89iA==&uniplatform=NZKPT&language=CHS",
+      "author": "邓国军;",
+      "summary": "本文利用出组卜辞研究殷先王法定配偶小■的丧葬礼制，包括丧葬程序、日名、祭礼等，涉及甲骨文与殷商礼制。",
+      "score": 82,
+      "tags": [
+        "甲骨文",
+        "先秦史",
+        "出土文献"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:38.889+00:00"
+    },
+    {
+      "id": 178,
+      "source_id": "cnki-ydxk",
+      "source_name": "《殷都学刊》",
+      "source_short_name": "殷都学刊",
+      "category": "出土文献",
+      "title": "组类视野下的殷墟甲骨黄组否定词研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mfphmp5VnGb38xkS-meWIhX4sHVNLH7hPLIOnAkQ2JNxC1mgeyQatGayxphJFEJ_zn05HIStzDIDjP90J2QQS_2v28Qsipd3yajT1FGdzClrtXNAJtkoNSFwvIbAdac0ZgxASm_HjrVifzFCe9gJnjUv-r5vP1XHxkeoHavQDZChA==&uniplatform=NZKPT&language=CHS",
+      "author": "刘风华;",
+      "summary": "研究殷墟甲骨黄组卜辞中否定词的用法，分析“不”“弗”等词的正反对贞及使用规律。",
+      "score": 80,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:30.886+00:00"
+    },
+    {
+      "id": 179,
+      "source_id": "cnki-zlbk",
+      "source_name": "《中国国家博物馆馆刊》",
+      "source_short_name": "国家博物馆刊",
+      "category": "考古文物",
+      "title": "河南三门峡三座东周墓发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Me7ERdw6CJHLdhE7rqFSCAlXwCed_Ga_x-NtIEDh30cfgx4lM7q8-0yOLTwtVYiBL_aKAzErEiENVCBPz7NWLYNpGDHwpeWeV-VUDxnEy8L2pvNFqn-7Cb3vIXGQYgQMBnCpygXaZf4n8QBRcoP_23JW5BYqnpTA73bACVd8mWIwA==&uniplatform=NZKPT&language=CHS",
+      "author": "高鸣;",
+      "summary": "河南三门峡三座东周墓发掘简报，M585出土成套铜礼器（鼎、敦、盘、匜、舟），为研究东周时期青铜器及墓葬制度提供资料。",
+      "score": 80,
+      "tags": [
+        "青铜器",
+        "考古发掘",
+        "器物研究"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:10.555+00:00"
+    },
+    {
+      "id": 180,
+      "source_id": "cnki-zlbk",
+      "source_name": "《中国国家博物馆馆刊》",
+      "source_short_name": "国家博物馆刊",
+      "category": "考古文物",
+      "title": "湖北随州枣树林墓地M187发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdJiIpOWZfD7F94eZg96WvUwUbwa4vm_pWcPbOPKnL_m_LA5mgY_4vLd_2QCuk3_ESqlsipFKzDP6yETlGIhU36SCfpjaXMyaFhB4mzWMnOXX79h0w-rtXbmdRMxDCtC9KmtnMnGGhBZEiYAzG7ipfR90U_KSIKhhf1iXOeX4oeLA==&uniplatform=NZKPT&language=CHS",
+      "author": "郭长江\r\n;陈虎\r\n;李晓杨\r\n;张申银\r\n;冯春远\r\n;刘申迪\r\n;张艳芳\r\n;杨力\r\n;项军\r\n;朱喜梅\r\n;武保林\r\n;谢晓庆\r\n;张吉;",
+      "summary": "湖北随州枣树林墓地M187发掘简报，出土青铜礼器具有明器特征，为研究战国早期曾国贵族墓葬制度及铜料来源提供新材料。",
+      "score": 78,
+      "tags": [
+        "青铜器",
+        "考古发掘",
+        "新出材料"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:10.555+00:00"
+    },
+    {
+      "id": 197,
+      "source_id": "cnki-ydxk",
+      "source_name": "《殷都学刊》",
+      "source_short_name": "殷都学刊",
+      "category": "出土文献",
+      "title": "新书推介",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeyV4XlUT3CT8-Y6l1Fr8LACbfAsOLVxNboAb_WbBLwNFGfBwc_t2KRqYkWp1RKHL5OE5SPAPKOoRhrZQhXbGYPerWazKzWJd7hRhsahKwhEKEoWvThTdMLsVy_pG26nG1YplGCDWEC85PXopP1cL5mVDbJ5nBFKL63l0RLc2CsOA==&uniplatform=NZKPT&language=CHS",
+      "author": "",
+      "summary": "新书推介，赵平安著，探讨甲骨文中未释出字的类型、内涵及释读进展缓慢的原因。",
+      "score": 75,
+      "tags": [
+        "甲骨文",
+        "学术综述"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:30.886+00:00"
+    },
+    {
+      "id": 201,
+      "source_id": "cnki-kgyw",
+      "source_name": "《考古与文物》",
+      "source_short_name": "考古与文物",
+      "category": "考古文物",
+      "title": "论姬姓的夨氏族不属于姜姓的夨国——兼谈周代诸侯称王问题",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MetMExBWsXo9bOI258KU0gCNF9w49LXzaL9J9DaGAXdLAuknxx1eT7bYZLE-lgxyxA6udg8CD2xcren9zTws9lXPQxTBqd6Swky8WF1vB-V7AtyuF6fSbWfiShfjlEL09OOCzJELi9D7bMOB2NNEUqUnubHEg-JiFRju2sGI1LiQw==&uniplatform=NZKPT&language=CHS",
+      "author": "尹夏清;尹盛平;",
+      "summary": "论证姬姓夨氏族与姜姓夨国非同一国，从地望、姓氏等角度反驳西周姬姓称王说，涉及金文和先秦史。",
+      "score": 75,
+      "tags": [
+        "金文考释",
+        "先秦史",
+        "出土文献"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:58.429+00:00"
+    },
+    {
+      "id": 216,
+      "source_id": "cnki-kgyw",
+      "source_name": "《考古与文物》",
+      "source_short_name": "考古与文物",
+      "category": "考古文物",
+      "title": "甘肃宁县石家墓地新见北方文化遗存辨析",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Md9Y-VAhGlrucLA3GUjfZQKhpdKQW5n5M7x-87J4r9krLImpVh5KWElCN1K1hft6HckDjHHnCrSfA_b0jy0PDLMZH4wF4KUDLwml6btwZHnrSGPrDbQnfizqW-U8uMkYnb-W4SD00pRL-rzhb7UIysEe6sZ5SkM2ru_u4138TGglg==&uniplatform=NZKPT&language=CHS",
+      "author": "王永安;",
+      "summary": "甘肃宁县石家墓地发现了春秋至秦汉时期的北方文化遗存，分为两期，族属为戎狄和西戎，与青铜器等相关。",
+      "score": 70,
+      "tags": [
+        "青铜器",
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:58.429+00:00"
+    },
+    {
+      "id": 226,
+      "source_id": "cnki-ydxk",
+      "source_name": "《殷都学刊》",
+      "source_short_name": "殷都学刊",
+      "category": "出土文献",
+      "title": "殷商直辖区析论——以“王畿”概念为中心",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mfhuspho7U7gVsu_f8Vc7wlrd2BKjYO0dM_PMubqst_7py2i4C9WWeoLZakvvPuTHPPIiZbtvqCHRptg0k0ab9y2YHwnnDuZrMFf_CoqO_XQ6m3cLjY9ECMXNybU41gyTSRGQv06aSJEgHKa6Fa8vFooe34IdQ7zCRVDZAZGzc2aA==&uniplatform=NZKPT&language=CHS",
+      "author": "江俊伟;",
+      "summary": "本文以“王畿”概念为中心，结合传世文献与出土资料，探讨殷商直辖区范围，认为商王直辖区域仅为王邑周边数十公里，远非“方千里”。涉及先秦政治地理与出土文献分析。",
+      "score": 65,
+      "tags": [
+        "出土文献",
+        "先秦史",
+        "历史年代"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:38.889+00:00"
+    },
+    {
+      "id": 228,
+      "source_id": "cnki-kgyw",
+      "source_name": "《考古与文物》",
+      "source_short_name": "考古与文物",
+      "category": "考古文物",
+      "title": "甘肃宁县石家战国秦汉墓地2021年发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mfqhcu2v5xT5whBTkWYMOeUikuTyEGGIlhstn7CGThZqD-npaq80EJ9Vp4z1AOhJkh-8cinweDdbMrzN1i4ly88lg7AzkeQiETt4mtwWrnaTaRcDGqrpomk5GI9erYcjCosQ-WN8NcIZfBu75de985AdfEX0wcwZKVcxQs8zW5H4Q==&uniplatform=NZKPT&language=CHS",
+      "author": "王永安\r\n;孙锋\r\n;芦敏\r\n;杨莉萍;",
+      "summary": "甘肃宁县石家墓地2021年发掘了5座战国秦汉墓葬，出土陶器、铜器等，年代为战国晚期至西汉初期，族属与西戎相关。",
+      "score": 65,
+      "tags": [
+        "考古发掘",
+        "先秦史",
+        "器物研究"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:58.429+00:00"
+    },
+    {
+      "id": 257,
+      "source_id": "cnki-zlbk",
+      "source_name": "《中国国家博物馆馆刊》",
+      "source_short_name": "国家博物馆刊",
+      "category": "考古文物",
+      "title": "徐州铜山伊庄汉画像石题铭补释——兼谈汉代碑刻引经问题",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MckPiYHP54ZN-hmTm1yGB3OPBAu91pcg4g5x9wr1PCEr3BOMnk8lNn1iyq4QdJ9OAbmJ3WeTk-jMhnkkgpf1wLu08vJ5mglcIQqcnBywX-xmGDvXi1YGRqJf3rgk-dEwBj_UWtiYLA_-adg27UMH-oP1E8Lfr4psDKGeeRLUrv5Vw==&uniplatform=NZKPT&language=CHS",
+      "author": "韦玉熹;",
+      "summary": "补释徐州出土东汉画像石题铭，纠正误释字词，探讨汉代碑刻引经及《孝经》流传问题，涉及汉代出土文献。",
+      "score": 55,
+      "tags": [
+        "出土文献",
+        "金文考释"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:17.356+00:00"
+    },
+    {
+      "id": 280,
+      "source_id": "cnki-ydxk",
+      "source_name": "《殷都学刊》",
+      "source_short_name": "殷都学刊",
+      "category": "出土文献",
+      "title": "李俊国甲骨文书法作品",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McQIiPDen28a4tzABTQjZJ8xK-tsSVPprPEOv9iz-1PND5R6ZWHghkbOIbu3OvO6EjzFXo3WGmO6-vD0PH01xI-mUiY81-Jn3qOjHSwhZJY4v0ZZYlClbnepVWvZPwurG-ZlCQDqk2geggol9H7ZZ1_hFxO3bjWKu1S2Qpjb6-ohQ==&uniplatform=NZKPT&language=CHS",
+      "author": "李俊国;",
+      "summary": "（据题推断）该条目为李俊国甲骨文书法作品介绍，与甲骨文字形艺术相关，非学术研究，仅具间接关联。",
+      "score": 30,
+      "tags": [
+        "甲骨文"
+      ],
+      "published_at": "2026-03-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:38.889+00:00"
+    },
+    {
       "id": 45,
       "source_id": "cnki-wenw",
       "source_name": "《文物》",
@@ -296,24 +948,6 @@
       ],
       "published_at": "2026-02-24T16:00:00+00:00",
       "fetched_at": "2026-05-14T05:44:18.515+00:00"
-    },
-    {
-      "id": 89,
-      "source_id": "cnki-hxkg",
-      "source_name": "《华夏考古》",
-      "source_short_name": "华夏考古",
-      "category": "考古文物",
-      "title": "郑州商城宫殿区(黄委会48号院南区)F4及相关遗迹1999年发掘简报",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mda4oKyofD0CO9O2r2USrJwIVWZFurFC3EaTqg2VyfyneW_ZoJttWYqeMeNHb8ZJsxT1VV6DpMnwjXTQEhSac7EoSFWP57rCMS6jDGd_bLXjdlHD-d2_HWlrFVnyLvWrKOW5deZM3lgWgpkqJ8qVG9cWqvLn6ekAy4NE0K-EF3GTg==&uniplatform=NZKPT&language=CHS",
-      "author": "袁海腾\r\n;杨雪钦\r\n;李佳雪\r\n;周小梅\r\n;曾晓敏\r\n;宋国定;",
-      "summary": "郑州商城宫殿区发现商代夯土建筑基址F4等，为探讨宫殿区布局和夏商文化谱系提供重要资料。",
-      "score": 50,
-      "tags": [
-        "考古发掘",
-        "先秦史"
-      ],
-      "published_at": "2026-02-24T16:00:00+00:00",
-      "fetched_at": "2026-05-14T05:44:54.73+00:00"
     },
     {
       "id": 60,
@@ -335,54 +969,93 @@
       "fetched_at": "2026-05-14T05:45:00.644+00:00"
     },
     {
-      "id": 67,
-      "source_id": "cnki-jhkg",
-      "source_name": "《江汉考古》",
-      "source_short_name": "江汉考古",
+      "id": 89,
+      "source_id": "cnki-hxkg",
+      "source_name": "《华夏考古》",
+      "source_short_name": "华夏考古",
       "category": "考古文物",
-      "title": "陇县店子墓地结构与秦社会组织形态的演变",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfsGnwRj1Uv7Jj09jBVX0SFCX5gbQnXWlH4CNhk69O8VZeFLPYtGGGn64yYzSPVQ6WBOrD7Ij4UQ_kDGrWnC1oPUTpesQLNi4jn2cHSd2nqEc0aPZNU0x1sjdX-JyqMr130ONrrBNeWzjOM8Bn9hlliWAIatNpLCq-Wv_BfQMsIQg==&uniplatform=NZKPT&language=CHS",
-      "author": "彭军超;袁俊杰;",
-      "summary": "分析陇县店子墓地结构与秦社会组织形态演变，涉及春秋至秦代墓葬与族群变迁。",
-      "score": 60,
+      "title": "郑州商城宫殿区(黄委会48号院南区)F4及相关遗迹1999年发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mda4oKyofD0CO9O2r2USrJwIVWZFurFC3EaTqg2VyfyneW_ZoJttWYqeMeNHb8ZJsxT1VV6DpMnwjXTQEhSac7EoSFWP57rCMS6jDGd_bLXjdlHD-d2_HWlrFVnyLvWrKOW5deZM3lgWgpkqJ8qVG9cWqvLn6ekAy4NE0K-EF3GTg==&uniplatform=NZKPT&language=CHS",
+      "author": "袁海腾\r\n;杨雪钦\r\n;李佳雪\r\n;周小梅\r\n;曾晓敏\r\n;宋国定;",
+      "summary": "郑州商城宫殿区发现商代夯土建筑基址F4等，为探讨宫殿区布局和夏商文化谱系提供重要资料。",
+      "score": 50,
       "tags": [
-        "先秦史",
-        "考古发掘"
+        "考古发掘",
+        "先秦史"
       ],
-      "published_at": "2026-02-14T16:00:00+00:00",
-      "fetched_at": "2026-05-14T05:44:34.958+00:00"
+      "published_at": "2026-02-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:44:54.73+00:00"
     },
     {
-      "id": 92,
-      "source_id": "cnki-jhkg",
-      "source_name": "《江汉考古》",
-      "source_short_name": "江汉考古",
+      "id": 205,
+      "source_id": "cnki-wenw",
+      "source_name": "《文物》",
+      "source_short_name": "文物",
       "category": "考古文物",
-      "title": "宁夏姚河塬遗址西周墓葬M41出土漆器的室内保护",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McgXWdGl0g48zqYB-lvcqeU5_e3jV0vifzWGJalo1iPccvioZGfpSE2N5pLeMaoujZ6T9brNaahKmWWMEUi_evO-BM0yv3sz97xhKt-YfPq8aJgJvcVCbz8s4djNxI5j2vJDnG0eafxJz7k0cJs_UGL_3lj5GtNpqiRHDGA4lN-sg==&uniplatform=NZKPT&language=CHS",
-      "author": "马强;",
-      "summary": "介绍姚河塬西周墓葬出土漆器的室内保护技术，包括临时支撑、回软修复加固等方法，保存漆器原貌。",
-      "score": 40,
+      "title": "河南安阳辛店遗址西周墓发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mdkybj3_wiWobcPvFthvJALVhUp5T9f73xY7eM0q9ZTFWR-lvJjvjLGLxHEPumgmd_Je_moc-JWkSbWGsFiAw29yJLWlZt6GBA-v1RQMnB_Hv_v_u0XYPJb_gY9NkrSJfYi7AaAKXjD-6DN-tRYUhLV4WKGC1i7QfiAl66bWp6Puw==&uniplatform=NZKPT&language=CHS",
+      "author": "孔德铭\r\n;孔维鹏\r\n;杨红梅;",
+      "summary": "河南安阳辛店遗址西周墓发掘简报，出土铜器与陶器，涉及西周早期墓葬与青铜器。",
+      "score": 72,
       "tags": [
-        "考古发掘"
+        "考古发掘",
+        "青铜器",
+        "新出材料"
       ],
-      "published_at": "2026-02-14T16:00:00+00:00",
-      "fetched_at": "2026-05-14T05:44:41.389+00:00"
+      "published_at": "2026-02-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:31.283+00:00"
     },
     {
-      "id": 52,
-      "source_id": "cnki-jhkg",
-      "source_name": "《江汉考古》",
-      "source_short_name": "江汉考古",
+      "id": 217,
+      "source_id": "cnki-hxkg",
+      "source_name": "《华夏考古》",
+      "source_short_name": "华夏考古",
       "category": "考古文物",
-      "title": "清华简《四时》的基本设日周期、特殊天象及相关年代问题研究",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdT-XEweQ1Lk6SqijkLav1EpNNrx0TD1iUsNMwBy_PUlEaFsFJKijqKTaNZBT5-nUXcMFJNS0UMB71Egq_7rTcTKjt9IGdS-rvxATHu2n-_Z77r5fj91OTEpr8ZQUkazWpbvwo_VTxJEydneccDPfnwfCmthBtLubVgnnc-Y7OFKA==&uniplatform=NZKPT&language=CHS",
-      "author": "贾连翔;",
-      "summary": "研究清华简《四时》设日周期、天象及年代，推算其记天象可能发生于公元前314年，与战国时期历法相关。",
+      "title": "郑州商城宫殿区(黄委会48号院南区)F4及相关遗迹1999年发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdBFLFYcRNEUj0qZ9rqa1qxIhtbK0pcYBdrb9W07W4drNIUrJNJQBU35iRjGyi69I_BrB25o2WY4_FjImsge4EwctehgYP8rpoXXiGIpSrizA-bMs2_X5-DdHyzEFuRf1w91PKtchQp7IM7CgDCYnswd1odqPwFeo5hF5XqBdxN5g==&uniplatform=NZKPT&language=CHS",
+      "author": "袁海腾\r\n;杨雪钦\r\n;李佳雪\r\n;周小梅\r\n;曾晓敏\r\n;宋国定;",
+      "summary": "郑州商城宫殿区F4建筑基址的发掘简报，为商代宫殿布局与夏商文化谱系研究提供重要资料。",
       "score": 70,
       "tags": [
-        "出土文献",
-        "历史年代"
+        "考古发掘",
+        "历史年代",
+        "先秦史"
+      ],
+      "published_at": "2026-02-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:04.079+00:00"
+    },
+    {
+      "id": 229,
+      "source_id": "cnki-hxkg",
+      "source_name": "《华夏考古》",
+      "source_short_name": "华夏考古",
+      "category": "考古文物",
+      "title": "论郑州商都的延续年代及其与小双桥遗址的关系",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McijnYdggpHclhme-T32kQL55bfZ4GTi-qt02M6bzsQnCOU37PfL-2EF-7ehPTIh2xfnWLTBZjTRf1Nc7avrnC7IUuhVQEibzdsalqfEEkZGr5XSSARw44ePwl5crmT17rIgWwZZXm4pvUVwXOI0z1ldTNge2lcn9XSkDmEN8oO_Q==&uniplatform=NZKPT&language=CHS",
+      "author": "张国硕;",
+      "summary": "探讨郑州商城的延续年代及其与小双桥遗址的关系，认为郑州商城为商代前期亳都，小双桥为外围邑聚。",
+      "score": 65,
+      "tags": [
+        "历史年代",
+        "先秦史"
+      ],
+      "published_at": "2026-02-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:04.079+00:00"
+    },
+    {
+      "id": 6,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "壶卣区分问题的再研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdVg58vMHcYqKeiPPXvUsbvR8T_KoGTIar5CPXCYwq_XwcZ6xBXXxltpEjXUXFo8e4JcmRgx48f7yBdvyzHLEbVGkZ6WzbgzW-fK9g1LMykcR1UNc-bbM77e69Ov_0iCCp-_nT0QchyaRX0HJ02g-jNW2CwMXiKArEGRql4HnPddg==&uniplatform=NZKPT&language=CHS",
+      "author": "张懋镕;刘树满;",
+      "summary": "研究商代与西周青铜壶、卣的区分，提出殷墟二期前只有壶无卣，卣从壶派生，重新审视青铜器类关系。",
+      "score": 92,
+      "tags": [
+        "金文考释",
+        "青铜器"
       ],
       "published_at": "2026-02-14T16:00:00+00:00",
       "fetched_at": "2026-05-14T05:44:41.389+00:00"
@@ -424,22 +1097,58 @@
       "fetched_at": "2026-05-14T05:44:41.389+00:00"
     },
     {
-      "id": 6,
+      "id": 52,
       "source_id": "cnki-jhkg",
       "source_name": "《江汉考古》",
       "source_short_name": "江汉考古",
       "category": "考古文物",
-      "title": "壶卣区分问题的再研究",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdVg58vMHcYqKeiPPXvUsbvR8T_KoGTIar5CPXCYwq_XwcZ6xBXXxltpEjXUXFo8e4JcmRgx48f7yBdvyzHLEbVGkZ6WzbgzW-fK9g1LMykcR1UNc-bbM77e69Ov_0iCCp-_nT0QchyaRX0HJ02g-jNW2CwMXiKArEGRql4HnPddg==&uniplatform=NZKPT&language=CHS",
-      "author": "张懋镕;刘树满;",
-      "summary": "研究商代与西周青铜壶、卣的区分，提出殷墟二期前只有壶无卣，卣从壶派生，重新审视青铜器类关系。",
-      "score": 92,
+      "title": "清华简《四时》的基本设日周期、特殊天象及相关年代问题研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdT-XEweQ1Lk6SqijkLav1EpNNrx0TD1iUsNMwBy_PUlEaFsFJKijqKTaNZBT5-nUXcMFJNS0UMB71Egq_7rTcTKjt9IGdS-rvxATHu2n-_Z77r5fj91OTEpr8ZQUkazWpbvwo_VTxJEydneccDPfnwfCmthBtLubVgnnc-Y7OFKA==&uniplatform=NZKPT&language=CHS",
+      "author": "贾连翔;",
+      "summary": "研究清华简《四时》设日周期、天象及年代，推算其记天象可能发生于公元前314年，与战国时期历法相关。",
+      "score": 70,
       "tags": [
-        "金文考释",
-        "青铜器"
+        "出土文献",
+        "历史年代"
       ],
       "published_at": "2026-02-14T16:00:00+00:00",
       "fetched_at": "2026-05-14T05:44:41.389+00:00"
+    },
+    {
+      "id": 57,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "山东高青狄城遗址2016年度考古发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdHrg0XUmLXNoLejI8B8ARc0q1E7TdX_pkHfHrW-ZcA8wJ6qFD1Pt3pN8yfFhnsVWlVpWN7gJi3iTG9y4dHcA19TTLuuicSjoenuOzjyEC8VWh85LPZ7hl8ZkFnX_AoOIy0sTHXjJckft-ZZDt8oJS3lB_kNiEPBMJoo4mN_5cMTA==&uniplatform=NZKPT&language=CHS",
+      "author": "郎剑锋\r\n;郭明辉\r\n;赵娜\r\n;董志浩\r\n;陈章龙\r\n;方辉\r\n;刘善沂\r\n;李传萍\r\n;赵孟坤\r\n;丁昊阳;",
+      "summary": "狄城遗址发掘揭示战国至汉代遗存，为鲁北地区战国至汉代文化谱系、先秦城邑考古及手工业考古提供重要资料。",
+      "score": 65,
+      "tags": [
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:44:41.389+00:00"
+    },
+    {
+      "id": 67,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "陇县店子墓地结构与秦社会组织形态的演变",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfsGnwRj1Uv7Jj09jBVX0SFCX5gbQnXWlH4CNhk69O8VZeFLPYtGGGn64yYzSPVQ6WBOrD7Ij4UQ_kDGrWnC1oPUTpesQLNi4jn2cHSd2nqEc0aPZNU0x1sjdX-JyqMr130ONrrBNeWzjOM8Bn9hlliWAIatNpLCq-Wv_BfQMsIQg==&uniplatform=NZKPT&language=CHS",
+      "author": "彭军超;袁俊杰;",
+      "summary": "分析陇县店子墓地结构与秦社会组织形态演变，涉及春秋至秦代墓葬与族群变迁。",
+      "score": 60,
+      "tags": [
+        "先秦史",
+        "考古发掘"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:44:34.958+00:00"
     },
     {
       "id": 68,
@@ -497,24 +1206,6 @@
       "fetched_at": "2026-05-14T05:44:54.73+00:00"
     },
     {
-      "id": 57,
-      "source_id": "cnki-jhkg",
-      "source_name": "《江汉考古》",
-      "source_short_name": "江汉考古",
-      "category": "考古文物",
-      "title": "山东高青狄城遗址2016年度考古发掘简报",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdHrg0XUmLXNoLejI8B8ARc0q1E7TdX_pkHfHrW-ZcA8wJ6qFD1Pt3pN8yfFhnsVWlVpWN7gJi3iTG9y4dHcA19TTLuuicSjoenuOzjyEC8VWh85LPZ7hl8ZkFnX_AoOIy0sTHXjJckft-ZZDt8oJS3lB_kNiEPBMJoo4mN_5cMTA==&uniplatform=NZKPT&language=CHS",
-      "author": "郎剑锋\r\n;郭明辉\r\n;赵娜\r\n;董志浩\r\n;陈章龙\r\n;方辉\r\n;刘善沂\r\n;李传萍\r\n;赵孟坤\r\n;丁昊阳;",
-      "summary": "狄城遗址发掘揭示战国至汉代遗存，为鲁北地区战国至汉代文化谱系、先秦城邑考古及手工业考古提供重要资料。",
-      "score": 65,
-      "tags": [
-        "考古发掘",
-        "先秦史"
-      ],
-      "published_at": "2026-02-14T16:00:00+00:00",
-      "fetched_at": "2026-05-14T05:44:41.389+00:00"
-    },
-    {
       "id": 82,
       "source_id": "cnki-kgyw",
       "source_name": "《考古与文物》",
@@ -531,6 +1222,412 @@
       ],
       "published_at": "2026-02-14T16:00:00+00:00",
       "fetched_at": "2026-05-14T05:44:54.73+00:00"
+    },
+    {
+      "id": 92,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "宁夏姚河塬遗址西周墓葬M41出土漆器的室内保护",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McgXWdGl0g48zqYB-lvcqeU5_e3jV0vifzWGJalo1iPccvioZGfpSE2N5pLeMaoujZ6T9brNaahKmWWMEUi_evO-BM0yv3sz97xhKt-YfPq8aJgJvcVCbz8s4djNxI5j2vJDnG0eafxJz7k0cJs_UGL_3lj5GtNpqiRHDGA4lN-sg==&uniplatform=NZKPT&language=CHS",
+      "author": "马强;",
+      "summary": "介绍姚河塬西周墓葬出土漆器的室内保护技术，包括临时支撑、回软修复加固等方法，保存漆器原貌。",
+      "score": 40,
+      "tags": [
+        "考古发掘"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:44:41.389+00:00"
+    },
+    {
+      "id": 99,
+      "source_id": "cnki-webo",
+      "source_name": "《文博》",
+      "source_short_name": "文博",
+      "category": "考古文物",
+      "title": "西周金文中“繁”地地望疏证——兼论周武王为营建洛邑所作的军事准备",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdZKOavOMVU9t80Gd0YisuGfRQuAbeJB1mmke6K4PU9T47U1k_zNDByIDw1FqjiWKgpHt_zl6TJujUrIrt1th1VpeNP-lhLFNp0tBjw6c_kvTyoPrzzPi6WhrfobbmwyLlaGWmgeCpiWQj4WLr1q-QC15L1rK-MSz3iR0RwCXLCaw==&uniplatform=NZKPT&language=CHS",
+      "author": "韩驰;",
+      "summary": "通过班簋、■甗等西周金文资料，考证“繁”地地望，并探讨周武王为营建洛邑所做的军事准备。",
+      "score": 95,
+      "tags": [
+        "金文考释",
+        "历史年代"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:23.302+00:00"
+    },
+    {
+      "id": 112,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "壶卣区分问题的再研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McOyihiKLXq8WS0KemdP2C6R6Hy-y_QqQ4rAWOiKwiBCaT6pGAISCEyo_x_QEZebkYzD1H4AEgdcfzqYiAVnLcnZbueTeD7a8OqUQhhzHhQjiyuQc9r2Md9xlgvJokjQXHS-omUFDLwDBpUViXXJMYBZfZhGVjewNRH57aac-Tt3w==&uniplatform=NZKPT&language=CHS",
+      "author": "张懋镕;刘树满;",
+      "summary": "研究商代与西周青铜壶、卣的区分，提出殷墟二期前无青铜卣，青铜卣由青铜壶派生，重新审视青铜器类关系。",
+      "score": 92,
+      "tags": [
+        "金文考释",
+        "青铜器",
+        "器物研究"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:45.085+00:00"
+    },
+    {
+      "id": 115,
+      "source_id": "cnki-webo",
+      "source_name": "《文博》",
+      "source_short_name": "文博",
+      "category": "考古文物",
+      "title": "御淮戎■方鼎铭文释读补论",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfiPFReawv-uMonjJYusZBqWHv8vXPmJrvoA7UUpp9PndNSN652ktZiF60j-MZyzOyo3W4iIgnOGiKuMZCh1naAqk2k9usz0yxW4ccX_YruaPD0hIWUD1hYEourm4n_6B0FoRt4HExTLPGT-YHzpX5x5vo8k8HJP0l0CSnius6WJQ==&uniplatform=NZKPT&language=CHS",
+      "author": "赵市委;",
+      "summary": "对御淮戎■方鼎铭文进行释读补论，解读“弋休则尚”等词句，探讨语法与词义，属于金文考释。",
+      "score": 92,
+      "tags": [
+        "金文考释"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:28.939+00:00"
+    },
+    {
+      "id": 117,
+      "source_id": "cnki-wwjk",
+      "source_name": "《文物季刊》",
+      "source_short_name": "文物季刊",
+      "category": "考古文物",
+      "title": "刃朝上之钺:商字再释",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MerV6hYpzI2QGlsw6N-jKHRswSVgEoD-mc2GOpo2XyLv3m2L_4Pj1uA0_zLiN69XnxVHlqfQbKGtAAjPS0LWBs4kXbSQWklYS7w9D-K-w0u3WH9CZxizCv1SRNWOovEF3B13NLQ1zyvIq1LCtaVxXilU2TY1Q44j9F13yKabA-wNA==&uniplatform=NZKPT&language=CHS",
+      "author": "张立东;张云龙;",
+      "summary": "补证“商”字新释：上部为刃朝上之钺，下部为祭几，代表祭祀礼仪。利用玉戚图像、甲骨文“戚”字及商人谱系论证，属金文与甲骨文考释。",
+      "score": 92,
+      "tags": [
+        "金文考释",
+        "甲骨文",
+        "先秦史"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:42.748+00:00"
+    },
+    {
+      "id": 156,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "东周时期的铜钟复制现象",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mc8CJYI7qgn6noEdY0BoO8dVlWFxciRU5ZDrRon-pfcq_Jo1aCCyeRmOl97vfbwnu8AhmGotkIN301wTC0OorZH0JPg0dJO1eAzySmZGgpJz1IpQZczypVlNnxQhrAyyVGoR6Y-9ouAG6z0UPhQ6wACOfyyOeuC2rQe6VaYjkS34g==&uniplatform=NZKPT&language=CHS",
+      "author": "陈雪晴;刘海旺;田婧媛;李建深;",
+      "summary": "探讨东周时期郑韩故城铜钟复制现象，分析以“样版法”实现大规模量产，重构铸钟前期准备过程。",
+      "score": 85,
+      "tags": [
+        "青铜器",
+        "器物研究"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:45.085+00:00"
+    },
+    {
+      "id": 157,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "放马滩简《日书》乙种简252+351新释",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Md9ZHlkWtkLGNxjRAkUwtzkfdabudKFDZYMmZNI5eJJxD1us4B_WOqf5vh8FC_Yl9D1otpw_bt6rJcTx44RnjrAamqgUMZTZY4Tr7DisOBIztkzNjC_JHz3gkqdYw_9L6k8nO6FgXU22xvh-ynw4gho4SuW0vkXdwaYHnpwTtwYKA==&uniplatform=NZKPT&language=CHS",
+      "author": "杨鹏桦;",
+      "summary": "对放马滩简《日书》乙种简252+351卦辞进行字词改释，涉及“尊尊”“讱讱”“营营”等读法，用词有类聚特点，可与同篇简294参看。",
+      "score": 85,
+      "tags": [
+        "出土文献",
+        "金文考释"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:51.785+00:00"
+    },
+    {
+      "id": 199,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "清华简《四时》的基本设日周期、特殊天象及相关年代问题研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Md9ZHlkWtkLGNxjRAkUwtzkfdabudKFDZYMmZNI5eJJxD1us4B_WOqfPFo9Hhh2DFBjUeL4-CmOM6M34AfBJ1o3zsQHCJbCZYD5-fkGzw8aCmCS9rb5rUsiTdULOh44uankIefZ_xdZmFEYdZSybB3jdXa2XAxAfTSDGHbwl-OKxQ==&uniplatform=NZKPT&language=CHS",
+      "author": "贾连翔;",
+      "summary": "研究清华简《四时》的设日周期与特殊天象，推算出所记天象可能发生于公元前314年，关联战国历法及成书年代。",
+      "score": 75,
+      "tags": [
+        "出土文献",
+        "历史年代",
+        "先秦史"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:45.085+00:00"
+    },
+    {
+      "id": 204,
+      "source_id": "cnki-wwjk",
+      "source_name": "《文物季刊》",
+      "source_short_name": "文物季刊",
+      "category": "考古文物",
+      "title": "山西垣曲北白鹅墓地2024年度发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Md-LSoxBLx2EmCXs68FOMpwKKvLj2U6p6dvkSpIaPmowoTqRvsEsLexbwNiQQ5NULBPHr-Maa91DmYw3pwJNqv409AigwkFShJuHaTwixlluirDeaQSBh_zcbFawcr7ss-_knIgzhPgsHm1RvZ0TSPFKv3kL0mp0JQNp52Xj1nwlA==&uniplatform=NZKPT&language=CHS",
+      "author": "李梦雪\r\n;晁蓉蓉\r\n;南普恒;",
+      "summary": "2024年山西垣曲北白鹅墓地春秋早期墓葬发掘简报，清理5座中小型墓，出土器物70套，为研究墓地埋葬制度、人群族属及社会生活提供实物资料。",
+      "score": 75,
+      "tags": [
+        "青铜器",
+        "考古发掘",
+        "器物研究"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:42.748+00:00"
+    },
+    {
+      "id": 218,
+      "source_id": "cnki-webo",
+      "source_name": "《文博》",
+      "source_short_name": "文博",
+      "category": "考古文物",
+      "title": "宝鸡旭光墓地“毁兵”现象及相关问题",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfiPFReawv-uMonjJYusZBqWHv8vXPmJrvoA7UUpp9PndNSN652ktZijQgNKYHjtqIK1gOq4qClejK4YMCs1xgkCuIg7T2yBa2BVDj8NayhGDLB7w5NC0yCiac0DIa2nyLzhn5hz8IWIqDSCmgVy6gprOLqJ4_vVZDJQyfdfFBAEA==&uniplatform=NZKPT&language=CHS",
+      "author": "李怡彤;辛怡华;",
+      "summary": "宝鸡旭光墓地为商周时期墓地，存在“毁兵”葬俗，以戈为主，分析其时代分布与原因，属青铜时代考古。",
+      "score": 70,
+      "tags": [
+        "青铜器",
+        "考古发掘"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:28.939+00:00"
+    },
+    {
+      "id": 219,
+      "source_id": "cnki-wwjk",
+      "source_name": "《文物季刊》",
+      "source_short_name": "文物季刊",
+      "category": "考古文物",
+      "title": "说唐——“夏问题”引出的“唐问题”",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeTyUyVmp0p57Zbdg3IqmsVN3-LCaiI4AAj8_SdlC_-kheAYEvEYexXqjW96AjQVxitQfsIkUp7MbAslkiAsda29O8mVUSbw7Z1ZGwOtrfrgmNybSKiprTtcx8kU2AXW2Qn72rjRgLeRfSe9mHu0p4irR6SNgR1KyioFVj6BnWQug==&uniplatform=NZKPT&language=CHS",
+      "author": "李零;",
+      "summary": "从“夏问题”引出“唐问题”，结合考古发现与商周铭文中“唐”字考证，系统梳理唐的地域分布、历史演变及其与夏商周族群的关联。",
+      "score": 70,
+      "tags": [
+        "出土文献",
+        "先秦史",
+        "金文考释"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:42.748+00:00"
+    },
+    {
+      "id": 227,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "山东高青狄城遗址2016年度考古发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdJyRqzHGuiFS352FTidUupxTBPIfQsFj3qGCpHg4FBABwKVBOq7juaSvy9GPAvjn9cmXWPS5RKyAMQT3BKm3_azZhy9iA0_OxmIAkbYrdvSOL-2Ap3pBCvgtzC8_ELG0UVoYSYIpyNgs4xwJx04h4jivnXcvTei2pq7aiNhQAeAQ==&uniplatform=NZKPT&language=CHS",
+      "author": "郎剑锋\r\n;郭明辉\r\n;赵娜\r\n;董志浩\r\n;陈章龙\r\n;方辉\r\n;刘善沂\r\n;李传萍\r\n;赵孟坤\r\n;丁昊阳;",
+      "summary": "山东高青狄城遗址2016年发掘简报，揭露战国至汉代遗存，为鲁北地区战国至汉代文化谱系及先秦城邑考古提供重要资料。",
+      "score": 65,
+      "tags": [
+        "考古发掘",
+        "先秦史",
+        "器物研究"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:45.085+00:00"
+    },
+    {
+      "id": 231,
+      "source_id": "cnki-wwjk",
+      "source_name": "《文物季刊》",
+      "source_short_name": "文物季刊",
+      "category": "考古文物",
+      "title": "山西万荣乌苏墓地东周西戎遗存分析",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfY7rihbF3lA6FjpfR2byeV7ppPSpYOIcUcWmNHYSUxwrEiQUDW9o_VMcAOcRPhIS_19y43SOnQpcflcv5m3SaUZHYr0mYx0GP_H7ON9fC4N2CODjuMFvK2iEd71JxGZjEyBM_7ArYkMBX9ete3LAcztyrHQWiOSqc7IMk1JydRhA==&uniplatform=NZKPT&language=CHS",
+      "author": "程思;",
+      "summary": "山西万荣乌苏墓地出土铲足鬲、双耳罐等西戎文化陶器，年代为战国晚期至秦，实证山西地区东周时期民族交往交融。",
+      "score": 65,
+      "tags": [
+        "考古发掘",
+        "先秦史",
+        "器物研究"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:42.748+00:00"
+    },
+    {
+      "id": 245,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "“夏商周聚落考古”笔谈",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mf6VQ7vfxhPtpg8nN_iGd96KOd-BXEXVe50m7Eux-brFvvz7bvsVBB8qmmhd4sHA3pBsvl3Hh9yXD0rYavTtdNbzdsY_Gh5c5BKn6i5FxRZUwMLT8SunKixyDpJFqGnKX1Lo_43w762hS_vRZO07jqEadGiyaQaLNPw6rEbPa59sw==&uniplatform=NZKPT&language=CHS",
+      "author": "张昌平;曹大志;赵海涛;杨树刚;崔俊俊;田伟;孙卓;牛世山;何毓灵;冉宏林;孙战伟;盛伟;付仲杨;王晶;闻磊;路国权;游晓蕾;刘思然;杨晓燕;黎海超;邹秋实;安妮娜;燕生东;何晓琳;胡刚;凡国栋;方辉;徐良高;雷兴山;沈睿文;常怀颖;豆海锋;郎剑锋;林森;赵东升;张闻捷;高成林;杜舒懿;",
+      "summary": "报道2025年夏商周聚落考古研讨会，探讨聚落考古实践与理论，涉及先秦时期聚落形态与社会结构。",
+      "score": 60,
+      "tags": [
+        "考古发掘",
+        "先秦史",
+        "学术综述"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:45.085+00:00"
+    },
+    {
+      "id": 247,
+      "source_id": "cnki-kgyw",
+      "source_name": "《考古与文物》",
+      "source_short_name": "考古与文物",
+      "category": "考古文物",
+      "title": "陕西泾阳蒋刘遗址西周时期遗存发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Md3I7j3c7j92UR_MPOnbQzaQbJqdE4I35fIdZD1TFDW0QXbZOAZYvO9UxO9LouNJ2uYV4JRkssFVO4UI8hxPGk0pUqk7muoS_YB9n5WNA161_KZuDlPD1cHkv8I-WzRh8Dipd4wle-XxU88w15-TJkNVo7cf--KdtJ3AJujmXL08w==&uniplatform=NZKPT&language=CHS",
+      "author": "邵晶\r\n;于朋飞\r\n;袁媛\r\n;王红英\r\n;裴学松;",
+      "summary": "陕西泾阳蒋刘遗址发掘了西周时期灰坑和墓葬，出土陶器、铜器等，为研究周人在泾河下游的活动提供了材料。",
+      "score": 60,
+      "tags": [
+        "考古发掘",
+        "青铜器",
+        "先秦史"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:58.429+00:00"
+    },
+    {
+      "id": 269,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "陇县店子墓地结构与秦社会组织形态的演变",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MflxXdOl2TQo649VvvXuBFSNLq9T_70fHypJns-er4JC_BDXF1VShTlFT2B1YBVrZDwQx2RLbpEVEPHP77ziA8GWrFpBiU6NCEpORR6B-6lnZaM7JlDRGJB-mM7a2nc0eqRIrIwJdcaT_b-lhWPre4d6ds6yoRyKw8ky_1LJy_gFQ==&uniplatform=NZKPT&language=CHS",
+      "author": "彭军超;袁俊杰;",
+      "summary": "本文通过陇县店子墓地结构分析秦至秦代平民墓地与社会组织形态演变，涉及考古发掘与先秦史，但非直接关联金文或出土文献文字内容。",
+      "score": 45,
+      "tags": [
+        "考古发掘",
+        "先秦史",
+        "器物研究"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:38.889+00:00"
+    },
+    {
+      "id": 270,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "宁夏姚河塬遗址西周墓葬M41出土漆器的室内保护",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeyLIZ5-E-1GLy5SmYRNPwuHaQXZ60kYn7VoCx4HOUNvS0Vy0XwXdQ2j8o-IOaDd2ieU8illCFVp2aLmHm5Hxv6HzqpXio9Ia2rRtHaqDjXUMtlgbMz6m-rOzybBTV36-_X2kkHVV9e5gs5iXZaNDk-LzQ8VDEzxdBOXzjWTs79Uw==&uniplatform=NZKPT&language=CHS",
+      "author": "马强;",
+      "summary": "宁夏姚河塬遗址西周墓葬出土漆器的室内保护与修复技术，涉及薄荷醇、PEG400及Primal B60A等材料的应用。",
+      "score": 45,
+      "tags": [
+        "考古发掘",
+        "器物研究"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:45.085+00:00"
+    },
+    {
+      "id": 276,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "湖北钟祥边畈遗址2024年度考古发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeirCnsVXnjFM0Zoi0fGMbgshlk3E4uEHGdP9K6dL6aAg7nSQhpmv8ODHHzwN5_Zb91Gpi8fTcMa0roSH9dIX0k7M3Q1bSkktfnSSMErS7q99-FkejGZMJ2w4x1rUC3JFj42-Ggr5aeYC4YgX_8IhpVlAaDSV6FTbo6qlSrd7I2UQ==&uniplatform=NZKPT&language=CHS",
+      "author": "段春娥\r\n;刘辉\r\n;陈苇\r\n;葛林杰\r\n;魏天旭\r\n;孟华平;",
+      "summary": "湖北钟祥边畈遗址2024年发掘简报，主体为新石器时代边畈文化，含少量东周遗存，提供区域文化源流资料。",
+      "score": 40,
+      "tags": [
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:45.085+00:00"
+    },
+    {
+      "id": 281,
+      "source_id": "cnki-jhkg",
+      "source_name": "《江汉考古》",
+      "source_short_name": "江汉考古",
+      "category": "考古文物",
+      "title": "河南省濮阳市金桥遗址考古发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfamPF_8YTGzaRpq2e2bD6YevA2J5Tt6fnWrAbOhRy3oQueLXf1T2bs713wYjE80d8HTFt1Zr_c4cP8Wcus9kUgM6jupmnVZwTxynKnEtjivAslpysrzMvPk9rh-EAuSUOOHpl3y8akfoTCg_TC2Qa5Vs0tvHi3kAvFr3gVNaaYxQ==&uniplatform=NZKPT&language=CHS",
+      "author": "崔宗亮\r\n;刘朝彦\r\n;李一丕\r\n;邓萧婷\r\n;刘才铭\r\n;赵一帆\r\n;尹永禅\r\n;张凤菊\r\n;侯富彦\r\n;王皓媚;",
+      "summary": "河南濮阳金桥遗址发掘简报，含仰韶、龙山、晚商、东周时期遗存，对认识濮阳地区环境变迁与人地关系有重要意义。",
+      "score": 30,
+      "tags": [
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2026-02-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:45.085+00:00"
+    },
+    {
+      "id": 104,
+      "source_id": "cnki-scww",
+      "source_name": "《四川文物》",
+      "source_short_name": "四川文物",
+      "category": "考古文物",
+      "title": "商末周初殷遗铜器性质辨析",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeQU-p6YWaMCRrbHM2iEC8N3-39qQ1Hm2lle0jiF0vWiBriT9fI2H0JOqo4mfq1pYoDRdnIxpLSx03jF1jbudp8RHISOr1nZVKlxG3MBuB09iSxVtsIMwKxXa9ZojapJpJKNSX5fT3f7H9FIOWTrkJoWTAzidSEV5byA0-yWwkS6w==&uniplatform=NZKPT&language=CHS",
+      "author": "徐熠;",
+      "summary": "辨析商末周初殷遗铜器性质，更新“分器”概念，区分殷遗民自作器、赗赙及族氏交流品，纠正部分铜器年代归属。",
+      "score": 93,
+      "tags": [
+        "青铜器",
+        "金文考释",
+        "先秦史"
+      ],
+      "published_at": "2026-02-09T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:17.356+00:00"
+    },
+    {
+      "id": 130,
+      "source_id": "cnki-scww",
+      "source_name": "《四川文物》",
+      "source_short_name": "四川文物",
+      "category": "考古文物",
+      "title": "二十四年莒阳铜斧考论",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeQU-p6YWaMCRrbHM2iEC8N3-39qQ1Hm2lle0jiF0vWiBriT9fI2H0JI5lVmuLdnVBf4GTtHeoRwbfdCkuGwvJp6_SICXDVuuXE0Xu0QRc7CYU3_-b-xg3qMowkX5s62i1ZLP2CU2h_lXXJVhCFbp7h0ZimxUHvAAgxiaY54xz0Yg==&uniplatform=NZKPT&language=CHS",
+      "author": "李兴;",
+      "summary": "考释山东沂南出土“二十四年莒阳铜斧”，铭文为秦系文字且呈隶变，确认秦王政二十四年铸造，探讨地名渊源。",
+      "score": 88,
+      "tags": [
+        "金文考释",
+        "青铜器",
+        "历史年代"
+      ],
+      "published_at": "2026-02-09T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:17.356+00:00"
+    },
+    {
+      "id": 206,
+      "source_id": "cnki-scww",
+      "source_name": "《四川文物》",
+      "source_short_name": "四川文物",
+      "category": "考古文物",
+      "title": "重庆市彭水县徐家坝遗址商周时期遗存2018年度发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdYn8mhiy-IHjCLxZLlQ5Fs-MRF3R7n40bj1gejlMvBg9f41qK-8aUAlnS1D1EJd54znWXZza6-_Xm0GSHqQNHC-KRytCAgUZtFW6XV5BYL5kyknxDRX5JB5OpUbWinYLhCuGTB35nfsWjIG4WyNll0fO6BQV0aUpadajCqQdLX1g==&uniplatform=NZKPT&language=CHS",
+      "author": "杨鹏强\r\n;李大地;",
+      "summary": "发布重庆彭水徐家坝遗址商周时期遗存2018年发掘简报，清理遗迹出土遗物，文化因素涉及渝东石地坝与成都十二桥文化。",
+      "score": 72,
+      "tags": [
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2026-02-09T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:17.356+00:00"
     },
     {
       "id": 16,
@@ -587,6 +1684,262 @@
       "fetched_at": "2026-05-14T05:44:24.199+00:00"
     },
     {
+      "id": 211,
+      "source_id": "cnki-kgxb",
+      "source_name": "《考古学报》",
+      "source_short_name": "考古学报",
+      "category": "考古文物",
+      "title": "陕西宝鸡虢镇遗址贾家崖商周墓地发掘报告",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdX3EMt-IG1WT-CNo-PU1S1uKTFAPP-SwFY6KDonhdn07TIdhi5eFwpjT6WmdvsLh04x5KUUCuXONIa0-GbjgKH-0N_gIJi7-Oxq_VaVZO6MxQ-S2ws8sFw5NB_awXMemBx6w_7xoM1epDqvAB1Afzc6KIQt501wOPV1FDTqTVNRQ==&uniplatform=NZKPT&language=CHS",
+      "author": "王洋;赵艺蓬;王昱霖;种建荣;雷兴山;",
+      "summary": "陕西宝鸡虢镇遗址贾家崖商周墓地发掘报告，介绍西周时期文化遗产分布，与青铜器及先秦史相关。",
+      "score": 70,
+      "tags": [
+        "青铜器",
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2026-01-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:37.584+00:00"
+    },
+    {
+      "id": 253,
+      "source_id": "cnki-kgxb",
+      "source_name": "《考古学报》",
+      "source_short_name": "考古学报",
+      "category": "考古文物",
+      "title": "战国秦汉时期滇池区域的考古学文化与社会格局",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdX3EMt-IG1WT-CNo-PU1S1uKTFAPP-SwFY6KDonhdn07TIdhi5eFwp1-mtyh-PMyQf2LGHwrjDKkV_PqV1_BPjIrn-js3gJW04FQoBbMsy1WEQCrhJ-p1yI4PmleABF39HKxwSO3sICSFWfbL0kHppyrbS-KWm1quKoDFa5K3FTg==&uniplatform=NZKPT&language=CHS",
+      "author": "赵德云;",
+      "summary": "研究战国秦汉时期滇池区域考古学文化与社会格局，涉及石寨山文化等，与先秦史及出土文献相关。",
+      "score": 55,
+      "tags": [
+        "先秦史",
+        "考古发掘",
+        "器物研究"
+      ],
+      "published_at": "2026-01-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:37.584+00:00"
+    },
+    {
+      "id": 100,
+      "source_id": "cnki-wwcq",
+      "source_name": "《文物春秋》",
+      "source_short_name": "文物春秋",
+      "category": "考古文物",
+      "title": "东周青铜器自名考释二则",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeWorDu8ynJ11zP1B8fQ04KwHW4L84u_7xX1n29rAUcPSUVywNpSLtAruRXMZjmKrbmTqg3P4K0lddsSHnV6Es329m0i_F2vs5URIZFABf3TZaUPAQkf3JNT5aNt16h64VZORWeGIKMhlIO2h-q6gh4fJkudYUnCVzP7x-B_mdCKw==&uniplatform=NZKPT&language=CHS",
+      "author": "王英霄;",
+      "summary": "考释东周青铜器自名，释读“■”及“昷鼎”等字，涉及香草义、会意形声字，属于金文考释。",
+      "score": 95,
+      "tags": [
+        "金文考释",
+        "青铜器"
+      ],
+      "published_at": "2025-12-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:28.939+00:00"
+    },
+    {
+      "id": 105,
+      "source_id": "cnki-wwcq",
+      "source_name": "《文物春秋》",
+      "source_short_name": "文物春秋",
+      "category": "考古文物",
+      "title": "中山侯忺钺铭文新释",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdZUOyp3Jn9b5vTGSR2wRRPtrSwXjzjVr7yvHe_YgqmByQjM49ufwXdLrtx7VlVY04FiRlIuFv9RzB-L-otQvl82jLLkXKLFfCWTLMUCFC0yEjc09OGV5WF9OJVJpiLlkbP1YVGXz3zn7ivvUzLNqASS8QPhHFlLq4e46P6I-N5pw==&uniplatform=NZKPT&language=CHS",
+      "author": "黄锦前;",
+      "summary": "新释中山侯忺钺铭文，释读器名“■”，探讨法治思想，关联两周制度变革，属金文考释与先秦史。",
+      "score": 93,
+      "tags": [
+        "金文考释",
+        "先秦史"
+      ],
+      "published_at": "2025-12-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:28.939+00:00"
+    },
+    {
+      "id": 203,
+      "source_id": "cnki-wwcq",
+      "source_name": "《文物春秋》",
+      "source_short_name": "文物春秋",
+      "category": "考古文物",
+      "title": "河南淅川县徐家岭12、13号楚墓发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdiB1cXfYORAa-ULcN0MA2xopy5h3QUAW4_6nBwdFfeU9VDg3BgxlprvChTUTisizoEEkQFdEGDj3Z2phlmYAGRL5lno3Ulbxw0PRWRDfce-pSogacoJGqZUbvR7H2aaa6Ii692zfsFnuZLU_HOJLm7llOBl4mfJYqOD3HN-_YKAw==&uniplatform=NZKPT&language=CHS",
+      "author": "崔浩;",
+      "summary": "河南淅川县徐家岭楚墓的抢救性发掘，出土铜器、陶器等，为研究东周时期丧葬习俗和文化面貌提供实物资料，推断墓主为楚国贵族。",
+      "score": 75,
+      "tags": [
+        "青铜器",
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2025-12-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:35.397+00:00"
+    },
+    {
+      "id": 273,
+      "source_id": "cnki-wwcq",
+      "source_name": "《文物春秋》",
+      "source_short_name": "文物春秋",
+      "category": "考古文物",
+      "title": "山西绛县雎村墓地西周人群古人口学研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdffYzAAOVs2pMb-9rXz1xTD4cVjj95WhJbQGq7oC6MVyYZ8S8hFt-VbpTo_5xyoUtHrRT0tI04khhulMUcZMlQCclEPRtC00ietU7deocZSz-0p7EqUjmLswAOZuNAudzC9IhoOpMBDYVa8g4w2UkZKcTumXCOwIByFVIc5iVprQ==&uniplatform=NZKPT&language=CHS",
+      "author": "韩涛;高顺菁;",
+      "summary": "对山西雎村墓地西周人群进行古人口学研究，分析性别、年龄结构，属于考古学与先秦人口研究。",
+      "score": 45,
+      "tags": [
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2025-12-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:28.939+00:00"
+    },
+    {
+      "id": 278,
+      "source_id": "cnki-wwcq",
+      "source_name": "《文物春秋》",
+      "source_short_name": "文物春秋",
+      "category": "考古文物",
+      "title": "正定新发现三通金元时期有关滹沱河治理的碑刻",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MezUq3LkY8g5BbOdbvviqqKIUnNemd4wE2fPKZk6pkHU8KgTlxWcsFb-Mz3AZ4Ud07uBMya0WyeOB4Umzdhw_pPeYH3HLmUQNe_eenUZGUqxBhbUpbg5WnLfG16031_w0ime8SCR89g3xCNKoeQ2La5fKierj2iLIsybc-Tx_qZMw==&uniplatform=NZKPT&language=CHS",
+      "author": "张甫;邢怀良;刘友恒;",
+      "summary": "正定发现三通金元时期碑刻，涉及滹沱河治理，考释内容补充了金元时期水利与社会治理记载（据题推断）。",
+      "score": 35,
+      "tags": [
+        "出土文献"
+      ],
+      "published_at": "2025-12-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:35.397+00:00"
+    },
+    {
+      "id": 198,
+      "source_id": "cnki-ydxk",
+      "source_name": "《殷都学刊》",
+      "source_short_name": "殷都学刊",
+      "category": "出土文献",
+      "title": "新书推介",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MedQHpWQE6tQmho6rYvrUhL1IXr7DP_mZIQWwTnT1-8LiRumhwq-6jaThx3oRE--SwLLp0faZDPi75wO_0BskZfNbEZ3QsKvOiRLjUckG5ubySlNiNs_kc0ZRhcc39Cgy6G7KkK9z657IvZKcH8o7Bh_mQBOxgjNdSkFCGNjSKETg==&uniplatform=NZKPT&language=CHS",
+      "author": "",
+      "summary": "该书目为冯克坚、宁红亮所著，系统整理甲骨文识读状况并吸收最新成果，反映考释情况，属于甲骨文研究工具书与新出材料汇总。",
+      "score": 75,
+      "tags": [
+        "甲骨文",
+        "学术综述",
+        "新出材料"
+      ],
+      "published_at": "2025-12-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:38.889+00:00"
+    },
+    {
+      "id": 230,
+      "source_id": "cnki-scww",
+      "source_name": "《四川文物》",
+      "source_short_name": "四川文物",
+      "category": "考古文物",
+      "title": "四川阆中市白沙坝遗址2021年试掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MccI-m3PJVpA31vVmEyjp2NEJ_4pm4gic1nlWNEQudKUhVjeVZZm-_66d6Q1ZPcbHngeeA3U3N0DS2169gL3mNsDmMygHijp945YQu4J7Jp2-nX3J4Dm9xGw3J9kgYolBppyQI9YD9V2_fSrIuOC24Avv0XIt2yhSBwsHUhzRQsrQ==&uniplatform=NZKPT&language=CHS",
+      "author": "金国林\r\r\n;刘富立\r\r\n;刘彪\r\r\n;张晓峰\r\r\n;唐德兵\r\r\n;李云飞;",
+      "summary": "四川阆中白沙坝遗址2021年试掘，发现战国秦汉时期遗迹及遗物，包括与范铸相关的遗物，对研究该时期青铜器铸造有参考价值。",
+      "score": 65,
+      "tags": [
+        "考古发掘",
+        "出土文献",
+        "青铜器"
+      ],
+      "published_at": "2025-12-09T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:23.302+00:00"
+    },
+    {
+      "id": 258,
+      "source_id": "cnki-scww",
+      "source_name": "《四川文物》",
+      "source_short_name": "四川文物",
+      "category": "考古文物",
+      "title": "关于“礼州中期（段）遗存”的几点认识",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mcw08mfTqA_1z44fm5BbkvYcqCC3umoM1wYfG0HnexScwYsRrcgAKFY6liMDkNaliHZt6X0svvRqPXgnyCRJGIVwsrtR-z85VPm8VU4O5JhN2JgKGk2cjqSil7L4yWJSaPuqpA9geDcgs0f6lWXEsXC-Ueqqu9L1BYFP2y7bS9t8Q==&uniplatform=NZKPT&language=CHS",
+      "author": "任瑞波;赵梦竹;",
+      "summary": "探讨礼州中期遗存的命名、文化内涵、分布与年代，涉及先秦时期西南地区的考古学文化，与先秦史相关。",
+      "score": 55,
+      "tags": [
+        "先秦史",
+        "考古发掘"
+      ],
+      "published_at": "2025-12-09T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:23.302+00:00"
+    },
+    {
+      "id": 267,
+      "source_id": "cnki-scww",
+      "source_name": "《四川文物》",
+      "source_short_name": "四川文物",
+      "category": "考古文物",
+      "title": "泸定县伞岗坪墓地出土珠饰制作工艺研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfaLjdnSvBbs7MzxGMJoRhkj1VRPS0IibHt_InC7wePxuPmsDjJ79iEdW9TO-T4vpwM02FDOBLY743TUCBibskqXP9Il4NE5Ey0-SWStl1QUT-rIRaCn7N4NQM9yYjViClGkBd35IYEvcJ5OSAiW0EmmA-x28G61LLedTQa98yqWA==&uniplatform=NZKPT&language=CHS",
+      "author": "郭富;徐舵;黄晓娟;金普军;",
+      "summary": "分析泸定伞岗坪墓地出土战国珠饰工艺，发现青铜及费昂斯技术，揭示石棺葬先民科技水平，涉及先秦手工业。",
+      "score": 48,
+      "tags": [
+        "器物研究",
+        "先秦史"
+      ],
+      "published_at": "2025-12-09T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:17.356+00:00"
+    },
+    {
+      "id": 220,
+      "source_id": "cnki-kgxj",
+      "source_name": "《考古学集刊》",
+      "source_short_name": "考古学集刊",
+      "category": "考古文物",
+      "title": "宁夏彭阳姚河塬西周遗址出土树木遗存研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfzLtWoty5kX1u_FsAcfS4RFIL4RyzJvNQj8tTO6GpOXJUOEQ65_-xnNJJ_9Qfmr4bc6ZrJSMOfEdgxWQbDAkqabXRS3q1kF-U6O7aHqzN-IOWQk7i7s8mWmVTm1QSmB6qkwYMduBWXb1AUA6Ts7KybVLZW8C8U6tHuwJ4ahljONw==&uniplatform=NZKPT&language=CHS",
+      "author": "赵一凡;马强;王树芝;焦延静;",
+      "summary": "分析宁夏姚河塬西周遗址出土树木遗存，探讨先民木材利用与燃料选择，属西周时期考古，与先秦史相关。",
+      "score": 70,
+      "tags": [
+        "先秦史",
+        "考古发掘"
+      ],
+      "published_at": "2025-11-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:48.493+00:00"
+    },
+    {
+      "id": 232,
+      "source_id": "cnki-kgxj",
+      "source_name": "《考古学集刊》",
+      "source_short_name": "考古学集刊",
+      "category": "考古文物",
+      "title": "河南安阳市孝民屯新石器时代、先商和西周遗存2003～2004年发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mco_DqCOJ_--QGxPhlwwj8SGx7-yJRMnhj5I4P-pZugivCPyghSh7mROwFAqsBIErymr8WtgYqBQNMhB6Lnug5y4TUQyFPJ8xYyYmqgPvWqpzoG_v3ZpP8nGpwxu0O_T2bVR-IxarhJLPxEMOv3pmp7v4712xWCfw-siUq8IRHiXg==&uniplatform=NZKPT&language=CHS",
+      "author": "牛世山\r\r\n;曹慧奇\r\r\n;陈国梁\r\r\n;李志鹏\r\r\n;唐锦琼\r\r\n;王学荣;",
+      "summary": "报道河南安阳孝民屯新石器时代、先商和西周遗存发掘情况，其中西周遗存与先秦史相关，但未涉及金文或青铜器铭文。",
+      "score": 65,
+      "tags": [
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2025-11-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:48.493+00:00"
+    },
+    {
+      "id": 248,
+      "source_id": "cnki-kgxj",
+      "source_name": "《考古学集刊》",
+      "source_short_name": "考古学集刊",
+      "category": "考古文物",
+      "title": "战国秦汉悬璧葬俗的演变与丧葬内涵",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mdj-9dyF6mLNi2U2Ls2nM0rpKOUqBqRoHlsIMNqOQ94WPKuAvyKG3LhV0F6jhVEpPCj7vr-XL1X46IiYAxMpI20eHntG2vfLmQfAZIvuHT4qX9btBVbiF7FQDblS21M6hA11-wAF4pw-AGIB9OHIXq6qL91PrGciL1AywdmSs7XTQ==&uniplatform=NZKPT&language=CHS",
+      "author": "方明红;",
+      "summary": "探讨战国秦汉悬璧葬俗的演变及丧葬内涵，涉及战国楚国贵族墓葬习俗，与先秦史相关，但未涉及金文。",
+      "score": 60,
+      "tags": [
+        "先秦史",
+        "器物研究"
+      ],
+      "published_at": "2025-11-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:48.493+00:00"
+    },
+    {
       "id": 50,
       "source_id": "xianqin-blog",
       "source_name": "先秦史研究室",
@@ -624,6 +1977,62 @@
       "fetched_at": "2026-05-14T05:43:45.349+00:00"
     },
     {
+      "id": 116,
+      "source_id": "cnki-wwcq",
+      "source_name": "《文物春秋》",
+      "source_short_name": "文物春秋",
+      "category": "考古文物",
+      "title": "试说师■鼎非虢氏之器",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeZrhO02_66lLsTDCkUTg8THH1kaXsZN-AJ_WoQW_Ry2CaEk2B3-Kbg7jr3D_fiyXpholJGmcvgCKqRYhvvJlIBSIyQH5D6lSxuiKUil8-aPIS1hK2wQ08hhZkH8h9KwmrSBu2kCnaEGdZqer60ExWkhjS8fMcGjtLeXxSUO0cUyQ==&uniplatform=NZKPT&language=CHS",
+      "author": "刘勇江;",
+      "summary": "通过西周金文和文献考证，否认师■鼎为虢氏之器，指出“■”字读音及■氏属殷遗民，涉及金文考释。",
+      "score": 92,
+      "tags": [
+        "金文考释",
+        "出土文献",
+        "先秦史"
+      ],
+      "published_at": "2025-10-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:35.397+00:00"
+    },
+    {
+      "id": 159,
+      "source_id": "cnki-wwcq",
+      "source_name": "《文物春秋》",
+      "source_short_name": "文物春秋",
+      "category": "考古文物",
+      "title": "晋侯鸟尊再识",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfdPgL2RBbwawZ77g59fK1gPepRjFGbXLaL8Ohq9p6W61REdc102W237khXhhXxsMoah2RyDv_K0uz6XQrluc2A0N8sWBj0Dc52T4OZCFEzdMnx2bEOBKnbmIjolWsEQGGpZBKWW4IJiZqF-3xZO6386yoHMogY2-OCQDUrE0d6eA==&uniplatform=NZKPT&language=CHS",
+      "author": "谢耀亭;",
+      "summary": "对晋侯鸟尊造型重新释读，认为凤鸟与小鸟象征周王室与晋国关系，尾部象形体现商人文化，结合甲骨文与考古资料。",
+      "score": 85,
+      "tags": [
+        "青铜器",
+        "先秦史",
+        "甲骨文"
+      ],
+      "published_at": "2025-10-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:35.397+00:00"
+    },
+    {
+      "id": 274,
+      "source_id": "cnki-wwcq",
+      "source_name": "《文物春秋》",
+      "source_short_name": "文物春秋",
+      "category": "考古文物",
+      "title": "河北武安赵窑遗址战国花土坑遗存的初步认识",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfdPgL2RBbwawZ77g59fK1gPepRjFGbXLaL8Ohq9p6W61REdc102W239RKtAQverC0kXPIqDifXS2EXHfHKhP2PtXmX_cAmwBVScqx3-Nf_tS6-3lfqI0KKXGPac8OAB9imB4WleTL-1MczblcZyf8TGhBAHBWjn8LoFlDpUqmzPg==&uniplatform=NZKPT&language=CHS",
+      "author": "魏曙光;刘栩慈;",
+      "summary": "河北赵窑遗址发现战国花土坑，出土铁铤铜镞，推测为秦赵战争中的藏兵掩体，与考古发掘和先秦军事相关。",
+      "score": 45,
+      "tags": [
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2025-10-24T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:35.397+00:00"
+    },
+    {
       "id": 47,
       "source_id": "cnki-kgxb",
       "source_name": "《考古学报》",
@@ -641,6 +2050,24 @@
       ],
       "published_at": "2025-10-14T16:00:00+00:00",
       "fetched_at": "2026-05-14T05:44:29.863+00:00"
+    },
+    {
+      "id": 187,
+      "source_id": "cnki-kgxb",
+      "source_name": "《考古学报》",
+      "source_short_name": "考古学报",
+      "category": "考古文物",
+      "title": "云贵高原出土青铜戈研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MepGg6fxxpN3bEX7hUiPnHQS33K9FNJcJHBNh84iPnAjAFqBqttNXcPL1CuofLK9cWWT4XVm-rXKw6g6y11w2FRY9KVG4Vt6qB0OefBPukHHGux3kqGtF5wrbB32GzoSKRnF19-i9SkijZbZh2BukK9Vk2uJ5QgGpS-7HlPUMLh-g==&uniplatform=NZKPT&language=CHS",
+      "author": "杨勇;",
+      "summary": "研究云贵高原出土青铜戈的类型、年代、分布、族属、源流及制作流通，探讨西南夷族群的金属兵器文化。",
+      "score": 75,
+      "tags": [
+        "青铜器",
+        "器物研究"
+      ],
+      "published_at": "2025-10-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:44.255+00:00"
     },
     {
       "id": 39,
@@ -662,6 +2089,98 @@
       "fetched_at": "2026-05-14T05:44:29.863+00:00"
     },
     {
+      "id": 188,
+      "source_id": "cnki-kgxb",
+      "source_name": "《考古学报》",
+      "source_short_name": "考古学报",
+      "category": "考古文物",
+      "title": "湖北襄阳邓城区域楚式青铜容器分期研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mesz415bdVgEzwk2PAhzd2spL0Dd_IKqL2X2DFmEivu1ULGod0P0U7Bjxr_RjISN8nOXq9VwfACJH6Z6bvxP_5xGIsifXf_whsnf9xNDTij6ugkj2GtGrYiI1KZq6cDGCR21FSkEZq3ET3MMOrikavhWNkH9_T3HHy9rlinrhj24A==&uniplatform=NZKPT&language=CHS",
+      "author": "王先福;",
+      "summary": "以湖北襄阳邓城区域楚墓出土青铜容器为样本，研究其组合与形制变化，探讨周代礼制发展及楚式青铜器分期。",
+      "score": 75,
+      "tags": [
+        "青铜器",
+        "器物研究",
+        "先秦史"
+      ],
+      "published_at": "2025-07-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:44.255+00:00"
+    },
+    {
+      "id": 221,
+      "source_id": "cnki-kgxj",
+      "source_name": "《考古学集刊》",
+      "source_short_name": "考古学集刊",
+      "category": "考古文物",
+      "title": "成都平原先秦时期铜器生产体系研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mf8DzdeBw4r_vX4xnzhxUPD1jVa1dYmGQF32rJnhdQIjkIRtxI17FCormJ-Df8gOE7vF4nIWpjS_hmrbMhosBp3TEbY3-DF9K9JWHaZjqHXCFR2UYYztCKSSHPRhkq3wfzFirJ4PzJ5Rs7SP77uk9V1Dxn2qUKwTaPQAQDcJSo7cw==&uniplatform=NZKPT&language=CHS",
+      "author": "黎海超;崔剑锋;陈建立;周志清;左志强;田剑波;",
+      "summary": "对成都平原先秦铜器进行成分与铅同位素分析，复原本土与外来两条铜器生产脉络，涉及三星堆等青铜器，属青铜器与先秦考古。",
+      "score": 70,
+      "tags": [
+        "青铜器",
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2025-05-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:52.646+00:00"
+    },
+    {
+      "id": 233,
+      "source_id": "cnki-kgxj",
+      "source_name": "《考古学集刊》",
+      "source_short_name": "考古学集刊",
+      "category": "考古文物",
+      "title": "湖北荆州市七星堰战国楚墓2014年发掘简报",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MecHESABQ515F5XJDcnxZHt1hLTY0SNBm3a3Kc-OuhIZQVRN2tKy1tsYxW5UqsZ3uo_ewABho2AkqU4DprObrmOzXAD9EvzeJpt3B7Y9Mw6d840utVbyJM6uv-rZZ5y7bTQ1Bi1Vw-WReb_8E5blkq1v8qhFvOe2C1BAaqoMU4IfA==&uniplatform=NZKPT&language=CHS",
+      "author": "刘建业\r\r\n;谢禹墨;",
+      "summary": "报道湖北荆州七星堰战国楚墓发掘情况，墓葬形制包括带墓道竖穴土坑墓等，与先秦史相关。",
+      "score": 65,
+      "tags": [
+        "考古发掘",
+        "先秦史"
+      ],
+      "published_at": "2025-05-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:48.493+00:00"
+    },
+    {
+      "id": 259,
+      "source_id": "cnki-kgxj",
+      "source_name": "《考古学集刊》",
+      "source_short_name": "考古学集刊",
+      "category": "考古文物",
+      "title": "战国秦汉雁足灯研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McGxQdu00RpeWTlOk2unyNhq_zm7lJW0ovAQ-U5V_VHMOT-haCj1b_S-L5lbhrGU77Ja_WCHwIEYsJQjjvSOfdz9kYdlsxZjwTKALXHQrqBvP7LfoN8TAk8XhLaLSDMWct1n2ntb7PNvOSvJ3eEZsqlFmmUg3nXB2rvVU-TatHxpw==&uniplatform=NZKPT&language=CHS",
+      "author": "姚逸;",
+      "summary": "系统研究战国秦汉雁足灯的形制、分期、制作机构及有铭器物，涉及青铜灯具与铭文，属先秦秦汉考古与器物研究。",
+      "score": 55,
+      "tags": [
+        "青铜器",
+        "器物研究"
+      ],
+      "published_at": "2025-05-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:52.646+00:00"
+    },
+    {
+      "id": 266,
+      "source_id": "cnki-kgxj",
+      "source_name": "《考古学集刊》",
+      "source_short_name": "考古学集刊",
+      "category": "考古文物",
+      "title": "从出土情境看带钩功用的多样性——以东周时期长城地带中段地区墓葬为例",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McRs_7KSzNwQxk8fJULgJKu_XiWeVTYFFzURRtJ2QFpl9j4STxdg4xjQXeSSkbTA8ZxikzozdkoNVw-2wJWs7r0jaEcG33JNjnco69GJJgTpXsto4jiav-v2cehRB7SrlXx4syUABWrmss59hHaNBJegVhc6VLzzVfzO3Gbp0Dk8Q==&uniplatform=NZKPT&language=CHS",
+      "author": "吴雅彤;张礼艳;",
+      "summary": "本文从出土情境分析东周长城地带中段墓葬中带钩的多样性功用，包括腰带、服饰、佩器等使用方式，属于先秦考古与器物研究。",
+      "score": 50,
+      "tags": [
+        "先秦史",
+        "器物研究"
+      ],
+      "published_at": "2025-05-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:55:52.646+00:00"
+    },
+    {
       "id": 5,
       "source_id": "cnki-kgxb",
       "source_name": "《考古学报》",
@@ -681,22 +2200,40 @@
       "fetched_at": "2026-05-14T05:44:29.863+00:00"
     },
     {
-      "id": 24,
+      "id": 107,
+      "source_id": "cnki-kgxb",
+      "source_name": "《考古学报》",
+      "source_short_name": "考古学报",
+      "category": "考古文物",
+      "title": "商周金文中刮磨、加刻现象研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Me1-Xlzau5CZ5EcvV2ZE4DiuXKkIrryBsESTMpRYT0mZeoLLTACgdqdoH__s1f7CA-YJ0I86SwXq2_OOWKRJmQQNLrzQpQy8yPp8qveWepJh4i3HZ-CJZuhnPauY50o_75QSOfF5Rx94udRbh_gzCTJyHkqQ4ukPEAOUl7gpxCRgA==&uniplatform=NZKPT&language=CHS",
+      "author": "李春桃;",
+      "summary": "研究商周青铜器铭文的刮磨与加刻现象，分析其内容及对青铜器流转、归属、时代与铭文释读的意义。",
+      "score": 92,
+      "tags": [
+        "金文考释",
+        "青铜器"
+      ],
+      "published_at": "2025-04-14T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:44.255+00:00"
+    },
+    {
+      "id": 13,
       "source_id": "cnki-ctwx",
       "source_name": "《出土文献与古文字研究》",
       "source_short_name": "出土文献",
       "category": "出土文献",
-      "title": "殷墟甲骨卜辭守兆的特殊形式:犯兆與正反相續",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdzeJAfNmHtY8639RrqctyZMeYDGASWUHX5rN6WX2ia38Igxvm-YracVgvyQMrAJ_zgUaVV6s3jWCMbrQzRNZtVjLNdx1GbPw-9djo9cAC4o3fMZDPxxf0NGF5FXezsT_knCF2lY1qQv-RaAWvdiRg9td613oMtUHwIrZ876LGTLg==&uniplatform=NZKPT&language=CHS",
-      "author": "劉源;",
-      "summary": "研究殷墟甲骨卜辞中守兆的特殊形式，如犯兆与正反相续，属于甲骨文例研究。",
-      "score": 85,
+      "title": "甲骨文“延”“延尸”及相關問題新研",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MclNwHrlM4k4wdlUQd8E9f7Ym8L3XEXVIg3H522EVBPSmrFS1II9SF4m6KNgntyGDUSHYM8HRj-bT07Q5lAL9QxdV2CMwWmwe4AdmZRlW3PPWA8_DULCLMvE23SkM4mR6s7xDUYxqzPRLAZ-lxMmfuocyTDMzoyB8NQFe6JYE4lBg==&uniplatform=NZKPT&language=CHS",
+      "author": "李發;",
+      "summary": "研究甲骨文“延”“延尸”的字形、用法及祭名问题，涉及甲骨文考释与祭祀制度。",
+      "score": 90,
       "tags": [
         "甲骨文",
-        "出土文献"
+        "金文考释"
       ],
       "published_at": "2025-03-30T16:00:00+00:00",
-      "fetched_at": "2026-05-14T05:44:34.958+00:00"
+      "fetched_at": "2026-05-14T05:44:29.863+00:00"
     },
     {
       "id": 14,
@@ -712,6 +2249,24 @@
       "tags": [
         "甲骨文",
         "金文考释"
+      ],
+      "published_at": "2025-03-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:44:29.863+00:00"
+    },
+    {
+      "id": 15,
+      "source_id": "cnki-ctwx",
+      "source_name": "《出土文献与古文字研究》",
+      "source_short_name": "出土文献",
+      "category": "出土文献",
+      "title": "卜辭因占卜語境的刻辭省略舉例",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Md45FPnBcSXgqrHGdnwjogzxsNH6mCIwg9kWm3UPqfaptHdnw1mUotaSJE2aVKp4TRDQHThMOL7ucqf8VhP5YMJcq3TOBf6Fi_7tuDqm7DeI-gNT3yz9Tk1Azx21kBnNL5f0duGahA_2esCqwfTqcBmtyNwE4E0qRJmq9CtLZwLAA==&uniplatform=NZKPT&language=CHS",
+      "author": "林宏明;",
+      "summary": "研究卜辞因占卜语境导致的刻辞省略现象，分析其简略原因及对解读的影响。",
+      "score": 86,
+      "tags": [
+        "甲骨文",
+        "出土文献"
       ],
       "published_at": "2025-03-30T16:00:00+00:00",
       "fetched_at": "2026-05-14T05:44:29.863+00:00"
@@ -735,6 +2290,24 @@
       "fetched_at": "2026-05-14T05:44:29.863+00:00"
     },
     {
+      "id": 24,
+      "source_id": "cnki-ctwx",
+      "source_name": "《出土文献与古文字研究》",
+      "source_short_name": "出土文献",
+      "category": "出土文献",
+      "title": "殷墟甲骨卜辭守兆的特殊形式:犯兆與正反相續",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdzeJAfNmHtY8639RrqctyZMeYDGASWUHX5rN6WX2ia38Igxvm-YracVgvyQMrAJ_zgUaVV6s3jWCMbrQzRNZtVjLNdx1GbPw-9djo9cAC4o3fMZDPxxf0NGF5FXezsT_knCF2lY1qQv-RaAWvdiRg9td613oMtUHwIrZ876LGTLg==&uniplatform=NZKPT&language=CHS",
+      "author": "劉源;",
+      "summary": "研究殷墟甲骨卜辞中守兆的特殊形式，如犯兆与正反相续，属于甲骨文例研究。",
+      "score": 85,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2025-03-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:44:34.958+00:00"
+    },
+    {
       "id": 25,
       "source_id": "cnki-ctwx",
       "source_name": "《出土文献与古文字研究》",
@@ -753,24 +2326,6 @@
       "fetched_at": "2026-05-14T05:44:34.958+00:00"
     },
     {
-      "id": 15,
-      "source_id": "cnki-ctwx",
-      "source_name": "《出土文献与古文字研究》",
-      "source_short_name": "出土文献",
-      "category": "出土文献",
-      "title": "卜辭因占卜語境的刻辭省略舉例",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Md45FPnBcSXgqrHGdnwjogzxsNH6mCIwg9kWm3UPqfaptHdnw1mUotaSJE2aVKp4TRDQHThMOL7ucqf8VhP5YMJcq3TOBf6Fi_7tuDqm7DeI-gNT3yz9Tk1Azx21kBnNL5f0duGahA_2esCqwfTqcBmtyNwE4E0qRJmq9CtLZwLAA==&uniplatform=NZKPT&language=CHS",
-      "author": "林宏明;",
-      "summary": "研究卜辞因占卜语境导致的刻辞省略现象，分析其简略原因及对解读的影响。",
-      "score": 86,
-      "tags": [
-        "甲骨文",
-        "出土文献"
-      ],
-      "published_at": "2025-03-30T16:00:00+00:00",
-      "fetched_at": "2026-05-14T05:44:29.863+00:00"
-    },
-    {
       "id": 26,
       "source_id": "cnki-ctwx",
       "source_name": "《出土文献与古文字研究》",
@@ -780,6 +2335,24 @@
       "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdHS20NjlWHH64NPW3YH9xgmvU4mAPD8FDbN_ZiXWbg7mPoXs1-Z6Gg09BssEX-nWPSWBFBhauqjzs7D1inzlfkkrdbp9TXFrP05rhhP3M8JW6TbUY9ckZEav1swvCO_bAeDDlBttkjzVG7_kcmSGujfnrlM8KwXifEUEFOO6O3Yw==&uniplatform=NZKPT&language=CHS",
       "author": "魏慈德;",
       "summary": "讨论《甲骨文合集》6057正卜辞中的月份问题，涉及缺字与辞例释读。",
+      "score": 85,
+      "tags": [
+        "甲骨文",
+        "金文考释"
+      ],
+      "published_at": "2025-03-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:44:34.958+00:00"
+    },
+    {
+      "id": 27,
+      "source_id": "cnki-ctwx",
+      "source_name": "《出土文献与古文字研究》",
+      "source_short_name": "出土文献",
+      "category": "出土文献",
+      "title": "卜辭■二字補說",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeNZX3E-lage2v49XOX8TPHGfUBQDpHhqI1ggIf4LgQsAAvF163Y-dFzrylMv0LMALirhmtYzERaYmKDQCPcM0EYFzgSOLcA0GDYpgQQUk9QhpkMc0l_zR4GX1L-7NngeMZeHLvsqQucaUfiG8Br_PUKgF2KUZdBTaRLx1PfCkSpg==&uniplatform=NZKPT&language=CHS",
+      "author": "張惟捷;",
+      "summary": "对甲骨文中“■”字进行补说，分析字形与用法，指出其多用作氏族名。",
       "score": 85,
       "tags": [
         "甲骨文",
@@ -807,40 +2380,166 @@
       "fetched_at": "2026-05-14T05:44:34.958+00:00"
     },
     {
-      "id": 13,
+      "id": 142,
       "source_id": "cnki-ctwx",
       "source_name": "《出土文献与古文字研究》",
       "source_short_name": "出土文献",
       "category": "出土文献",
       "title": "甲骨文“延”“延尸”及相關問題新研",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MclNwHrlM4k4wdlUQd8E9f7Ym8L3XEXVIg3H522EVBPSmrFS1II9SF4m6KNgntyGDUSHYM8HRj-bT07Q5lAL9QxdV2CMwWmwe4AdmZRlW3PPWA8_DULCLMvE23SkM4mR6s7xDUYxqzPRLAZ-lxMmfuocyTDMzoyB8NQFe6JYE4lBg==&uniplatform=NZKPT&language=CHS",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfA-YgtMgCmbgtvT8Ww_kkRCftTMV4Ts3BF7tbhyd9sqKq93s_iexJMPGwr8WMwM2cQ_9cEko0t4B55-FFSABVT1J49vaVW4l5Io-hwaUIRuWtrP5WCZYtRCXujwVugo3VGkV2zPvMnkuOXflxMYl94Nlr2JTWw0APS19c_2zv9fA==&uniplatform=NZKPT&language=CHS",
       "author": "李發;",
-      "summary": "研究甲骨文“延”“延尸”的字形、用法及祭名问题，涉及甲骨文考释与祭祀制度。",
-      "score": 90,
-      "tags": [
-        "甲骨文",
-        "金文考释"
-      ],
-      "published_at": "2025-03-30T16:00:00+00:00",
-      "fetched_at": "2026-05-14T05:44:29.863+00:00"
-    },
-    {
-      "id": 27,
-      "source_id": "cnki-ctwx",
-      "source_name": "《出土文献与古文字研究》",
-      "source_short_name": "出土文献",
-      "category": "出土文献",
-      "title": "卜辭■二字補說",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeNZX3E-lage2v49XOX8TPHGfUBQDpHhqI1ggIf4LgQsAAvF163Y-dFzrylMv0LMALirhmtYzERaYmKDQCPcM0EYFzgSOLcA0GDYpgQQUk9QhpkMc0l_zR4GX1L-7NngeMZeHLvsqQucaUfiG8Br_PUKgF2KUZdBTaRLx1PfCkSpg==&uniplatform=NZKPT&language=CHS",
-      "author": "張惟捷;",
-      "summary": "对甲骨文中“■”字进行补说，分析字形与用法，指出其多用作氏族名。",
+      "summary": "考释甲骨文中“延”字字形与“延尸”用法，辨析其祭名含义，涉及甲骨文字形与祭祀制度的探讨。",
       "score": 85,
       "tags": [
         "甲骨文",
         "金文考释"
       ],
       "published_at": "2025-03-30T16:00:00+00:00",
-      "fetched_at": "2026-05-14T05:44:34.958+00:00"
+      "fetched_at": "2026-05-14T05:53:44.255+00:00"
+    },
+    {
+      "id": 143,
+      "source_id": "cnki-ctwx",
+      "source_name": "《出土文献与古文字研究》",
+      "source_short_name": "出土文献",
+      "category": "出土文献",
+      "title": "殷墟甲骨卜辭守兆的特殊形式:犯兆與正反相續",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Me9FpMH9kV4xx9D6hcSEJE-zgS5Mb9t8reoEvtn14TOZM2uk3SYS9YMffqaHFKrqB91UWhHn5iFOxV3iPa7StoHA2JjbY1-luhGfA3jS8KyhdmAcRJRGWrL9K1Hq0zPsDdbHm5DpKuttafxy135-qKZ-Ak9_nKmHpoKKO8tFmpj7g==&uniplatform=NZKPT&language=CHS",
+      "author": "劉源;",
+      "summary": "研究殷墟甲骨卜辞的守兆特殊形式“犯兆”与“正反相续”，属甲骨文例范畴，探讨卜辞在甲骨上的分布规律与刻写方式。",
+      "score": 85,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2025-03-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:50.698+00:00"
+    },
+    {
+      "id": 144,
+      "source_id": "cnki-ctwx",
+      "source_name": "《出土文献与古文字研究》",
+      "source_short_name": "出土文献",
+      "category": "出土文献",
+      "title": "甲骨文黄組卜辭中一個常見習語釋義",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Me9FpMH9kV4xx9D6hcSEJE-zgS5Mb9t8reoEvtn14TOZM2uk3SYS9YMpPz7rXhIjhHBSsPGo0DMzXFW87Akofbp7RsarPmUzab3UOKVHGQ7OQ7AcEiZ7iZPFfia_DsqDAwfGxrZ6WqfjXNMCzKuYZkeu5XO2DdTB2hbcBC8fgSNHg==&uniplatform=NZKPT&language=CHS",
+      "author": "莫伯峰;",
+      "summary": "考察甲骨文黄组卜辞中一个常见习语的位置与释义，梳理相关辞例并评析前人诸说。",
+      "score": 85,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2025-03-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:50.698+00:00"
+    },
+    {
+      "id": 145,
+      "source_id": "cnki-ctwx",
+      "source_name": "《出土文献与古文字研究》",
+      "source_short_name": "出土文献",
+      "category": "出土文献",
+      "title": "關於《甲骨文合集》6057正一條卜辭的月份問題",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MevZ2TmjQObSFGoU7ZbH9rs88rX3ra-aqMeDaZhvyGEnYQxPyHqZTdOtQcgM6S3fIW8bdu6upos3P47hTRBYf2QaBPTuu7g5-9StBvCk2OEPOaUZdRPm_xRTYwqyRQpaACBN1E0IkLURDnAwIeRMW8QJ6mxKaQZarWXFftAUxKH6Q==&uniplatform=NZKPT&language=CHS",
+      "author": "魏慈德;",
+      "summary": "讨论《甲骨文合集》6057正版卜辞中一条占辞的缺字及月份问题，涉及武丁时期典宾类卜辞。",
+      "score": 85,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2025-03-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:50.698+00:00"
+    },
+    {
+      "id": 146,
+      "source_id": "cnki-ctwx",
+      "source_name": "《出土文献与古文字研究》",
+      "source_short_name": "出土文献",
+      "category": "出土文献",
+      "title": "卜辭■二字補說",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McizAkvWAjFUCDSbxnV4Gq8VPIIc9nic430sWK94TpvC29694wEB4AZFzDAW3Un7zpdJYtlX7RYLPe_8HfRjsQ9Jl-FAP728ZxilWFE_VChw13ANTIIleZJ0ud9yA7GTKwZQJ2j0jRwUSAJYv3SYlpa42lp-Mm_942kSMrgCUdYhg==&uniplatform=NZKPT&language=CHS",
+      "author": "張惟捷;",
+      "summary": "对殷墟甲骨文“■”字进行补说，分析其字形演变及用作氏族名的用法，列举相关辞例。",
+      "score": 85,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2025-03-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:50.698+00:00"
+    },
+    {
+      "id": 147,
+      "source_id": "cnki-ctwx",
+      "source_name": "《出土文献与古文字研究》",
+      "source_short_name": "出土文献",
+      "category": "出土文献",
+      "title": "花園莊東地甲骨卜辭中的“貞”研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdZItcsPx6_JZ4jbWSR17PMXcf3WoODLY_oVWFSzrX7VAaZlyAve7BYtuNYCq_Y8VS63n8JkO6evXRiW0Loxr0l4XbuQ4Jxul1DP2bkm7OkZmFWN_cdKwnazXJ5dalYI5y0RYixdK5ewSYc2zXKMZe_fB7iONkF34keLbdsQaZZqw==&uniplatform=NZKPT&language=CHS",
+      "author": "亞當·施沃慈;蘭倩\r\r\n;關靖琳;",
+      "summary": "研究花园庄东地甲骨卜辞中“贞”字的用法，分析子卜辞的决策过程与记录方式。",
+      "score": 85,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2025-03-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:50.698+00:00"
+    },
+    {
+      "id": 169,
+      "source_id": "cnki-ctwx",
+      "source_name": "《出土文献与古文字研究》",
+      "source_short_name": "出土文献",
+      "category": "出土文献",
+      "title": "句讀與殷墟甲骨文釋文商榷十五則",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfA-YgtMgCmbgtvT8Ww_kkRCftTMV4Ts3BF7tbhyd9sqKq93s_iexJMYQNlgUjRBur2Eunp9Ot73q_W63emCNdL2urj2F5e9PTVAyKB9qhY-wmGDY4B502IXWMIpsCo8Tb7EH8EEqre7OQGwiSjvhd_K4LG0Z6JJsWJKxAXBTNQ9w==&uniplatform=NZKPT&language=CHS",
+      "author": "齊航福;",
+      "summary": "针对殷墟甲骨文释文中的句读疑难问题，整理十五则例句进行商榷，以促进辞义精准理解。",
+      "score": 80,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2025-03-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:44.255+00:00"
+    },
+    {
+      "id": 170,
+      "source_id": "cnki-ctwx",
+      "source_name": "《出土文献与古文字研究》",
+      "source_short_name": "出土文献",
+      "category": "出土文献",
+      "title": "說甲骨文的“疾疾”",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Me2HGo6x4XvncJ3Cfkm-fs9MFWoVXJCLLoUiXbLMbOF-dFvl7P6WOHzPraadORC8Ty4jDTJRXbghu2hpPj8nyzTCf2fl4PGMiHKHhXzXBJrb7tju8TSnlXecu4DUWROHZitXRfWAbuRHNXERkyPiWhUr-VOv3D1yAnrJO2KF_gMzQ==&uniplatform=NZKPT&language=CHS",
+      "author": "蔣玉斌;",
+      "summary": "考释甲骨文中“疾疾”一词的用法与含义，分析其在卜辞中的记载及相关疾病观念。",
+      "score": 80,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2025-03-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:44.255+00:00"
+    },
+    {
+      "id": 171,
+      "source_id": "cnki-ctwx",
+      "source_name": "《出土文献与古文字研究》",
+      "source_short_name": "出土文献",
+      "category": "出土文献",
+      "title": "卜辭因占卜語境的刻辭省略舉例",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Me9FpMH9kV4xx9D6hcSEJE-zgS5Mb9t8reoEvtn14TOZM2uk3SYS9YM-2tKMbkQGIT10jc112vmrsXr4okTveeMgsH-xS_WT9lVQqe5QHOnI2NL_VaXNxqUTIZXSpMRrEm34uC3EI-a04i9e3Vum1VgvO9aX5-hNIhEKoRakdEMVQ==&uniplatform=NZKPT&language=CHS",
+      "author": "林宏明;",
+      "summary": "分析甲骨卜辞因占卜语境导致的刻辞省略现象，探讨“碎”与“略”两大问题对殷商史研究的制约。",
+      "score": 80,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2025-03-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:44.255+00:00"
     },
     {
       "id": 41,
@@ -859,6 +2558,853 @@
       ],
       "published_at": "2025-03-09T00:00:00+00:00",
       "fetched_at": "2026-05-14T05:44:01.509+00:00"
+    },
+    {
+      "id": 96,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "天亡簋與周初“文王受命”内涵的轉變",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mc_2UDPyIf4q2lLoKf0evJECh80POGTIzBj1Uv9xlbSMkjOZGd6gObWAHVZ9steltY3umRk2Ag2GYrzGEqUsA3ibZWXvcbfY_BEI_bgHMtuWX6xj9fSjebq13lXJ51tt3hH2cZDDjFRglNYj8mcbLMNAId7gi1vqeXAnuVv6ZY2Gg==&uniplatform=NZKPT&language=CHS",
+      "author": "鄒家興;",
+      "summary": "本文重新探讨天亡簋（周武王标准器）铭文内容，分析其记载的重大祭祀活动，并讨论铭文与“文王受命”内涵转变的关键历史问题。",
+      "score": 95,
+      "tags": [
+        "金文考释",
+        "青铜器",
+        "先秦史"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:57.883+00:00"
+    },
+    {
+      "id": 97,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "牆盤斷代再探討",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mdp-jPsAVYCa_qmkcjnvzc-OQg0IxedZ_t_yfgY1LzejfyQOWP8BS8RuqBfOvclwpPIPsfJGMd3uUQcpIWUw5xijFbiDfT-ZOIfg_SCDtbiJOzGpBFXM6ulDx3yPGyvCcSAsnG9ONdHfo0QmTKdAoHsHQrqpJ4ee44ODIWFOKvcUQ==&uniplatform=NZKPT&language=CHS",
+      "author": "晁福林;",
+      "summary": "探讨1976年周原出土的墙盘断代问题，该器有284字铭文，对西周中期历史研究有重要意义。",
+      "score": 95,
+      "tags": [
+        "金文考释",
+        "青铜器",
+        "历史年代"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:04.686+00:00"
+    },
+    {
+      "id": 101,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "邢侯簋銘“上下帝”解",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McxeXK1Zu5oeMnnmWMBCEtNiULdYsymV7yhEwdZj7OlGRHyyCCsSfJvLRVPf7Fd9n-47Ji0UGjWVuF9ccUdAoFyB0kkCYPgOIIFhZBxTUh4GsNjWujZ0XbOA5faJtAezKfKAXmq5RpRUj1xbJ7Cv9FoTLE3apkrrluvyGJm0h_JoQ==&uniplatform=NZKPT&language=CHS",
+      "author": "馬曉玥;",
+      "summary": "对邢侯簋铭文中难解的“上下帝”一词，梳理各家观点，并作出新的训释与解读。",
+      "score": 94,
+      "tags": [
+        "金文考释",
+        "青铜器",
+        "先秦史"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:57.883+00:00"
+    },
+    {
+      "id": 103,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "由格姬簋銘文再論霸氏家族内争",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mfc-4CFKe20J7gGrJP8ABbyzF7gDhRRW9B2G5rstdxj838h2XC0YvU9fjjmAx_G_2ldRlZwBvxLkGaN7OviM1iOY-tbFhEjqEeUU4KPwR_qXsS5DcG2Hmtg6Xb9_DUOGumrPaHBtPgK3SfmH8SBtqRoKr1FM04ZtpNHUsTkq2yn9g==&uniplatform=NZKPT&language=CHS",
+      "author": "韓巍;",
+      "summary": "基于新出土格姬簋的长篇铭文，结合大河口墓地材料，对霸氏家族内部的政治斗争进行再探讨。",
+      "score": 93,
+      "tags": [
+        "金文考释",
+        "新出材料",
+        "青铜器"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:57.883+00:00"
+    },
+    {
+      "id": 108,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "西周金文“廛”釋讀補說",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McxeXK1Zu5oeMnnmWMBCEtNiULdYsymV7yhEwdZj7OlGRHyyCCsSfJvkTFhVmpbLv_wvKHbm3wwAgPABLUAwDiauzhen2JY3IQG1_gwX9HrrcNYMKvmFod3gNLBYMkP0KarTrvFlS8o4iAe_Elb3m-aW-gescf8boJ0dpwBqOY_Jw==&uniplatform=NZKPT&language=CHS",
+      "author": "張飛;",
+      "summary": "对西周金文中“”字（旧释或相关字）的释读提出补充新证，涉及帅鼎、霸姬盘等多篇铭文辞例。",
+      "score": 92,
+      "tags": [
+        "金文考释",
+        "出土文献"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:57.883+00:00"
+    },
+    {
+      "id": 109,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "金文補釋兩則",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdR6711nrxiRr2UbqgCFA6n_OSN7OBJC19GHMovpQuqdkJomWSlvV1to-ndzOnvfH8qtJ4JHKbC6TGgiMFv4LXG2ppIAE95nGbiONERKcMpwJMmedjVLjlKeb3i8VkxvIlsdfqim0wtI_bGbaIWKVDyfKywwY7gSljpGflEBN-f0A==&uniplatform=NZKPT&language=CHS",
+      "author": "張一方;",
+      "summary": "对河南出土的两件青铜器铭文进行补释：纠正“黄子器座”铭文误释，改释“苏貉豆”器名及自名含义。",
+      "score": 92,
+      "tags": [
+        "金文考释",
+        "青铜器"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:04.686+00:00"
+    },
+    {
+      "id": 122,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "新見西周早期有銘青銅爵選介",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mf777mXIxlEX-5-MqSwoa-UZc4kt4hZ_PaFZRh8yM1STqihr5tp3i6jVPP_BZcJ-7Ujln8y7HzxDaNh68uAs4jZ_17pKLZPlabQ_ygO8C0wYdkrr4eEP8kSSLL_ehcPgOyOEsd5hzfkAhIZK-n_ryLDujy2CELYCu8zGbWH29eLow==&uniplatform=NZKPT&language=CHS",
+      "author": "韓文博;郭軍濤;",
+      "summary": "介绍两件新见西周早期有铭青铜爵的形制、铭文及大小，为西周青铜爵型式演变和语言文字研究提供新材料。",
+      "score": 90,
+      "tags": [
+        "青铜器",
+        "金文考释",
+        "新出材料"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:50.698+00:00"
+    },
+    {
+      "id": 126,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "山東臨淄新出“陳侯因咨造”銅戈探析",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MedxG91hVyEHqZ-nvD4dZ6lhVKKFaNdSOFHtvNhYiKiqbBafiw9evyuVwzFwIh-MdHkSgod9VDwiDb0llL_c6tIPi3ApaI29nzqooPW-KQRJMhpMVHLomg1jVDc-54T_x-tFHwHY1bHNVB4-DhIKtPG9Kb9PW1Wln99HROirzWMSA==&uniplatform=NZKPT&language=CHS",
+      "author": "張沖;趙國靖;麽彬;",
+      "summary": "介绍山东临淄新出“陈侯因咨造”铜戈的铭文、形制及出土背景，结合传世器对其年代和史实进行研究。",
+      "score": 88,
+      "tags": [
+        "青铜器",
+        "金文考释",
+        "新出材料"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:50.698+00:00"
+    },
+    {
+      "id": 127,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "夨令方彝與《世俘》“武王遂征四方”新解",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mc_2UDPyIf4q2lLoKf0evJECh80POGTIzBj1Uv9xlbSMkjOZGd6gObWz5DA6PFUy426l1ghhbafje0R_XHK0dMQZggmiiZ-XHIBorqSc8f3rDBhBvG0tqDGsjmgAIoaE01jjW-UMjSHp3naSAdbIUTrhfwQCuDq8qSSj6BHh07jYQ==&uniplatform=NZKPT&language=CHS",
+      "author": "張懷通;薛孟佳;",
+      "summary": "利用夨令方彝铭文与《逸周书·世俘》对读，对武王伐纣后“遂征四方”的史实与仪式细节提出新解释。",
+      "score": 88,
+      "tags": [
+        "金文考释",
+        "出土文献",
+        "先秦史"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:57.883+00:00"
+    },
+    {
+      "id": 148,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "釋■",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MefPUEX5GGR7Nb0JFGAwkW2KJQ5-ssSQWa52Fm3c_UB9S_C0zty6xVVyLW7Pu6z8T2CIYxReQ6j-dkjAJEWXwrhrl6-Kd4qCLNAhRkEzGENrkB022rqWxQsOXTIL5XGxGC7szCofvFpERHxsLuBLFMjq5LQbx2FQ-y2e4IJW3S0yg==&uniplatform=NZKPT&language=CHS",
+      "author": "李零;",
+      "summary": "考释“■”字（从戈从丮），梳理字书、甲骨文和金文用例，提出新解释。",
+      "score": 85,
+      "tags": [
+        "金文考释",
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:50.698+00:00"
+    },
+    {
+      "id": 149,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "喜樂文神人——井叔采鐘與周公家族禮樂傳統",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mfc-4CFKe20J7gGrJP8ABbyzF7gDhRRW9B2G5rstdxj838h2XC0YvU91PxJFhO89VZ4xw0o1uyg6Ul0tDv1T791y4L4LCPhrYGuAIesDlocXcxBmdLaCkifq3nMYQLGMKNzT_TKVJQKi8AXY1gy7THHCu9ygxLrpDDt1dGIKAkQ4w==&uniplatform=NZKPT&language=CHS",
+      "author": "王一凡;",
+      "summary": "以井叔采钟为核心，结合西周张家坡墓地出土文物，研究井叔家族礼器所反映的周公家族礼乐传统与制度。",
+      "score": 85,
+      "tags": [
+        "青铜器",
+        "器物研究",
+        "先秦史"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:57.883+00:00"
+    },
+    {
+      "id": 160,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "“辰在干支”紀日銘文:類别、起源與史料價值",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mc5F73edt8CUOFuTKjoay_X0HrIS9Ytoz5uRkzwNoy6e2eQHzdz6F5a_4PjrV3Mq5Gy_BGvibUKMVqe8-lumyr12CEf27_IzI34XsnwA0hP5TZJOgRUGkrp3hyllPR-LAWOOLW6Oh5DfKrcOYkEteupLQ_nPTA3SxY7DmmgvHyJAA==&uniplatform=NZKPT&language=CHS",
+      "author": "亓民帥;",
+      "summary": "系统收集商周青铜器铭文中“辰在干支”纪日铭文，进行分类、追溯起源，并探讨其作为思想史史料的价值。",
+      "score": 82,
+      "tags": [
+        "金文考释",
+        "出土文献",
+        "历史年代"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:57.883+00:00"
+    },
+    {
+      "id": 172,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "安居羊子山M4銅禮器組合補論",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mdp-jPsAVYCa_qmkcjnvzc-OQg0IxedZ_t_yfgY1LzejfyQOWP8BS8RSfgAWbVWDou5BS79OQpFf-k2W_hKbSOxD9W2oRiDyDFAPtCcSFa9Yoz8RIuY6ptkxIY24NEsSoVLvv56Ns7dHwmx_45zoBDIwL0rx54btiaLxUqsk6Htgw==&uniplatform=NZKPT&language=CHS",
+      "author": "張天宇;",
+      "summary": "对湖北随州安居羊子山M4出土的27件西周早期青铜礼器组合进行补充讨论，分析其器物特征与墓葬情况。",
+      "score": 80,
+      "tags": [
+        "青铜器",
+        "考古发掘",
+        "器物研究"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:04.686+00:00"
+    },
+    {
+      "id": 189,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "西周王室經營豳地",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mc5F73edt8CUOFuTKjoay_X0HrIS9Ytoz5uRkzwNoy6e2eQHzdz6F5aPcNopogr_4xToDGIdJiaNj-Nxd2bvHPdlFuuQHbkjaFayi6WjzXHC6226YUSa-98uzYNZ17sY2PkKZO4O5UYc5YerVubjK4tAIseTVDrL13JdNy5EZMDqA==&uniplatform=NZKPT&language=CHS",
+      "author": "羅新慧;",
+      "summary": "结合金文“豳”字及豳王盉、豳王壶等器物，利用考古发掘材料，考察西周王室对豳地的政治军事经略。",
+      "score": 75,
+      "tags": [
+        "金文考释",
+        "先秦史",
+        "考古发掘"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:53:57.883+00:00"
+    },
+    {
+      "id": 190,
+      "source_id": "cnki-qtqj",
+      "source_name": "《青铜器与金文》",
+      "source_short_name": "青铜器与金文",
+      "category": "出土文献",
+      "title": "論西周姬姓女性何以“貴”",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MdLdVDk6CD4Pxx1AjMuIA_6_FPzGyU5LwXWXXw-owCziRhk-KuxIAsT_04wKbbBcnUJYWC11DSTo49YbEmnbnN7vl7qgvPTUoy3yAbidx2AhUt62A_A_N8H7Yz3L6BLY3BHzpUT6iCIFiUdDIj70Ne6V63jfaVqjzoQjds_qwDV5g==&uniplatform=NZKPT&language=CHS",
+      "author": "孫曉鵬;",
+      "summary": "结合金文材料，探讨西周姬姓女性在同姓不婚制度下与异姓贵族联姻及其社会地位，分析姬姓在金文中的出现频率。",
+      "score": 75,
+      "tags": [
+        "金文考释",
+        "先秦史"
+      ],
+      "published_at": "2025-01-30T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:04.686+00:00"
+    },
+    {
+      "id": 129,
+      "source_id": "cnki-jbjb",
+      "source_name": "《简帛》",
+      "source_short_name": "简帛",
+      "category": "出土文献",
+      "title": "釋古文字中的“?”及相關字",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mc2xwCZ5uHAl0Hp3jN6X6LCPwPmVz2j1UIO_Wp7zw5eaTGOu-U8tAc8T8digc2ltZB01XXETai2D4YPMKe-yUn42uT3Cyw-DJGgP6KKu6Xys__HBIYucMRKRCwIQYNGquebZsHAcytlx0DEzK-NSfeZpEIVunQABQsVl4gxtCGyAQ==&uniplatform=NZKPT&language=CHS",
+      "author": "于夢欣;",
+      "summary": "释读上博简、清华简及马王堆帛书中表示“小腿”义的一组字，分析其异体关系及用字习惯。",
+      "score": 88,
+      "tags": [
+        "出土文献",
+        "金文考释"
+      ],
+      "published_at": "2024-11-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:30.886+00:00"
+    },
+    {
+      "id": 123,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "釋甲骨文“雛”字",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfYY3u-pmsb9x0a0LqI_G_WaDuA0km1LB1eWFaGg4TNH7Gz4ZqedSJabFciMFmRSkGUghwSreshGtYqSKbfEjXfsJdaqLqE804He1y3wUYd-zIwZRbPLdQ06LYXNgqRYnMPqQPtfV9nIdppHaQiNTdnqWsv2n9JkchVjKN9PzewfA==&uniplatform=NZKPT&language=CHS",
+      "author": "侯乃峰;",
+      "summary": "辨析甲骨文中所谓“雏”字的误释，指出其实为“刍”“乌”二字，并释读“雏凤”“雏虎”专用字，考证其音义。",
+      "score": 90,
+      "tags": [
+        "甲骨文",
+        "金文考释"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:04.686+00:00"
+    },
+    {
+      "id": 128,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "甲骨文“异体分工”字词举隅",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeAPrZnXPlxUJzZBlvYkYKQ47gepCBlU_R1dfMrKYA8eJEotBVh7dkoaaDTAPj7mBWkgamGlhsgmPjrjixc-r-ZJyUw7cWiKd7rCXc3frkCnMFB71u1XSElwegyawe6gT2kDVl-LgcRdSsuixMxEMbIwt71dU41egU-_61f7F4iZw==&uniplatform=NZKPT&language=CHS",
+      "author": "丁军伟;",
+      "summary": "探讨甲骨文中同一文字用不同书写形式表示不同意义的“异体分工”现象，举实例分析。",
+      "score": 88,
+      "tags": [
+        "甲骨文",
+        "金文考释"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:30.886+00:00"
+    },
+    {
+      "id": 150,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "《殷虚書契考釋原稿信札》讀後記",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mf9YTDpVIbDjzsLsibgAkSTHSFFMc75bUcapk2KzwrgTtGtYyslq_ILsBhrMRIrUswChnRyywdENZu8WWwNnBuOOpK5ezpGF8db8EBWwY6fgmeay9KxbrRZsaBsC4oMDL08bqvvEQUQsHZ6OGdBqdD91HkBoNMnU-rYl4x8FrO0wQ==&uniplatform=NZKPT&language=CHS",
+      "author": "蔡振華;",
+      "summary": "通过校勘《殷虚书契考释原稿信札》手稿与初刊本，探讨罗振玉、王国维在成书过程中的学术贡献与释字观点变化。",
+      "score": 85,
+      "tags": [
+        "甲骨文",
+        "出土文献",
+        "学术综述"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:04.686+00:00"
+    },
+    {
+      "id": 151,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "略論商周銅器上的計數符號——辨析“族徽”與“非族徽”短銘之一例",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeFRI-0eG5tlf-RENjrY5L9VRTKUp84mXojk_orPQIs4uC6frSct3kHxQD-WY3mBJHgWWJ9enz2Zfov65ukBVl-5UGJnYadQcVFRuiw7dmKbhme9_7zpbv_UbQ2WjgPjE_x1GM-OhFpgWTKUCUbOv7ZlVM65Nrg1jvX1PIFZOmjuQ==&uniplatform=NZKPT&language=CHS",
+      "author": "童超;",
+      "summary": "探讨商周铜器上易与族徽混淆的计数符号，以侯家庄出土铜胄残片为例，辨析方法与实例说明。",
+      "score": 85,
+      "tags": [
+        "金文考释",
+        "青铜器",
+        "器物研究"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:11.266+00:00"
+    },
+    {
+      "id": 152,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "周人日名規律及相關問題研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mfi6Wg8B41eKKfelDr3yjHSkV-VnpwKF7wIKt57Zrjtyqh8C0szz2xjI7GrFDIJ_LoRCSZdT-78l8q_DbOF_bAc7gEEdbSyIHt9jZtczSvVLwDvOssZiPj4tfNuTURvqiOndusFfDe3T7QbNIZK9Zm4BOfzwPG9N6Xdjjki8K6IXg==&uniplatform=NZKPT&language=CHS",
+      "author": "王祁;",
+      "summary": "研究周人日名以偶数天干为主的规律，结合刚柔日之说，认为日名反映祔庙日（柔日），并关联应公鼎“珷帝日丁”。",
+      "score": 85,
+      "tags": [
+        "金文考释",
+        "先秦史",
+        "历史年代"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:11.266+00:00"
+    },
+    {
+      "id": 153,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "鑐鼎小议",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mf412R6FpPKJDhxctE8S_3LqjxyC890bHi_ZpZ1qS3qfF78pBqloXF-5H7V99x8rJTBICYuQNO-smjrnNTacbFZJpWlh5V-bZeRHG1NCB_5Jn08G42TNo-bV1F4AHYD4CsvJJsz4L5yZUg4JgrF06Vtev0vC5kXezU8GqlaYtgmkQ==&uniplatform=NZKPT&language=CHS",
+      "author": "黄锦前;",
+      "summary": "对春秋楚墓出土鑐鼎进行考释，分析其铭文内容及字形，涉及铜器铭文与古文字研究。",
+      "score": 85,
+      "tags": [
+        "金文考释",
+        "青铜器"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:17.108+00:00"
+    },
+    {
+      "id": 154,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "试论甲骨文■字",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeAPrZnXPlxUJzZBlvYkYKQ47gepCBlU_R1dfMrKYA8eJEotBVh7dkoUh0xiHF9GBy_XpX0_5CdRd60OqLmW8kfyzS4rshqiX7ntpRGzMAterlMpr3h_V2AuXAJ32smOLg3bX9j0guzNGJCYuj9dIc4RAgv2SkwYzeu0bWZC6ZcLg==&uniplatform=NZKPT&language=CHS",
+      "author": "张军涛;",
+      "summary": "考释《甲骨文合集》31830中一个罕见字形，该字未被现有甲骨文字书收录，提出新解。",
+      "score": 85,
+      "tags": [
+        "甲骨文",
+        "金文考释"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:30.886+00:00"
+    },
+    {
+      "id": 173,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "甲骨著録整理一則——兼論三井所藏甲骨的流傳過程",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mfi6Wg8B41eKKfelDr3yjHSkV-VnpwKF7wIKt57Zrjtyqh8C0szz2xj-_N3W0ak-FICYoOi_0mDSkOZNGjtfAFHpalZkDuKSKn9kVNqpdoVLh8KegQE4UFZ9EauzzIJyLVH_vsISp5CTYZw3K0csXg6Z0T1ARNFfE6zGvS9tI4hcg==&uniplatform=NZKPT&language=CHS",
+      "author": "于彦飛;",
+      "summary": "详细整理《甲骨文合集》24933的著录情况，补充修订来源表，厘清三井所藏甲骨的流传过程，并思考AI应用方向。",
+      "score": 80,
+      "tags": [
+        "甲骨文",
+        "出土文献",
+        "学术综述"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:11.266+00:00"
+    },
+    {
+      "id": 174,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "容庚先生舊藏甲骨的整理與研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mdu-UXrIcWIBgfct73PIqo1gM_lcGqKYUFaPBwC3BDGlKch2PXt2yT4oBaASRi0brwOrVO_YN8eq1tPb3fgAcxCFX5y-eUKFLsoqgb3WuFJ4X0NVNOY4qmeVSQnJbH8nZ7mYC9CSz_lRIOIubyoTZnEKfKgbSG9R5sp-5zSXWxhSg==&uniplatform=NZKPT&language=CHS",
+      "author": "王楚荍;",
+      "summary": "全面考察容庚旧藏甲骨的著录、来源与流向，补正《甲骨续存》等，分析拓本版本及相关甲骨关系。",
+      "score": 80,
+      "tags": [
+        "甲骨文",
+        "出土文献",
+        "学术综述"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:11.266+00:00"
+    },
+    {
+      "id": 175,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "《河南省運臺古物甲骨文專集》材料新綴及相關問題",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mdd8EbuA2egYg1zOLRrDHNsONwPE6xwkLXjiXp3nk7vtckzcQbauA80f5A975rwSGs9QDl5C0sGrHPebVJKEzr6aZSK-fBHVIYaicTBcUYIa8lAi7XTkcpsUktE9soCFpbYglYUoVVGuKJ3cLhxgGLPrhMRTGa7q_IMcQz3k3AdkA==&uniplatform=NZKPT&language=CHS",
+      "author": "林宏明;",
+      "summary": "本文整理河南省運臺古物甲骨文專集，探讨甲骨材料整理的方法与价值，涉及新缀合及相关问题。",
+      "score": 80,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:17.108+00:00"
+    },
+    {
+      "id": 176,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "論《甲骨文合集》的誤綴",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mdd8EbuA2egYg1zOLRrDHNsONwPE6xwkLXjiXp3nk7vtckzcQbauA80qY1Uk2-ZxR8hXDxRmPTU81ej7tBmU0xR82foA2bBa40Z7KaUnCgB-9WKGuzIg28N5xVNAhG8wR41xsSSRlNbK_3NOE7ejvZvOFB0sgcblpcejI2ycWTpwA==&uniplatform=NZKPT&language=CHS",
+      "author": "蔡哲茂;",
+      "summary": "文章指出《甲骨文合集》中误缀现象，并列举百余片误缀实例，对甲骨缀合研究有重要参考意义。",
+      "score": 80,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:17.108+00:00"
+    },
+    {
+      "id": 177,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "殷墟甲骨文贞卜人物钩沉",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mcjsb-AwrAeThg_-lRgklZd-rDgiEShTgbVZgLl8KpiZG2SRNTlfU2Xfl2ZUzNL6Cel3-Zo92gHJ1yoyngvr4umfIL2vpm6IoRXIT5dWwiLREIGAT889hX68K-Pw7_zdPKeHAQoC3iFBDl3uKSsW5q5F8XC4OOpc4SM7DGHtck4Ew==&uniplatform=NZKPT&language=CHS",
+      "author": "谭步云;",
+      "summary": "在殷墟甲骨文中补考新见贞人，完善贞人集团体系，推进甲骨学贞人研究。",
+      "score": 80,
+      "tags": [
+        "甲骨文",
+        "先秦史"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:17.108+00:00"
+    },
+    {
+      "id": 191,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "唐蘭早年甲骨文研究發微——以唐蘭遺稿爲中心的考察",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mdu-UXrIcWIBgfct73PIqo1gM_lcGqKYUFaPBwC3BDGlKch2PXt2yT44yDkPFCsJjZEVU311WPPDxDDVgOj1FOwCIxICP4Cpdv5vf_8VVMg2WGbBelMGi0lic6E9SvjMEEjOAPMeWgPVmH8X6_Q13mlh4JnlV_PEQ9380ZYKmSxww==&uniplatform=NZKPT&language=CHS",
+      "author": "尹偉傑;",
+      "summary": "以唐兰遗稿为中心，考察其早年甲骨文研究，包括受业于罗振玉、王国维期间的学术实践与偏旁分析法雏形。",
+      "score": 75,
+      "tags": [
+        "甲骨文",
+        "学术综述"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:11.266+00:00"
+    },
+    {
+      "id": 192,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "關於甲骨誤綴的一些反思——兼論甲骨形態研究的意義",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mc2OCbVt_MgR7AZ4PDwq0ffUC5ns0MyizigFRzx4qUmMFUpIZ04w0mp01oTde4ur3YWp-9eUP7SBh_LUjUSKzaw-tQNQw7vBeeE1yQbT5L-DJTznehauFtr8ckPwav92gTYpFH_r6XByTLytplCHXXZSeytF9nNon_z7ZczKKUIYg==&uniplatform=NZKPT&language=CHS",
+      "author": "李延彦;",
+      "summary": "作者总结自身甲骨缀合中的误缀案例，反思过程，并强调甲骨形态研究对綴合的重要性。",
+      "score": 75,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:17.108+00:00"
+    },
+    {
+      "id": 193,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "读殷墟卜辞札记三则",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mf412R6FpPKJDhxctE8S_3LqjxyC890bHi_ZpZ1qS3qfF78pBqloXF-9lvK8UT0dBiq6mTWOfzH6bJ6ZYUxD239Hy1B2iimFEBhl1moZH2Tz9VWroZ0-BxvEFCT17VHoHHz6QEl6GhQB4kps72SYmyhJfwPn3u3WgmWpLnALZqbGQ==&uniplatform=NZKPT&language=CHS",
+      "author": "王蕴智;",
+      "summary": "本文通过对殷墟卜辞的考释，探讨商代自然崇拜及祭祀百神的活动，归纳帝廷诸神等自然神祇。",
+      "score": 75,
+      "tags": [
+        "甲骨文",
+        "先秦史"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:17.108+00:00"
+    },
+    {
+      "id": 194,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "说甲骨卜辞中“乎”的一种用法",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mcjsb-AwrAeThg_-lRgklZd-rDgiEShTgbVZgLl8KpiZG2SRNTlfU2Xz1ZOHQ-lWmS2WstsEbpvKxc7PvbOyE5_02Xysg8zWU6wXESxBQkw6WW9EQR05fU8P6IkmnMUTdx_kEC3cdFJ6gOxCjntb82G9a2qokTRuj-KoZSoxq55QA==&uniplatform=NZKPT&language=CHS",
+      "author": "张玉金;",
+      "summary": "探讨殷墟甲骨文中“乎”的一种用法，分析其在卜辞中表疑问的语法功能。",
+      "score": 75,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:17.108+00:00"
+    },
+    {
+      "id": 195,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "再论殷墟卜辞帝五臣是四方与社",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfXRrgr0CdQV_VXpgGR1SB2GY9kOLhhVdM8YU3lKVj0snfz6wKuX_jelw0R1dH3Mm82iqHSzDAg6GvhyPj4Rbu1yvvpxxvMfBkJjwBs-88tPq3zHCrCco-up5mC2nO83viVM5YkKhRWShej9EkzwCKMByyof2fzingdLD839v2ZvA==&uniplatform=NZKPT&language=CHS",
+      "author": "刘源;",
+      "summary": "探讨殷墟卜辞中“帝五臣”与四方、社的关系，引用西周金文《?簋》论证帝廷与先王在帝左右，涉及金文与甲骨文比较研究。",
+      "score": 75,
+      "tags": [
+        "甲骨文",
+        "金文考释",
+        "先秦史"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:24.507+00:00"
+    },
+    {
+      "id": 196,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "关于旧释为“乎”的“平”字的构形和用法",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mff3cXtUhEniPD7L9E7kS07pq6rSjgm_Gx2GhUlcc-vaWzEiSkbQPTjmg1IZzfjhRWXPvHxTZendrrHH61LVyEBwDbUgc1XJeMYSg1_GRyhtF3UByXQ2awykF6c04yTJQhIkIk-ABJNZi83aNVNZowHhPwO6fCxxZ1hNQY87kxVrQ==&uniplatform=NZKPT&language=CHS",
+      "author": "杨泽生;",
+      "summary": "考证甲骨金文中旧释为“乎”的“平”字之构形与用法，列举殷墟甲骨与西周金文（穆公簋盖、叔夨方鼎等）字形，属古文字考释。",
+      "score": 75,
+      "tags": [
+        "金文考释",
+        "甲骨文"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:24.507+00:00"
+    },
+    {
+      "id": 212,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "商代史官職能補論——兼釋《甲骨文合集》05504號卜辭",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MeFRI-0eG5tlf-RENjrY5L9VRTKUp84mXojk_orPQIs4uC6frSct3kH6lQUNKWTf0zp18FnT3dsUN9LOO5xzo4EGXQY-obZSN92s_KJVjwTvZcptlBKWRV_3JwcUplS1r79f8zMOE2rIBONIqGSjUBpjFWfdHJ3Kkbkkr5zt2SLyQ==&uniplatform=NZKPT&language=CHS",
+      "author": "韓曈曈;鄒芙都;",
+      "summary": "结合甲骨卜辞与传世文献，论证商代史官已具备记事职能，并兼掌地方监察，兼释《甲骨文合集》05504号卜辞。",
+      "score": 70,
+      "tags": [
+        "甲骨文",
+        "先秦史"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:04.686+00:00"
+    },
+    {
+      "id": 213,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "《古文字類編》所録甲骨文校訂(之二)",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McfFAD6pGnTkkiiZuBRi8n2-fgc2mv8e-PR1F56E8cXpdbNhpYCt8IP95FpJLQWxrBvNW0AsZhm0c2dlo4jRwb5jn-zPSWswLSKw9hf63E99oatRnRNApFK7ZQkHdfRIY-coRdHwjkjWxi-52B_rvGt5tfrCmVzoUznrTYq7kY65g==&uniplatform=NZKPT&language=CHS",
+      "author": "羅祥義;",
+      "summary": "校订《古文字类编》所录甲骨文，利用拓本与照片比勘，结合新成果提出244条订补意见。",
+      "score": 70,
+      "tags": [
+        "甲骨文",
+        "出土文献",
+        "学术综述"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:11.266+00:00"
+    },
+    {
+      "id": 214,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "夏家台楚简日书初读",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfTdGX0fk5QlLFtS4jP7QSgTUlSk0TVCV4WQDNC5K3-otfA3L3csrJ1fUEA48zMp1p9YVHq0m1Qdw8scywF1XpS1R5nszuEaqlANwcVle2C2OHazPelW0cmTSN66NUPcfMFXQoi6uNRAFr6E9WswsmhoEWg8l_YsTC_3li9FDCYTA==&uniplatform=NZKPT&language=CHS",
+      "author": "王强;",
+      "summary": "介绍荆州夏家台战国墓出土楚简日书，内容涉及日书拼合、整理及初步释读，属出土文献研究。",
+      "score": 70,
+      "tags": [
+        "出土文献",
+        "先秦史"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:17.108+00:00"
+    },
+    {
+      "id": 223,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "從殷墟卜辭看史官實録精神的發端",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfYY3u-pmsb9x0a0LqI_G_WaDuA0km1LB1eWFaGg4TNH7Gz4ZqedSJancnTWrliICcR1N0q2SOtt4XufGajUMGlPRuTTyIRObrf9iZNDy7R0kvaUHrcZvUKYdLHmE_7N5KrN53oJB0qffkM8CG4LGIj4uKZ6VD97PC9MT8crk0qxw==&uniplatform=NZKPT&language=CHS",
+      "author": "王秋萍;",
+      "summary": "从殷墟卜辞中考察史官实录精神的起源，指出商代卜辞已出现直书商王误占等例，早于春秋史官传统。",
+      "score": 65,
+      "tags": [
+        "甲骨文",
+        "先秦史"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:04.686+00:00"
+    },
+    {
+      "id": 224,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "大數據下甲骨文還鄉願景當非空想",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mfi6Wg8B41eKKfelDr3yjHSkV-VnpwKF7wIKt57Zrjtyqh8C0szz2xjRGt34lAnviScw8OLYQwH5-vk-8ouHpJcPzsBQxixPXsYgWAcKrTY60DgJVDGz5S5i677HCrkg4ZcavO6OB_T2JQgjyAB1GRPI_xeZg4TECBhyBCSR1ZLrw==&uniplatform=NZKPT&language=CHS",
+      "author": "宋鎮豪;",
+      "summary": "提出在安阳构建甲骨文数字档案库，以高保真数字还原实现甲骨文抢救性保护与永续保存。",
+      "score": 65,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:11.266+00:00"
+    },
+    {
+      "id": 225,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "兆辞■字构型与功能研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mff3cXtUhEniPD7L9E7kS07pq6rSjgm_Gx2GhUlcc-vaWzEiSkbQPTjVR7hzr4B7Z0Reitz5k0v2zrsN1_ZjkhCTcs9BITLfgmMLVRTh09zKc0VZmg2hrqxBz1pRfZHv_wshcClDVvPxsynzrTI2QdDUpm8GnsggR4Q5J2DhBknGA==&uniplatform=NZKPT&language=CHS",
+      "author": "陈光宇;",
+      "summary": "研究甲骨文兆辞■字的四种释读（吉、告、箭头、蓍草），从版面部位、构型与占卜功能综合比较，属甲骨文字考释。",
+      "score": 65,
+      "tags": [
+        "甲骨文",
+        "金文考释"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:24.507+00:00"
+    },
+    {
+      "id": 241,
+      "source_id": "cnki-jgys",
+      "source_name": "《甲骨文与殷商史》",
+      "source_short_name": "甲骨文与殷商史",
+      "category": "出土文献",
+      "title": "科技在甲骨文研究的應用舉例",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mdu-UXrIcWIBgfct73PIqo1gM_lcGqKYUFaPBwC3BDGlKch2PXt2yT4b-pLhAchDhLNglFIM6ggzLJHii1jOL7ubkwsNLLMlfWDunsxlFB-UbSUglj0VPCzrGciooxd0ksU3osoueRmWKMjzsrY2w9NFbVpmBi0JQykT74IRCv4ug==&uniplatform=NZKPT&language=CHS",
+      "author": "陳光宇;",
+      "summary": "介绍显微镜、光谱仪、同位素检测等科技在甲骨文研究中的应用实例，发掘甲骨本体与刻辞的宏观信息。",
+      "score": 60,
+      "tags": [
+        "甲骨文",
+        "出土文献"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:11.266+00:00"
+    },
+    {
+      "id": 242,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "释甲骨文中用为“?”的两种形体",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mc7CkNipg6RF8aZrBRLpquX1aUwhfwqno_gEPMzzRYN84iQHYc978ma0jnCvGh7i3jpjuQuvO60mmv460Prcgr0Qrem15lhQG_q4LVeWDGBmMz48JHNaBeX60bvhlS71SN-fHQ8RGfCPoPlDu1tH-J9KcSieG27JK7Yi6fRw3tmNQ==&uniplatform=NZKPT&language=CHS",
+      "author": "王子杨;",
+      "summary": "释读甲骨文中用为“?”的两种形体，分析宾组卜辞字形与隶写问题，属甲骨文考释与字形比较。",
+      "score": 60,
+      "tags": [
+        "甲骨文",
+        "金文考释"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:24.507+00:00"
+    },
+    {
+      "id": 243,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "殷墟甲骨文试释五则",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfEDGpWessa7Ap-bkHwsH7nnl4hcRNCI6BO-vazLgVZtqh2pOxukNvccBSmBkRG2neWeS_Gxk8hLAfajA_LIl04kNO0aNM2uPIMeTc-1UmY0kI31ansbKFWillwm48v2HwmaEUDtXg6G8jeU5_nAQD_6Y61Y0-RGRXGD63Sc_-GFA==&uniplatform=NZKPT&language=CHS",
+      "author": "赵伟;",
+      "summary": "对殷墟甲骨文试释五则，聚焦历组卜辞中一字形（■）的释读争议，评述各家摹释与工具书，属甲骨文考释。",
+      "score": 60,
+      "tags": [
+        "甲骨文",
+        "金文考释"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:24.507+00:00"
+    },
+    {
+      "id": 244,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "旅顺博物馆所藏甲骨单音词研究",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McIBwujQeRq3Z16GV5bWkuxymjNEKWbMyIcQ2qmX_UDaSnFAG9tyUrmtiT2AEEZu8R7NWsl49EvhucUxXpD5RXJSCmEMQVTl825aEyrXbfnkpQkgSJ5U24lb9q9nD1WG6QX6hUUo4Y7yAJ4hBFoUwx2-pP4r2rHqLMYIod4xA6eTw==&uniplatform=NZKPT&language=CHS",
+      "author": "郭仕超;",
+      "summary": "研究旅顺博物馆藏甲骨中的单音词，分析殷商时期文字书写条件对词汇构成的影响，属出土文献语言学研究。",
+      "score": 60,
+      "tags": [
+        "出土文献",
+        "甲骨文"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:24.507+00:00"
+    },
+    {
+      "id": 254,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "甲骨文“朝”字构形小议",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Mff3cXtUhEniPD7L9E7kS07pq6rSjgm_Gx2GhUlcc-vaWzEiSkbQPTjQqvEl04dwQy776eT5Lo8X3PY1Ss7jkn0Su0RSkiSpwFrCU6OAH2jnMzQBwtWb7GLHb3CGrVqOA0NPiWsmQ6yDxoREmcm6upaG1h5rGrv0rWicrQLE6oz7g==&uniplatform=NZKPT&language=CHS",
+      "author": "何景成;",
+      "summary": "讨论甲骨文“朝”字构形及在卜辞中用作时称的用法，列举相关卜辞文例，属甲骨文字形与辞例研究。",
+      "score": 55,
+      "tags": [
+        "甲骨文",
+        "金文考释"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:24.507+00:00"
+    },
+    {
+      "id": 255,
+      "source_id": "cnki-gyjw",
+      "source_name": "《古文字研究》",
+      "source_short_name": "古文字研究",
+      "category": "出土文献",
+      "title": "“妇妌娩”补说",
+      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-MfEDGpWessa7Ap-bkHwsH7nnl4hcRNCI6BO-vazLgVZtqh2pOxukNvcXGHrtHcI3AgpKuyeJgqL9arFghysGMH-eNzyv3zttkBFUbEUdyxS0wdSegvL2cTleq5aCtaPX_gAl0CW2lqmDKT8XwSbbHfFKQpFwbLNelyg4Nj70RYVqw==&uniplatform=NZKPT&language=CHS",
+      "author": "李爱辉;",
+      "summary": "补说商王武丁配偶“妇妌娩”卜辞，结合新缀合甲骨，涉及生育、祭祀等内容，属甲骨文与商代史研究。",
+      "score": 55,
+      "tags": [
+        "甲骨文",
+        "先秦史"
+      ],
+      "published_at": "2024-09-29T16:00:00+00:00",
+      "fetched_at": "2026-05-14T05:54:24.507+00:00"
     },
     {
       "id": 72,
@@ -1100,24 +3646,6 @@
       "fetched_at": "2026-05-14T05:44:01.509+00:00"
     },
     {
-      "id": 75,
-      "source_id": "xianqin-blog",
-      "source_name": "先秦史研究室",
-      "source_short_name": "先秦史研究室",
-      "category": "学术机构",
-      "title": "【转载】纪念王懿荣发现甲骨文120周年国际甲骨学研究经验交流会举行",
-      "link": "https://www.xianqin.org/blog/archives/12000.html",
-      "author": "",
-      "summary": "转载报道：纪念王懿荣发现甲骨文120周年国际甲骨学研究经验交流会在烟台举行。",
-      "score": 55,
-      "tags": [
-        "甲骨文",
-        "学术综述"
-      ],
-      "published_at": "2019-07-03T00:00:00+00:00",
-      "fetched_at": "2026-05-14T05:43:50.466+00:00"
-    },
-    {
       "id": 74,
       "source_id": "xianqin-blog",
       "source_name": "先秦史研究室",
@@ -1127,6 +3655,24 @@
       "link": "https://www.xianqin.org/blog/archives/12001.html",
       "author": "",
       "summary": "在烟台举行纪念王懿荣发现甲骨文120周年国际甲骨学研究经验交流会，探讨甲骨学研究成果与交流。",
+      "score": 55,
+      "tags": [
+        "甲骨文",
+        "学术综述"
+      ],
+      "published_at": "2019-07-03T00:00:00+00:00",
+      "fetched_at": "2026-05-14T05:43:50.466+00:00"
+    },
+    {
+      "id": 75,
+      "source_id": "xianqin-blog",
+      "source_name": "先秦史研究室",
+      "source_short_name": "先秦史研究室",
+      "category": "学术机构",
+      "title": "【转载】纪念王懿荣发现甲骨文120周年国际甲骨学研究经验交流会举行",
+      "link": "https://www.xianqin.org/blog/archives/12000.html",
+      "author": "",
+      "summary": "转载报道：纪念王懿荣发现甲骨文120周年国际甲骨学研究经验交流会在烟台举行。",
       "score": 55,
       "tags": [
         "甲骨文",
@@ -1606,23 +4152,6 @@
       "fetched_at": "2026-05-14T05:44:01.509+00:00"
     },
     {
-      "id": 86,
-      "source_id": "xianqin-blog",
-      "source_name": "先秦史研究室",
-      "source_short_name": "先秦史研究室",
-      "category": "学术机构",
-      "title": "中国殷商文化学会理事会名单",
-      "link": "https://www.xianqin.org/blog/archives/1090.html",
-      "author": "",
-      "summary": "（据题推断）涉及殷商文化学会理事会名单，与殷商史研究学术团体相关。",
-      "score": 50,
-      "tags": [
-        "先秦史"
-      ],
-      "published_at": "2005-01-21T00:00:00+00:00",
-      "fetched_at": "2026-05-14T05:43:55.772+00:00"
-    },
-    {
       "id": 85,
       "source_id": "xianqin-blog",
       "source_name": "先秦史研究室",
@@ -1632,6 +4161,23 @@
       "link": "https://www.xianqin.org/blog/archives/1093.html",
       "author": "",
       "summary": "（据题推断）涉及殷商文化学会的章程，可能与殷商史研究及学术组织相关。",
+      "score": 50,
+      "tags": [
+        "先秦史"
+      ],
+      "published_at": "2005-01-21T00:00:00+00:00",
+      "fetched_at": "2026-05-14T05:43:55.772+00:00"
+    },
+    {
+      "id": 86,
+      "source_id": "xianqin-blog",
+      "source_name": "先秦史研究室",
+      "source_short_name": "先秦史研究室",
+      "category": "学术机构",
+      "title": "中国殷商文化学会理事会名单",
+      "link": "https://www.xianqin.org/blog/archives/1090.html",
+      "author": "",
+      "summary": "（据题推断）涉及殷商文化学会理事会名单，与殷商史研究学术团体相关。",
       "score": 50,
       "tags": [
         "先秦史"
