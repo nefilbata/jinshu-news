@@ -1,23 +1,15 @@
 /**
- * 金文资讯站 - AI 处理模块
- * 用 Claude API 做三件事：
- * 1. 判断是否与金文/出土文献相关
- * 2. 生成中文摘要（100字以内）
- * 3. 打相关度分数（1-100）和二级标签
+ * 金文资讯站 - AI 处理模块（DeepSeek 版）
+ * Secret 名称保持 ANTHROPIC_API_KEY，填入 DeepSeek key 即可
  */
 
-import Anthropic from '@anthropic-ai/sdk';
 import { JINSHU_KEYWORDS } from './sources.js';
 
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-
-// 先用关键词做初步过滤，节省 API 调用
 function keywordFilter(item) {
   const text = `${item.title} ${item.summary}`.toLowerCase();
   return JINSHU_KEYWORDS.some(kw => text.includes(kw));
 }
 
-// 批量处理，每批8条，控制并发和费用
 const BATCH_SIZE = 8;
 
 async function processWithAI(items) {
@@ -36,17 +28,27 @@ async function processWithAI(items) {
 待处理条目：
 ${JSON.stringify(items.map(it => ({ id: it._tempId, title: it.title, summary: it.summary?.slice(0, 200) })), null, 2)}
 
-请仅返回 JSON 数组，格式：
+请仅返回 JSON 数组，不要有任何其他文字，格式：
 [{"id": "...", "relevant": true, "score": 85, "summary": "...", "tags": ["金文考释"]}]`;
 
   try {
-    const response = await client.messages.create({
-      model: 'claude-sonnet-4-20250514',
-      max_tokens: 2000,
-      messages: [{ role: 'user', content: prompt }],
+    const response = await fetch('https://api.deepseek.com/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${process.env.ANTHROPIC_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: 'deepseek-chat',
+        max_tokens: 2000,
+        messages: [{ role: 'user', content: prompt }],
+      }),
+      signal: AbortSignal.timeout(30000),
     });
 
-    const text = response.content[0].text.trim();
+    if (!response.ok) throw new Error(`DeepSeek API ${response.status}`);
+    const data = await response.json();
+    const text = data.choices[0].message.content.trim();
     const jsonStr = text.replace(/```json\n?|\n?```/g, '').trim();
     return JSON.parse(jsonStr);
   } catch (err) {
@@ -58,11 +60,9 @@ ${JSON.stringify(items.map(it => ({ id: it._tempId, title: it.title, summary: it
 export async function filterAndEnrich(rawItems) {
   console.log(`\n🔍 关键词初筛 ${rawItems.length} 条...`);
 
-  // 初步关键词过滤
   const candidates = rawItems.filter(keywordFilter);
   console.log(`   关键词命中 ${candidates.length} 条，送 AI 精筛`);
 
-  // 分配临时ID
   candidates.forEach((item, i) => { item._tempId = `item_${i}`; });
 
   const enriched = [];
@@ -79,7 +79,6 @@ export async function filterAndEnrich(rawItems) {
       if (!original) continue;
 
       enriched.push({
-        // 原始字段
         source_id: original.sourceId,
         source_name: original.sourceName,
         source_short_name: original.sourceShortName,
@@ -88,22 +87,18 @@ export async function filterAndEnrich(rawItems) {
         link: original.link,
         author: original.author,
         published_at: original.publishedAt,
-        // AI 增强字段
         summary: result.summary,
         score: result.score,
         tags: result.tags,
-        // 元数据
         fetched_at: new Date().toISOString(),
       });
     }
 
-    // 批次间等待，避免速率限制
     if (i + BATCH_SIZE < candidates.length) {
-      await new Promise(r => setTimeout(r, 1500));
+      await new Promise(r => setTimeout(r, 1000));
     }
   }
 
-  // 按相关度排序
   enriched.sort((a, b) => b.score - a.score);
   console.log(`\n✅ AI 精筛后保留 ${enriched.length} 条相关内容`);
   return enriched;
