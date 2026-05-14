@@ -306,7 +306,7 @@ export const SOURCES = [
     type: 'rss',
     category: '学术动态',
     priority: 'medium',
-    env: 'actions',   // 仅 GitHub Actions（境外IP）运行
+
   },
   {
     id: 'scholar-qingtongqi',
@@ -316,7 +316,7 @@ export const SOURCES = [
     type: 'rss',
     category: '学术动态',
     priority: 'medium',
-    env: 'actions',
+
   },
   {
     id: 'scholar-guwenzi',
@@ -326,7 +326,7 @@ export const SOURCES = [
     type: 'rss',
     category: '学术动态',
     priority: 'medium',
-    env: 'actions',
+
   },
 
   // ── B: 微信公众号（via RSSHub 公共实例）──────────────────
@@ -341,7 +341,7 @@ export const SOURCES = [
     type: 'rss',
     category: '出土文献',
     priority: 'medium',
-    env: 'actions',
+
     fallbackUrls: [
       'https://rss.shab.fun/wechat/mp/article/MzI5NTM2NzYxNA==',
       'https://rsshub.rssforever.com/wechat/mp/article/MzI5NTM2NzYxNA==',
@@ -355,7 +355,7 @@ export const SOURCES = [
     type: 'rss',
     category: '学术机构',
     priority: 'medium',
-    env: 'actions',
+
     fallbackUrls: [
       'https://rss.shab.fun/wechat/mp/article/MzA3NjM3NDgwMA==',
     ],
@@ -368,7 +368,7 @@ export const SOURCES = [
     type: 'rss',
     category: '考古文物',
     priority: 'low',
-    env: 'actions',
+
     fallbackUrls: [
       'https://rss.shab.fun/wechat/mp/article/MzI1NTYxNTgxNg==',
     ],
@@ -385,7 +385,7 @@ export const SOURCES = [
     query: '金文 铭文 青铜器铭',
     category: '出土文献',
     priority: 'medium',
-    env: 'local',     // 仅本地（境内IP）运行
+
   },
   {
     id: 'cnki-search-ctwx',
@@ -395,7 +395,7 @@ export const SOURCES = [
     query: '出土文献 简帛 甲骨文 古文字',
     category: '出土文献',
     priority: 'medium',
-    env: 'local',
+
   },
   {
     id: 'cnki-search-kaogu',
@@ -405,7 +405,7 @@ export const SOURCES = [
     query: '青铜器 西周 商代 考古发掘 出土',
     category: '考古文物',
     priority: 'medium',
-    env: 'local',
+
   },
 ];
 
