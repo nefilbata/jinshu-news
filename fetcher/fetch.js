@@ -6,6 +6,12 @@
 import * as cheerio from 'cheerio';
 import Parser from 'rss-parser';
 import { SOURCES } from './sources.js';
+import https from 'https';
+import http from 'http';
+
+// 忽略 SSL 证书验证的 agent（用于 CNKI 等证书有问题的学术网站）
+const httpsAgent = new https.Agent({ rejectUnauthorized: false });
+const httpAgent  = new http.Agent();
 
 const parser = new Parser({
   timeout: 15000,
@@ -18,6 +24,9 @@ const parser = new Parser({
       ['dc:creator', 'creator'],
       ['dc:date', 'dcDate'],
     ],
+  },
+  requestOptions: {
+    rejectUnauthorized: false,   // 忽略 SSL 证书错误
   },
 });
 
@@ -68,19 +77,17 @@ async function fetchWeb(source) {
     const items = [];
     const sel = source.selector;
 
-    // 找到文章列表元素
     $(sel.list).each((i, el) => {
       const titleEl = $(el).find(sel.title).first();
-      const linkEl = $(el).find(sel.link).first();
-      const dateEl = $(el).find(sel.date).first();
+      const linkEl  = $(el).find(sel.link).first();
+      const dateEl  = $(el).find(sel.date).first();
 
       const title = titleEl.text().trim();
-      const href = linkEl.attr('href') || '';
-      const date = dateEl.text().trim();
+      const href  = linkEl.attr('href') || '';
+      const date  = dateEl.text().trim();
 
-      if (!title || title.length < 4) return; // 跳过无效行
+      if (!title || title.length < 4) return;
 
-      // 处理相对URL
       let link = href;
       if (href && !href.startsWith('http')) {
         const base = new URL(source.url);
@@ -97,7 +104,7 @@ async function fetchWeb(source) {
         priority: source.priority,
         title,
         link,
-        summary: '',          // 网页抓取一般没有摘要，后续 AI 来补
+        summary: '',
         author: '',
         publishedAt: parseChineseDate(date) || new Date().toISOString(),
         raw: { title, href, date },
@@ -112,10 +119,8 @@ async function fetchWeb(source) {
   }
 }
 
-// 中文日期解析，如「2024-03-15」「2024年3月15日」
 function parseChineseDate(str) {
   if (!str) return null;
-  // 尝试标准格式
   const cleaned = str.replace(/年/g, '-').replace(/月/g, '-').replace(/日/g, '');
   const d = new Date(cleaned.trim());
   return isNaN(d.getTime()) ? null : d.toISOString();
@@ -135,7 +140,6 @@ export async function fetchAll() {
     }
     results.push(...items);
 
-    // 礼貌性延迟，避免对学术网站造成压力
     await new Promise(r => setTimeout(r, 800));
   }
 
