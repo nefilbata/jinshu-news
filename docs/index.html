@@ -793,7 +793,7 @@ function dayKey(iso) {
   if (d.getFullYear() !== now.getFullYear()) {
     return `${d.getFullYear()}年${m}月${dd}日`;
   }
-  return `${m}月${dd}日`;
+  return `${d.getFullYear()}年${m}月${dd}日`;
 }
 
 // ── 过滤排序 ─────────────────────────
