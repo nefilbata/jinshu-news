@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T06:36:57.677Z",
+  "updatedAt": "2026-05-14T06:55:43.784Z",
   "total": 300,
   "articles": [
     {
@@ -553,6 +553,25 @@
       ],
       "published_at": "2026-03-24T16:00:00+00:00",
       "fetched_at": "2026-05-14T06:33:14.557+00:00"
+    },
+    {
+      "id": 466,
+      "source_id": "fudan-dgwz",
+      "source_name": "复旦大学出土文献与古文字研究中心",
+      "source_short_name": "复旦出土文献",
+      "category": "学术机构",
+      "title": "張博倫、張博皓：《山東館藏文物精品大系·青銅器卷》商周銅器著錄對照表及新見銅器銘",
+      "link": "https://www.fdgwz.org.cn/Web/Show/13368",
+      "author": "",
+      "summary": "该书著录山东馆藏商周青铜器，附有铜器著录对照表及新见铜器铭文，对金文研究与青铜器整理有重要价值。",
+      "score": 95,
+      "tags": [
+        "金文考释",
+        "青铜器",
+        "新出材料"
+      ],
+      "published_at": "2026-03-24T00:00:00+00:00",
+      "fetched_at": "2026-05-14T06:42:52.967+00:00"
     },
     {
       "id": 48,
@@ -4730,6 +4749,24 @@
       "fetched_at": "2026-05-14T06:33:46.524+00:00"
     },
     {
+      "id": 471,
+      "source_id": "fudan-dgwz",
+      "source_name": "复旦大学出土文献与古文字研究中心",
+      "source_short_name": "复旦出土文献",
+      "category": "学术机构",
+      "title": "2024年出土文獻與古文字相關專業碩博士學位論文目録",
+      "link": "http://www.fdgwz.org.cn/forum/forum.php?mod=viewthread&tid=25064",
+      "author": "",
+      "summary": "（据题推断）该目录汇编2024年出土文献与古文字相关硕博士学位论文，为学术综述性质，反映该领域动态。",
+      "score": 55,
+      "tags": [
+        "出土文献",
+        "学术综述"
+      ],
+      "published_at": "2024-12-10T00:00:00+00:00",
+      "fetched_at": "2026-05-14T06:42:52.967+00:00"
+    },
+    {
       "id": 129,
       "source_id": "cnki-jbjb",
       "source_name": "《简帛》",
@@ -5495,42 +5532,6 @@
       ],
       "published_at": "2024-09-29T16:00:00+00:00",
       "fetched_at": "2026-05-14T06:34:00.138+00:00"
-    },
-    {
-      "id": 343,
-      "source_id": "cnki-gyjw",
-      "source_name": "《古文字研究》",
-      "source_short_name": "古文字研究",
-      "category": "出土文献",
-      "title": "殷墟甲骨文贞卜人物钩沉",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-Meu6saMiS2XK3xtL7wNNgsHmDM0QqZcUlrAd3UZkulwEJXQXPLSTVO9yOje0Bu7SamJZTacQYeRBK4_9qip5q5AIB_B0rWIE-wg4x-xUl1pIvnAOXwVJDBNQtnvyYoUgqMH5b3yJ1_j_getsWtJGSfOqkGYUnMU1ZAWDM_hr15_Dg==&uniplatform=NZKPT&language=CHS",
-      "author": "谭步云;",
-      "summary": "钩沉殷墟甲骨文中的贞卜人物，补充新发现的贞人，并讨论贞人集团的演变。",
-      "score": 85,
-      "tags": [
-        "甲骨文",
-        "先秦史"
-      ],
-      "published_at": "2024-09-29T16:00:00+00:00",
-      "fetched_at": "2026-05-14T06:34:00.138+00:00"
-    },
-    {
-      "id": 344,
-      "source_id": "cnki-gyjw",
-      "source_name": "《古文字研究》",
-      "source_short_name": "古文字研究",
-      "category": "出土文献",
-      "title": "关于旧释为“乎”的“平”字的构形和用法",
-      "link": "https://kns.cnki.net/kcms2/article/abstract?v=LM91IAda-McqiyQ2Fe8RP5taXi5HSCH-6tRTSxqzR478vW-nT1GTRc3ctk6Zoc38QbkFaEe53zQ14tdXNw0Bi7S0uaplb8WYrq3UcHCiVu9OhahMkeGrHsT2kbydPjMMTRcwJRkmiaCwgU1QA-pdRuw65y37tJq22ZgIZWdYdgYm-UPItkBNSQ==&uniplatform=NZKPT&language=CHS",
-      "author": "杨泽生;",
-      "summary": "重新考释甲骨金文中旧释为“乎”的字，指出其实际为“平”字，分析其构形和用法，涉及甲骨文与金文材料。",
-      "score": 85,
-      "tags": [
-        "金文考释",
-        "甲骨文"
-      ],
-      "published_at": "2024-09-29T16:00:00+00:00",
-      "fetched_at": "2026-05-14T06:34:06.526+00:00"
     }
   ]
 }
