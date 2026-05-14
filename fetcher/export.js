@@ -32,7 +32,7 @@ async function exportToJSON() {
     articles: data,
   };
 
-  const outPath = join(__dirname, '../web/data.json');
+  const outPath = join(__dirname, '../docs/data.json');
   writeFileSync(outPath, JSON.stringify(output, null, 2), 'utf-8');
   console.log(`✅ 导出完成，共 ${data.length} 条，写入 web/data.json`);
 }
