@@ -3,14 +3,14 @@ name: 金文资讯 - 每日更新
 on:
   schedule:
     # 每天早上 8:00 UTC+8（即 0:00 UTC）运行
-    - cron: '0 23 * * *'
+    - cron: '0 0 * * *'
   # 允许手动触发
   workflow_dispatch:
 
 jobs:
   fetch-and-update:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Checkout 代码
         uses: actions/checkout@v4
@@ -26,10 +26,26 @@ jobs:
         working-directory: ./fetcher
         run: npm install
 
-      - name: 运行抓取并写入 Supabase
+      - name: 运行抓取
         working-directory: ./fetcher
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          RUN_ENV: actions
         run: node index.js
+
+      - name: 生成静态数据文件
+        working-directory: ./fetcher
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: node export.js
+
+      - name: 提交更新的数据文件
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/data.json
+          git diff --staged --quiet || git commit -m "chore: 更新资讯数据 $(date '+%Y-%m-%d')"
+          git push

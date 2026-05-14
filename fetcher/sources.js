@@ -83,6 +83,8 @@ export const SOURCES = [
   },
 
   // ── CNKI 期刊 RSS ─────────────────────────────────────────
+
+  // 核心期刊（高优先级）
   {
     id: 'cnki-wenw',
     name: '《文物》',
@@ -164,6 +166,8 @@ export const SOURCES = [
     category: '出土文献',
     priority: 'high',
   },
+
+  // 地方考古期刊（中优先级）
   {
     id: 'cnki-jhkg',
     name: '《江汉考古》',
@@ -290,15 +294,135 @@ export const SOURCES = [
     category: '考古文物',
     priority: 'medium',
   },
+
+  // ── A: Google Scholar RSS（关键词订阅）────────────────────
+  // 说明：访问 https://scholar.google.com/scholar?q=关键词
+  //       右下角"创建快讯"→ RSS 链接；境外IP可直接抓
+  {
+    id: 'scholar-jinwen',
+    name: 'Google Scholar · 金文铭文',
+    shortName: 'Scholar',
+    url: 'https://scholar.google.com/scholar_alerts?update_op=create_alert_options&hl=zh-CN&alert_query=%E9%87%91%E6%96%87+%E9%93%AD%E6%96%87&alert_freq=1&as_sdt=1%2C5&as_vis=1&num=10&output=rss',
+    type: 'rss',
+    category: '学术动态',
+    priority: 'medium',
+    env: 'actions',   // 仅 GitHub Actions（境外IP）运行
+  },
+  {
+    id: 'scholar-qingtongqi',
+    name: 'Google Scholar · 青铜器',
+    shortName: 'Scholar',
+    url: 'https://scholar.google.com/scholar_alerts?update_op=create_alert_options&hl=zh-CN&alert_query=%E9%9D%92%E9%93%9C%E5%99%A8+%E9%93%AD%E6%96%87&alert_freq=1&as_sdt=1%2C5&as_vis=1&num=10&output=rss',
+    type: 'rss',
+    category: '学术动态',
+    priority: 'medium',
+    env: 'actions',
+  },
+  {
+    id: 'scholar-guwenzi',
+    name: 'Google Scholar · 古文字出土文献',
+    shortName: 'Scholar',
+    url: 'https://scholar.google.com/scholar_alerts?update_op=create_alert_options&hl=zh-CN&alert_query=%E5%8F%A4%E6%96%87%E5%AD%97+%E5%87%BA%E5%9C%9F%E6%96%87%E7%8C%AE&alert_freq=1&as_sdt=1%2C5&as_vis=1&num=10&output=rss',
+    type: 'rss',
+    category: '学术动态',
+    priority: 'medium',
+    env: 'actions',
+  },
+
+  // ── B: 微信公众号（via RSSHub 公共实例）──────────────────
+  // biz 值从公众号文章 URL 的 __biz= 参数获取
+  // 公共实例限速，建议自建 RSSHub：https://docs.rsshub.app/deploy/
+  // 备用实例：rss.shab.fun / rsshub.rssforever.com
+  {
+    id: 'wx-fudan-ctwx',
+    name: '复旦出土文献（公众号）',
+    shortName: '复旦出土文献号',
+    url: 'https://rsshub.app/wechat/mp/article/MzI5NTM2NzYxNA==',
+    type: 'rss',
+    category: '出土文献',
+    priority: 'medium',
+    env: 'actions',
+    fallbackUrls: [
+      'https://rss.shab.fun/wechat/mp/article/MzI5NTM2NzYxNA==',
+      'https://rsshub.rssforever.com/wechat/mp/article/MzI5NTM2NzYxNA==',
+    ],
+  },
+  {
+    id: 'wx-xianqin',
+    name: '先秦史研究室（公众号）',
+    shortName: '先秦史号',
+    url: 'https://rsshub.app/wechat/mp/article/MzA3NjM3NDgwMA==',
+    type: 'rss',
+    category: '学术机构',
+    priority: 'medium',
+    env: 'actions',
+    fallbackUrls: [
+      'https://rss.shab.fun/wechat/mp/article/MzA3NjM3NDgwMA==',
+    ],
+  },
+  {
+    id: 'wx-guobo',
+    name: '中国国家博物馆（公众号）',
+    shortName: '国博号',
+    url: 'https://rsshub.app/wechat/mp/article/MzI1NTYxNTgxNg==',
+    type: 'rss',
+    category: '考古文物',
+    priority: 'low',
+    env: 'actions',
+    fallbackUrls: [
+      'https://rss.shab.fun/wechat/mp/article/MzI1NTYxNTgxNg==',
+    ],
+  },
+
+  // ── C: CNKI 关键词搜索（本地跑，境内IP）──────────────────
+  // type: 'cnki-search'，由 fetch.js 里 fetchCnkiSearch() 处理
+  // 搜索范围：CNKI 全库，按发表时间倒序，取最新20条
+  {
+    id: 'cnki-search-jinwen',
+    name: 'CNKI · 金文关键词',
+    shortName: 'CNKI搜索',
+    type: 'cnki-search',
+    query: '金文 铭文 青铜器铭',
+    category: '出土文献',
+    priority: 'medium',
+    env: 'local',     // 仅本地（境内IP）运行
+  },
+  {
+    id: 'cnki-search-ctwx',
+    name: 'CNKI · 出土文献关键词',
+    shortName: 'CNKI搜索',
+    type: 'cnki-search',
+    query: '出土文献 简帛 甲骨文 古文字',
+    category: '出土文献',
+    priority: 'medium',
+    env: 'local',
+  },
+  {
+    id: 'cnki-search-kaogu',
+    name: 'CNKI · 青铜器考古',
+    shortName: 'CNKI搜索',
+    type: 'cnki-search',
+    query: '青铜器 西周 商代 考古发掘 出土',
+    category: '考古文物',
+    priority: 'medium',
+    env: 'local',
+  },
 ];
 
+// 金文相关关键词，用于 AI 过滤判断
 export const JINSHU_KEYWORDS = [
+  // 核心词
   '金文', '青铜器', '铭文', '钟鼎文', '彝铭', '器铭',
+  // 器类
   '鼎', '簋', '尊', '卣', '壶', '盘', '爵', '觚', '觯', '钟', '镈', '铎',
   '戈', '剑', '矛', '斧', '戟',
+  // 时代
   '商周', '西周', '东周', '春秋', '战国', '殷商',
+  // 相关领域
   '出土文献', '简帛', '甲骨文', '古文字', '先秦史',
   '历谱', '月相', '武王克商', '天文历法',
+  // 研究方法
   '断代', '考释', '著录', '集成', '图录',
+  // 机构/人名相关
   '金文研究', '铭文考', '铭文释读',
 ];
