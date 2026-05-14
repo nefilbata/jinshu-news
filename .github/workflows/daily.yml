@@ -3,7 +3,7 @@ name: 金文资讯 - 每日更新
 on:
   schedule:
     # 每天早上 8:00 UTC+8（即 0:00 UTC）运行
-    - cron: '0 0 * * *'
+    - cron: '0 23 * * *'
   # 允许手动触发
   workflow_dispatch:
 
