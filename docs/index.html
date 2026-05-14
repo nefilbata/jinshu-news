@@ -226,7 +226,7 @@
   /* 每一条时间轴行：左侧时间戳 + 竖线轨道 + 右侧卡片 */
   .timeline-row {
     display: grid;
-    grid-template-columns: 44px 24px 1fr;
+    grid-template-columns: 76px 24px 1fr;
     gap: 0;
     animation: fadeIn 0.3s ease both;
   }
@@ -236,10 +236,10 @@
     to   { opacity: 1; transform: translateY(0); }
   }
 
-  /* 左侧时:分 */
+  /* 左侧日期/时间 */
   .tl-time {
     font-family: var(--serif);
-    font-size: 12px;
+    font-size: 11px;
     color: var(--ink-4);
     text-align: right;
     padding-top: 16px;
@@ -383,7 +383,7 @@
   }
 
   /* 分组标题（按日期） */
-  .day-group { margin-bottom: 0; }
+  .tl-new-day { margin-top: 16px; }
 
   .day-header {
     font-family: var(--serif);
@@ -400,7 +400,7 @@
 
   /* 日期头左侧占位，和时间戳列对齐 */
   .day-header-spacer {
-    width: 44px;
+    width: 76px;
     flex-shrink: 0;
   }
 
@@ -726,10 +726,9 @@ function dayKey(iso) {
   if (diff === 0) return '今日';
   if (diff === 1) return '昨日';
   const y = d.getFullYear();
-  const m = d.getMonth() + 1;
-  const day = d.getDate();
-  // 始终显示年份，保证清晰
-  return `${y}年${m}月${day}日`;
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}/${m}/${day}`;
 }
 
 function timeOfDay(iso) {
@@ -791,31 +790,31 @@ function renderArticles() {
       groups[k].push(a);
     });
 
-    listEl.innerHTML = groupOrder.map((k, gi) => `
-      <div class="day-group">
-        <div class="day-header">
-          <div class="day-header-spacer"></div>
-          <div class="day-header-text">${k}</div>
-        </div>
-        <div class="article-list">${groups[k].map((a, i) => renderCard(a, i, groups[k].length)).join('')}</div>
-      </div>
-    `).join('');
+    // 同一天内只有第一条显示日期，其余显示空
+    listEl.innerHTML = `<div class="article-list">${pageItems.map((a, i) => {
+      const k = dayKey(a.published_at);
+      const prevK = i > 0 ? dayKey(pageItems[i-1].published_at) : null;
+      const showDate = k !== prevK;
+      return renderCard(a, i, pageItems.length, showDate);
+    }).join('')}</div>`;
   } else {
-    listEl.innerHTML = `<div class="article-list">${pageItems.map((a,i) => renderCard(a, i, pageItems.length)).join('')}</div>`;
+    listEl.innerHTML = `<div class="article-list">${pageItems.map((a,i) => renderCard(a, i, pageItems.length, true)).join('')}</div>`;
   }
 
   renderPagination(total);
 }
 
-function renderCard(a, idx, groupLen) {
+function renderCard(a, idx, total, showDate) {
   const scorePct = Math.min(100, a.score || 0);
   const tags = (a.tags||[]).slice(0,3).map(t =>
     `<span class="tag" data-tag="${t}">${t}</span>`
   ).join('');
-  const isLast = (idx === (groupLen || 1) - 1);
+  const isLast = idx === total - 1;
+  const dateLabel = (showDate !== false) ? dayKey(a.published_at) : '';
+  const rowClass = (showDate && idx > 0) ? 'timeline-row tl-new-day' : 'timeline-row';
   return `
-  <div class="timeline-row">
-    <div class="tl-time">${timeOfDay(a.published_at)}</div>
+  <div class="${rowClass}">
+    <div class="tl-time">${dateLabel}</div>
     <div class="tl-axis">
       <div class="tl-dot"></div>
       ${!isLast ? '<div class="tl-line"></div>' : ''}
