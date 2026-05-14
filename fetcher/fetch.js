@@ -6,12 +6,6 @@
 import * as cheerio from 'cheerio';
 import Parser from 'rss-parser';
 import { SOURCES } from './sources.js';
-import https from 'https';
-import http from 'http';
-
-// 忽略 SSL 证书验证的 agent（用于 CNKI 等证书有问题的学术网站）
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-const httpAgent  = new http.Agent();
 
 const parser = new Parser({
   timeout: 15000,
@@ -25,12 +19,7 @@ const parser = new Parser({
       ['dc:date', 'dcDate'],
     ],
   },
-  requestOptions: {
-    rejectUnauthorized: false,   // 忽略 SSL 证书错误
-  },
 });
-
-// ── RSS 抓取 ─────────────────────────────────────────────────
 
 async function fetchRSS(source) {
   try {
@@ -55,8 +44,6 @@ async function fetchRSS(source) {
     return [];
   }
 }
-
-// ── 网页抓取 ─────────────────────────────────────────────────
 
 async function fetchWeb(source) {
   try {
@@ -125,8 +112,6 @@ function parseChineseDate(str) {
   const d = new Date(cleaned.trim());
   return isNaN(d.getTime()) ? null : d.toISOString();
 }
-
-// ── 主入口 ───────────────────────────────────────────────────
 
 export async function fetchAll() {
   const results = [];
