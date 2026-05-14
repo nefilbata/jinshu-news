@@ -1,0 +1,17 @@
+{
+  "name": "jinshu-news-fetcher",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "金文资讯站数据抓取与处理",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "node index.js",
+    "export": "node export.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "@supabase/supabase-js": "^2.49.0",
+    "cheerio": "^1.0.0",
+    "rss-parser": "^3.13.0"
+  }
+}
