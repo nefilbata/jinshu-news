@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-05-16T03:38:35.987Z",
-  "total": 75,
-  "recentCount": 75,
+  "updatedAt": "2026-05-19T04:02:25.458Z",
+  "total": 78,
+  "recentCount": 78,
   "articles": [
     {
       "id": 758,
@@ -1391,6 +1391,60 @@
       ],
       "published_at": "2009-01-16T00:00:00+00:00",
       "fetched_at": "2026-05-14T08:03:13.944+00:00"
+    },
+    {
+      "id": 881,
+      "source_id": "xianqin-blog",
+      "source_name": "先秦史研究室",
+      "source_short_name": "先秦史研究室",
+      "category": "学术机构",
+      "title": "先秦史研究室2007年科研成果",
+      "link": "https://www.xianqin.org/blog/archives/384.html",
+      "author": "",
+      "summary": "（据题推断）汇总先秦史研究室2007年金文、甲骨等科研成果，涉及铭文与铜器研究。",
+      "score": 70,
+      "tags": [
+        "学术综述",
+        "先秦史"
+      ],
+      "published_at": "2007-11-07T00:00:00+00:00",
+      "fetched_at": "2026-05-17T03:52:48.55+00:00"
+    },
+    {
+      "id": 882,
+      "source_id": "xianqin-blog",
+      "source_name": "先秦史研究室",
+      "source_short_name": "先秦史研究室",
+      "category": "学术机构",
+      "title": "先秦史研究室2006年学术成果",
+      "link": "https://www.xianqin.org/blog/archives/387.html",
+      "author": "",
+      "summary": "（据题推断）汇总先秦史研究室2006年学术成果，可能包含金文与青铜器相关研究。",
+      "score": 70,
+      "tags": [
+        "学术综述",
+        "先秦史"
+      ],
+      "published_at": "2006-12-24T00:00:00+00:00",
+      "fetched_at": "2026-05-17T03:52:48.55+00:00"
+    },
+    {
+      "id": 883,
+      "source_id": "xianqin-blog",
+      "source_name": "先秦史研究室",
+      "source_short_name": "先秦史研究室",
+      "category": "学术机构",
+      "title": "先秦史研究室2005年学术成果",
+      "link": "https://www.xianqin.org/blog/archives/390.html",
+      "author": "",
+      "summary": "（据题推断）汇总先秦史研究室2005年学术成果，可能涉及金文与青铜器研究。",
+      "score": 70,
+      "tags": [
+        "学术综述",
+        "先秦史"
+      ],
+      "published_at": "2005-11-28T00:00:00+00:00",
+      "fetched_at": "2026-05-17T03:52:48.55+00:00"
     }
   ]
 }
