@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-05-19T04:02:25.458Z",
-  "total": 78,
-  "recentCount": 78,
+  "updatedAt": "2026-05-20T04:02:49.118Z",
+  "total": 79,
+  "recentCount": 79,
   "articles": [
+    {
+      "id": 920,
+      "source_id": "fudan-dgwz",
+      "source_name": "复旦大学出土文献与古文字研究中心",
+      "source_short_name": "复旦出土文献",
+      "category": "学术机构",
+      "title": "費文彬：王厚之《鐘鼎款識》一卷簡校簡注",
+      "link": "https://www.fdgwz.org.cn/Web/Show/13384",
+      "author": "",
+      "summary": "（据题推断）对王厚之所著《鐘鼎款識》一卷进行校勘和简注，属于金文著录文献研究。",
+      "score": 85,
+      "tags": [
+        "金文考释",
+        "出土文献"
+      ],
+      "published_at": "2026-05-19T00:00:00+00:00",
+      "fetched_at": "2026-05-20T03:58:34.25+00:00"
+    },
     {
       "id": 758,
       "source_id": "cnki-zlbk",
