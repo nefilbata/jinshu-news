@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-05-23T03:44:06.068Z",
-  "total": 79,
-  "recentCount": 4,
+  "updatedAt": "2026-05-28T04:04:38.355Z",
+  "total": 80,
+  "recentCount": 1,
   "articles": [
     {
       "id": 920,
@@ -1134,6 +1134,24 @@
       ],
       "published_at": "2024-05-14T00:00:00+00:00",
       "fetched_at": "2026-05-14T08:17:48.107+00:00"
+    },
+    {
+      "id": 1049,
+      "source_id": "fudan-dgwz",
+      "source_name": "复旦大学出土文献与古文字研究中心",
+      "source_short_name": "复旦出土文献",
+      "category": "学术机构",
+      "title": "《清华大学藏战国竹简》（拾贰）《三不违》研讀",
+      "link": "http://www.fdgwz.org.cn/forum/forum.php?mod=viewthread&tid=25041",
+      "author": "",
+      "summary": "（据题推断）研读清华简《三不违》，清华简涉及西周史，可能与金文印证，属重要关联。",
+      "score": 72,
+      "tags": [
+        "出土文献",
+        "先秦史"
+      ],
+      "published_at": "2022-12-01T00:00:00+00:00",
+      "fetched_at": "2026-05-27T04:12:40.331+00:00"
     },
     {
       "id": 686,
