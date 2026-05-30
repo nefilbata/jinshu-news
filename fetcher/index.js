@@ -41,9 +41,13 @@ async function main() {
   const existing = await loadArticles();
   const { articles, newArticles } = mergeArticles(existing, enriched);
   const savedArticles = options.dryRun ? articles : await saveArticles(articles);
-  const digestArticles = options.includeSeen ? enriched : newArticles;
+  const digestArticles = options.includeSeen || newArticles.length === 0
+    ? enriched.slice(0, 40)
+    : newArticles;
   const digest = buildDigest({
     articles: digestArticles,
+    actualNewCount: newArticles.length,
+    fallback: newArticles.length === 0 && digestArticles.length > 0,
     failures,
     fetchedCount: fetchedItems.length,
   });

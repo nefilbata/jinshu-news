@@ -52,6 +52,9 @@ export function renderEmailHtml(digest) {
   const failures = digest.failures?.length
     ? `<p class="failures">部分信源本次未抓取成功：${escapeHtml(digest.failures.map((item) => item.name).join('、'))}</p>`
     : '';
+  const lead = digest.mode === 'fallback'
+    ? `本次没有全新条目，以下展示 ${digest.contentCount} 条最近高相关候选供复核。抓取 ${digest.fetchedCount} 条。`
+    : `新增 ${digest.newCount} 条，抓取 ${digest.fetchedCount} 条。AI 负责筛选和提要，原文仍以链接为准。`;
 
   return `<!doctype html>
 <html lang="zh-CN">
@@ -81,7 +84,7 @@ export function renderEmailHtml(digest) {
   <div class="wrap">
     <header>
       <h1>${escapeHtml(digest.title)}</h1>
-      <p class="lead">新增 ${digest.newCount} 条，抓取 ${digest.fetchedCount} 条。AI 负责筛选和提要，原文仍以链接为准。</p>
+      <p class="lead">${escapeHtml(lead)}</p>
     </header>
     ${failures}
     <section>
@@ -95,7 +98,10 @@ export function renderEmailHtml(digest) {
 }
 
 export function renderPlainText(digest) {
-  const lines = [`${digest.title}`, `新增 ${digest.newCount} 条，抓取 ${digest.fetchedCount} 条。`, ''];
+  const lead = digest.mode === 'fallback'
+    ? `本次没有全新条目，展示 ${digest.contentCount} 条最近高相关候选供复核。抓取 ${digest.fetchedCount} 条。`
+    : `新增 ${digest.newCount} 条，抓取 ${digest.fetchedCount} 条。`;
+  const lines = [`${digest.title}`, lead, ''];
   for (const bucket of BUCKETS) {
     const items = digest.sections[bucket.id] || [];
     if (!items.length) continue;

@@ -32,7 +32,7 @@ function byScoreThenDate(a, b) {
   return new Date(b.publishedAt || b.fetchedAt) - new Date(a.publishedAt || a.fetchedAt);
 }
 
-export function buildDigest({ date = todayInShanghai(), articles, failures = [], fetchedCount = 0 }) {
+export function buildDigest({ date = todayInShanghai(), articles, failures = [], fetchedCount = 0, actualNewCount = null, fallback = false }) {
   const sorted = articles.slice().sort(byScoreThenDate);
   const highlights = sorted.filter((article) => article.bucket !== 'lowConfidence').slice(0, 5).map(compactArticle);
   const sections = {};
@@ -53,7 +53,9 @@ export function buildDigest({ date = todayInShanghai(), articles, failures = [],
     title: `金文速递 ${date}`,
     generatedAt: new Date().toISOString(),
     fetchedCount,
-    newCount: articles.length,
+    newCount: actualNewCount ?? articles.length,
+    contentCount: articles.length,
+    mode: fallback ? 'fallback' : (articles.length === 0 ? 'empty' : 'digest'),
     failures,
     counts: Object.fromEntries(BUCKETS.map((bucket) => [bucket.id, sections[bucket.id]?.length || 0])),
     sections,
