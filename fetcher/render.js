@@ -52,9 +52,12 @@ export function renderEmailHtml(digest) {
   const failures = digest.failures?.length
     ? `<p class="failures">部分信源本次未抓取成功：${escapeHtml(digest.failures.map((item) => item.name).join('、'))}</p>`
     : '';
+  const sources = digest.sourceStats?.length
+    ? `<p class="source-stats">来源分布：${escapeHtml(digest.sourceStats.slice(0, 8).map((item) => `${item.source} ${item.count}`).join(' · '))}</p>`
+    : '';
   const lead = digest.mode === 'fallback'
-    ? `本次没有全新条目，以下展示 ${digest.contentCount} 条最近高相关候选供复核。抓取 ${digest.fetchedCount} 条。`
-    : `新增 ${digest.newCount} 条，抓取 ${digest.fetchedCount} 条。AI 负责筛选和提要，原文仍以链接为准。`;
+    ? `本次没有全新条目，以下展示 ${digest.contentCount} 条近期高相关候选供复核。抓取 ${digest.fetchedCount} 条。`
+    : `新增 ${digest.newCount} 条，展示 ${digest.contentCount} 条。抓取 ${digest.fetchedCount} 条。AI 负责筛选和提要，原文仍以链接为准。`;
 
   return `<!doctype html>
 <html lang="zh-CN">
@@ -87,6 +90,7 @@ export function renderEmailHtml(digest) {
       <p class="lead">${escapeHtml(lead)}</p>
     </header>
     ${failures}
+    ${sources}
     <section>
       <h2>${escapeHtml(bucketTitle.get('highlight'))} <span>${digest.sections.highlight?.length || 0}</span></h2>
       ${(digest.sections.highlight || []).map(renderArticle).join('') || '<p>今日没有高相关新内容。</p>'}
@@ -99,9 +103,13 @@ export function renderEmailHtml(digest) {
 
 export function renderPlainText(digest) {
   const lead = digest.mode === 'fallback'
-    ? `本次没有全新条目，展示 ${digest.contentCount} 条最近高相关候选供复核。抓取 ${digest.fetchedCount} 条。`
-    : `新增 ${digest.newCount} 条，抓取 ${digest.fetchedCount} 条。`;
+    ? `本次没有全新条目，展示 ${digest.contentCount} 条近期高相关候选供复核。抓取 ${digest.fetchedCount} 条。`
+    : `新增 ${digest.newCount} 条，展示 ${digest.contentCount} 条。抓取 ${digest.fetchedCount} 条。`;
   const lines = [`${digest.title}`, lead, ''];
+  if (digest.sourceStats?.length) {
+    lines.push(`来源分布：${digest.sourceStats.slice(0, 8).map((item) => `${item.source} ${item.count}`).join(' · ')}`);
+    lines.push('');
+  }
   for (const bucket of BUCKETS) {
     const items = digest.sections[bucket.id] || [];
     if (!items.length) continue;

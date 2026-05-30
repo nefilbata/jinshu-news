@@ -27,6 +27,21 @@ function parseArgs(argv) {
   };
 }
 
+function ageInDays(article) {
+  const date = article.publishedAt ? new Date(article.publishedAt) : null;
+  if (!date || Number.isNaN(date.getTime())) return Infinity;
+  return (Date.now() - date.getTime()) / 86400000;
+}
+
+function keepRecent(article) {
+  const maxAgeDays = Number(process.env.MAX_ITEM_AGE_DAYS || 540);
+  return ageInDays(article) <= maxAgeDays;
+}
+
+function selectDigestArticles(items, maxTotal = 80) {
+  return items.slice(0, maxTotal);
+}
+
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   await ensureDirs();
@@ -36,14 +51,15 @@ async function main() {
   console.log(`[main] fetched ${fetchedItems.length} raw items`);
 
   const enriched = await enrichItems(fetchedItems, { noAI: options.noAI });
-  console.log(`[main] kept ${enriched.length} relevant candidates`);
+  const recentEnriched = enriched.filter(keepRecent);
+  console.log(`[main] kept ${enriched.length} relevant candidates, ${recentEnriched.length} recent candidates`);
 
   const existing = await loadArticles();
-  const { articles, newArticles } = mergeArticles(existing, enriched);
+  const { articles, newArticles } = mergeArticles(existing, recentEnriched);
   const savedArticles = options.dryRun ? articles : await saveArticles(articles);
   const digestArticles = options.includeSeen || newArticles.length === 0
-    ? enriched.slice(0, 40)
-    : newArticles;
+    ? selectDigestArticles(recentEnriched)
+    : selectDigestArticles(newArticles);
   const digest = buildDigest({
     articles: digestArticles,
     actualNewCount: newArticles.length,

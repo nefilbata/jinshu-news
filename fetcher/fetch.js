@@ -112,7 +112,7 @@ async function fetchRSS(source) {
           link: item.link || item.guid || url,
           author: cleanText(item.creator || item.author || ''),
           excerpt: cleanText(item.contentSnippet || item.summary || item.content || ''),
-          publishedAt: parseDate(item.pubDate || item.isoDate || item.dcDate) || new Date().toISOString(),
+        publishedAt: parseDate(item.pubDate || item.isoDate || item.dcDate) || null,
           fetchedAt: new Date().toISOString(),
         }))
         .filter((item) => item.title && item.link);
@@ -160,7 +160,7 @@ async function fetchWeb(source) {
         link: absolutizeUrl(href, source.url),
         author: '',
         excerpt: '',
-        publishedAt: parseDate(dateNode.text()) || new Date().toISOString(),
+        publishedAt: parseDate(dateNode.text()) || null,
         fetchedAt: new Date().toISOString(),
       });
     });
