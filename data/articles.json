@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-30T13:49:29.746Z",
+  "updatedAt": "2026-05-30T15:09:58.713Z",
   "total": 232,
   "articles": [
     {
@@ -363,7 +363,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T13:49:29.745Z",
+      "lastSeenAt": "2026-05-30T15:09:58.712Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -389,7 +389,10 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T15:09:58.713Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13370",
@@ -403,16 +406,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-04-02T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.501Z",
+      "fetchedAt": "2026-05-30T15:08:17.201Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 75,
+      "bucket": "paper",
+      "summary": "解读清华简《四告》中“宠之克之”，可与金文用语互证。",
+      "insight": "简文与金文辞例比较，有助于理解西周训诰用语。",
+      "tags": [
+        "清华简",
+        "四告",
+        "金文互证"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T15:09:58.713Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13369",
@@ -435,7 +445,10 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T15:09:58.713Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13368",
@@ -462,7 +475,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "lastSeenAt": "2026-05-30T15:09:58.712Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -479,16 +492,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-03-08T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.502Z",
+      "fetchedAt": "2026-05-30T15:08:17.202Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 70,
+      "bucket": "paper",
+      "summary": "重论《越公其事》中“𡐰”字的考释，涉及战国文字与金文互证。",
+      "insight": "对疑难字形的重新讨论，有助于深化战国文字与金文比较研究。",
+      "tags": [
+        "金文考释",
+        "战国文字",
+        "字形互证"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T15:09:58.713Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13364",
@@ -502,16 +522,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-03-06T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.502Z",
+      "fetchedAt": "2026-05-30T15:08:17.202Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 65,
+      "bucket": "paper",
+      "summary": "补说安大三《哀诵》中“孚风”及相关字形，涉及楚简文字考释。",
+      "insight": "楚简文字考释对金文同类字形研究有参考价值。",
+      "tags": [
+        "楚简",
+        "字形考释",
+        "金文互证"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T15:09:58.713Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13360",
@@ -538,7 +565,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T13:49:29.745Z",
+      "lastSeenAt": "2026-05-30T15:09:58.713Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -569,7 +596,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T13:49:29.745Z",
+      "lastSeenAt": "2026-05-30T15:09:58.713Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -599,7 +626,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T13:49:29.745Z",
+      "lastSeenAt": "2026-05-30T15:09:58.713Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -629,7 +656,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T13:49:29.745Z",
+      "lastSeenAt": "2026-05-30T15:09:58.712Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -659,7 +686,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T13:49:29.745Z",
+      "lastSeenAt": "2026-05-30T15:09:58.712Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -685,7 +712,10 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T15:09:58.713Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13350",
@@ -699,16 +729,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-01-04T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.503Z",
+      "fetchedAt": "2026-05-30T15:08:17.202Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 70,
+      "bucket": "paper",
+      "summary": "对上博简《李颂》中“倝冬之祁寒”一句进行补释，涉及战国文字考释。",
+      "insight": "可与金文中的季节、气候类字词互证。",
+      "tags": [
+        "上博简",
+        "文字考释",
+        "战国文字"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T15:09:58.713Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13349",
@@ -722,16 +759,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-01-02T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.503Z",
+      "fetchedAt": "2026-05-30T15:08:17.202Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 70,
+      "bucket": "paper",
+      "summary": "对安大简《哀诵》篇进行补释，属于战国竹书文字考释。",
+      "insight": "竹书与金文用字可互参，有助于字形演变研究。",
+      "tags": [
+        "安大简",
+        "文字考释",
+        "战国文字"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T15:09:58.713Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "cnki-yindu:https://kns.cnki.net/kcms2/article/abstract?v=VfSiRbMmQk06pM8KzGUZboCqmDdVHEakfbvKhQn6pefLt-Ej5_k0x9nh2qSsDINMdnNAdYoYh6DPpQXhxwdJ1aQLOLgxYWHvgiMZW8xqrnsR8JxsJaZbwVBv_eaE643YHvSIBTr8Va97sNSMpD1I3-Zle3Yb5Ew-dkG3Alawpjfb1LSy6V-bhA==&uniplatform=NZKPT&language=CHS",
@@ -2616,7 +2660,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "lastSeenAt": "2026-05-30T15:09:58.713Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -3980,7 +4024,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T13:49:29.745Z",
+      "lastSeenAt": "2026-05-30T15:09:58.713Z",
       "sources": [
         "复旦出土文献"
       ]
