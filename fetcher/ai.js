@@ -128,13 +128,16 @@ export async function enrichItems(rawItems, { noAI = false } = {}) {
           enriched.push(item);
           continue;
         }
-        if (!ai.relevant && Number(ai.score || 0) < 35) continue;
+        const aiScore = Number(ai.score || item.score);
+        const keepByRules = Number(item.score || 0) >= 45 || item.sourcePriority === 'high';
+        if (!ai.relevant && aiScore < 35 && !keepByRules) continue;
         const bucket = BUCKET_IDS.has(ai.bucket) ? ai.bucket : item.bucket;
+        const finalScore = keepByRules ? Math.max(aiScore, Number(item.score || 0)) : aiScore;
         enriched.push({
           ...item,
           relevant: Boolean(ai.relevant),
-          score: Number(ai.score || item.score),
-          bucket: Number(ai.score || item.score) < 45 ? 'lowConfidence' : bucket,
+          score: finalScore,
+          bucket: finalScore < 45 ? 'lowConfidence' : bucket,
           summary: ai.summary || item.summary,
           insight: ai.insight || item.insight,
           tags: Array.isArray(ai.tags) ? ai.tags.slice(0, 4) : item.tags,
