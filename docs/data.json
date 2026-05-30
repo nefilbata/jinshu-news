@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-05-28T04:04:38.355Z",
-  "total": 80,
-  "recentCount": 1,
+  "updatedAt": "2026-05-30T03:54:22.967Z",
+  "total": 81,
+  "recentCount": 2,
   "articles": [
     {
       "id": 920,
@@ -1301,6 +1301,21 @@
       ],
       "published_at": "2019-10-20T00:00:00+00:00",
       "fetched_at": "2026-05-14T07:49:01.131+00:00"
+    },
+    {
+      "id": 1093,
+      "source_id": "xianqin-blog",
+      "source_name": "先秦史研究室",
+      "source_short_name": "先秦史研究室",
+      "category": "学术机构",
+      "title": "“故宫研究院学术讲坛第五十六讲”：《考古学与甲骨文字释读》（刘一曼）",
+      "link": "https://www.xianqin.org/blog/archives/11668.html",
+      "author": "",
+      "summary": "（据题推断）讲座涉及甲骨文释读与考古学，但主题为甲骨文，与金文无直接关联。",
+      "score": 40,
+      "tags": [],
+      "published_at": "2019-05-14T00:00:00+00:00",
+      "fetched_at": "2026-05-29T04:03:16.136+00:00"
     },
     {
       "id": 640,
