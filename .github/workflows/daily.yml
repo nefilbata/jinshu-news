@@ -1,51 +1,52 @@
-name: 金文资讯 - 每日更新
+name: 金文速递每日更新
 
 on:
   schedule:
-    # 每天早上 8:00 UTC+8（即 0:00 UTC）运行
     - cron: '0 0 * * *'
-  # 允许手动触发
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  fetch-and-update:
+  daily:
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 25
+
     steps:
-      - name: Checkout 代码
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: 设置 Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm'
-          cache-dependency-path: fetcher/package.json
+          cache: npm
+          cache-dependency-path: fetcher/package-lock.json
 
-      - name: 安装依赖
+      - name: Install dependencies
         working-directory: ./fetcher
-        run: npm install
+        run: npm ci
 
-      - name: 运行抓取
-        working-directory: ./fetcher
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-          RUN_ENV: actions
-        run: node index.js
-
-      - name: 生成静态数据文件
+      - name: Build digest, send mail, update archive
         working-directory: ./fetcher
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-        run: node export.js
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_API_BASE: ${{ secrets.AI_API_BASE }}
+          AI_MODEL: ${{ secrets.AI_MODEL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_SECURE: ${{ secrets.SMTP_SECURE }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: npm run daily
 
-      - name: 提交更新的数据文件
+      - name: Commit archive updates
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add docs/data.json
-          git diff --staged --quiet || git commit -m "chore: 更新资讯数据 $(date '+%Y-%m-%d')"
+          git add data docs
+          git diff --staged --quiet || git commit -m "chore: update jinshu digest $(date '+%Y-%m-%d')"
           git push

@@ -1,28 +1,13 @@
-/**
- * 金文资讯站 - 抓取模块
- * 支持类型：rss | web | cnki-search
- *
- * 环境标记（source.env）：
- *   'actions' → 仅 GitHub Actions 运行（境外IP，可访问 Scholar/RSSHub）
- *   'local'   → 仅本地运行（境内IP，可访问 CNKI）
- *   undefined → 两种环境都跑
- *
- * 运行时通过环境变量 RUN_ENV=local|actions 指定当前环境，
- * 不传则两种都跑（兼容旧行为）。
- */
-
 import * as cheerio from 'cheerio';
+import iconv from 'iconv-lite';
 import Parser from 'rss-parser';
 import { SOURCES } from './sources.js';
-
-// 当前运行环境：'local' | 'actions' | 'all'
-const RUN_ENV = process.env.RUN_ENV || 'all';
 
 const parser = new Parser({
   timeout: 15000,
   headers: {
-    'User-Agent': 'Mozilla/5.0 (compatible; JinshuNews/1.0)',
-    'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+    'User-Agent': 'JinshuNews/2.0 (+https://github.com/nefilbata/jinshu-news)',
+    Accept: 'application/rss+xml, application/xml, text/xml, */*',
   },
   customFields: {
     item: [
@@ -32,214 +17,176 @@ const parser = new Parser({
   },
 });
 
-// ── 环境过滤 ─────────────────────────────────────────────────
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-function shouldRun(source) {
-  if (RUN_ENV === 'all') return true;
-  if (!source.env) return true;
-  return source.env === RUN_ENV;
+function sniffCharset(bytes, contentType = '') {
+  const headerMatch = contentType.match(/charset=([^;]+)/i);
+  if (headerMatch) return headerMatch[1].trim().toLowerCase();
+
+  const ascii = Buffer.from(bytes.slice(0, 1024)).toString('latin1');
+  const declared = ascii.match(/encoding=["']([^"']+)["']/i) || ascii.match(/charset=["']?([^"'\s/>]+)/i);
+  return declared ? declared[1].trim().toLowerCase() : 'utf-8';
 }
 
-// ── RSS 抓取（支持 fallback URL）────────────────────────────
+function normalizeCharset(charset) {
+  if (['gb2312', 'gbk', 'gb18030'].includes(charset)) return 'gb18030';
+  if (['utf8', 'utf-8'].includes(charset)) return 'utf-8';
+  return charset || 'utf-8';
+}
+
+async function responseText(response) {
+  const bytes = Buffer.from(await response.arrayBuffer());
+  const charset = normalizeCharset(sniffCharset(bytes, response.headers.get('content-type') || ''));
+  if (charset !== 'utf-8') return iconv.decode(bytes, charset);
+  return bytes.toString('utf8');
+}
+
+async function withRetry(label, task, attempts = 2) {
+  let lastError;
+  for (let i = 0; i < attempts; i += 1) {
+    try {
+      return await task();
+    } catch (error) {
+      lastError = error;
+      console.warn(`[fetch] ${label} failed (${i + 1}/${attempts}): ${error.message}`);
+      if (i + 1 < attempts) await sleep(800 * (i + 1));
+    }
+  }
+  throw lastError;
+}
+
+function cleanText(value = '') {
+  return value.replace(/\s+/g, ' ').trim();
+}
+
+function absolutizeUrl(href, baseUrl) {
+  if (!href) return '';
+  try {
+    return new URL(href, baseUrl).toString();
+  } catch {
+    return href;
+  }
+}
+
+export function parseDate(value) {
+  if (!value) return null;
+  const text = cleanText(String(value))
+    .replace(/[年月.]/g, '-')
+    .replace(/[日号]/g, '')
+    .replace(/\//g, '-');
+  const match = text.match(/(20\d{2}|19\d{2})[-年.]?(\d{1,2})?[-月.]?(\d{1,2})?/);
+  if (match) {
+    const [, year, month = '1', day = '1'] = match;
+    const date = new Date(Date.UTC(Number(year), Number(month) - 1, Number(day)));
+    if (!Number.isNaN(date.getTime())) return date.toISOString();
+  }
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? null : date.toISOString();
+}
 
 async function fetchRSS(source) {
   const urls = [source.url, ...(source.fallbackUrls || [])];
-
   for (const url of urls) {
     try {
-      console.log(`[RSS] 抓取 ${source.name} ...${url !== source.url ? ' (fallback)' : ''}`);
-      const feed = await parser.parseURL(url);
-
-      return feed.items.map(item => ({
-        sourceId: source.id,
-        sourceName: source.name,
-        sourceShortName: source.shortName,
-        category: source.category,
-        priority: source.priority,
-        title: item.title?.trim() || '',
-        link: item.link || item.guid || '',
-        summary: item.contentSnippet || item.content || item.summary || '',
-        author: item.creator || item.author || '',
-        publishedAt: item.pubDate || item.isoDate || item.dcDate || new Date().toISOString(),
-        raw: item,
-      }));
-    } catch (err) {
-      console.warn(`[RSS] 失败 ${source.name} (${url}): ${err.message}`);
+      const xml = await withRetry(`${source.id} rss`, async () => {
+        const response = await fetch(url, {
+          headers: {
+            'User-Agent': 'JinshuNews/2.0 (+https://github.com/nefilbata/jinshu-news)',
+            Accept: 'application/rss+xml, application/xml, text/xml, */*',
+          },
+          signal: AbortSignal.timeout(15000),
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return responseText(response);
+      });
+      const feed = await parser.parseString(xml);
+      return feed.items
+        .map((item) => ({
+          id: `${source.id}:${item.guid || item.link || item.title}`,
+          sourceId: source.id,
+          sourceName: source.name,
+          sourceShortName: source.shortName,
+          sourcePriority: source.priority,
+          bucketHint: source.bucket,
+          title: cleanText(item.title || ''),
+          link: item.link || item.guid || url,
+          author: cleanText(item.creator || item.author || ''),
+          excerpt: cleanText(item.contentSnippet || item.summary || item.content || ''),
+          publishedAt: parseDate(item.pubDate || item.isoDate || item.dcDate) || new Date().toISOString(),
+          fetchedAt: new Date().toISOString(),
+        }))
+        .filter((item) => item.title && item.link);
+    } catch (error) {
+      console.warn(`[fetch] RSS source skipped: ${source.name} (${url}) ${error.message}`);
     }
   }
-
-  console.error(`[RSS] 所有URL均失败 ${source.name}`);
   return [];
 }
 
-// ── 网页抓取 ─────────────────────────────────────────────────
-
 async function fetchWeb(source) {
   try {
-    console.log(`[WEB] 抓取 ${source.name} ...`);
-    const res = await fetch(source.url, {
+    const response = await withRetry(`${source.id} web`, () => fetch(source.url, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-        'Accept': 'text/html,application/xhtml+xml',
-        'Accept-Language': 'zh-CN,zh;q=0.9',
+        'User-Agent': 'Mozilla/5.0 (compatible; JinshuNews/2.0)',
+        Accept: 'text/html,application/xhtml+xml',
+        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.6',
       },
-      signal: AbortSignal.timeout(15000),
-    });
+      signal: AbortSignal.timeout(16000),
+    }));
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-
-    const html = await res.text();
+    const html = await responseText(response);
     const $ = cheerio.load(html);
     const items = [];
-    const sel = source.selector;
+    const selector = source.selector;
 
-    $(sel.list).each((i, el) => {
-      const titleEl = $(el).find(sel.title).first();
-      const linkEl  = $(el).find(sel.link).first();
-      const dateEl  = $(el).find(sel.date).first();
+    $(selector.list).each((_, element) => {
+      const titleNode = $(element).find(selector.title).first();
+      const linkNode = $(element).find(selector.link).first();
+      const dateNode = $(element).find(selector.date).first();
+      const title = cleanText(titleNode.text());
+      const href = linkNode.attr('href') || titleNode.attr('href') || '';
 
-      const title = titleEl.text().trim();
-      const href  = linkEl.attr('href') || '';
-      const date  = dateEl.text().trim();
-
-      if (!title || title.length < 4) return;
-
-      let link = href;
-      if (href && !href.startsWith('http')) {
-        const base = new URL(source.url);
-        link = href.startsWith('/')
-          ? `${base.origin}${href}`
-          : `${base.origin}/${href}`;
-      }
+      if (!title || title.length < 4 || !href) return;
 
       items.push({
+        id: `${source.id}:${href}`,
         sourceId: source.id,
         sourceName: source.name,
         sourceShortName: source.shortName,
-        category: source.category,
-        priority: source.priority,
+        sourcePriority: source.priority,
+        bucketHint: source.bucket,
         title,
-        link,
-        summary: '',
+        link: absolutizeUrl(href, source.url),
         author: '',
-        publishedAt: parseChineseDate(date) || new Date().toISOString(),
-        raw: { title, href, date },
+        excerpt: '',
+        publishedAt: parseDate(dateNode.text()) || new Date().toISOString(),
+        fetchedAt: new Date().toISOString(),
       });
     });
 
-    console.log(`[WEB] ${source.name} 获得 ${items.length} 条`);
     return items;
-  } catch (err) {
-    console.error(`[WEB] 失败 ${source.name}: ${err.message}`);
+  } catch (error) {
+    console.warn(`[fetch] Web source skipped: ${source.name} ${error.message}`);
     return [];
   }
 }
 
-// ── C: CNKI 关键词搜索 ────────────────────────────────────────
-// 抓取 CNKI 高级检索结果（境内IP，本地跑）
-// 反爬较严，加长延迟 + 完整UA
+export async function fetchAll({ limitSources } = {}) {
+  const selectedSources = Number.isFinite(limitSources) ? SOURCES.slice(0, limitSources) : SOURCES;
+  const allItems = [];
+  const failures = [];
 
-async function fetchCnkiSearch(source) {
-  try {
-    console.log(`[CNKI-SEARCH] 搜索 "${source.query}" ...`);
-
-    const keywords = encodeURIComponent(source.query);
-    const url = `https://kns.cnki.net/kns8s/brief/grid?dbCode=CFLD&kuasuId=CJFD%2CCCJD&kw=${keywords}&korder=dt&pageNum=1&pageSize=20`;
-
-    const res = await fetch(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'zh-CN,zh;q=0.9',
-        'Referer': 'https://kns.cnki.net/kns8s/defaultresult/index',
-      },
-      signal: AbortSignal.timeout(20000),
-    });
-
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-
-    const html = await res.text();
-    const $ = cheerio.load(html);
-    const items = [];
-
-    $('tr.odd, tr.even').each((i, el) => {
-      const titleEl  = $(el).find('td.name a').first();
-      const authorEl = $(el).find('td.author').first();
-      const sourceEl = $(el).find('td.source a').first();
-      const dateEl   = $(el).find('td.date').first();
-
-      const title   = titleEl.text().trim();
-      const href    = titleEl.attr('href') || '';
-      const author  = authorEl.text().trim().replace(/;$/, '');
-      const journal = sourceEl.text().trim();
-      const date    = dateEl.text().trim();
-
-      if (!title || title.length < 4) return;
-
-      const link = href.startsWith('http')
-        ? href
-        : `https://kns.cnki.net${href}`;
-
-      items.push({
-        sourceId: source.id,
-        sourceName: journal ? `${source.name} · ${journal}` : source.name,
-        sourceShortName: source.shortName,
-        category: source.category,
-        priority: source.priority,
-        title,
-        link,
-        summary: '',
-        author,
-        publishedAt: parseChineseDate(date) || new Date().toISOString(),
-        raw: { title, href, author, journal, date },
-      });
-    });
-
-    console.log(`[CNKI-SEARCH] "${source.query}" 获得 ${items.length} 条`);
-    return items;
-  } catch (err) {
-    console.error(`[CNKI-SEARCH] 失败 "${source.query}": ${err.message}`);
-    return [];
-  }
-}
-
-// ── 工具函数 ─────────────────────────────────────────────────
-
-function parseChineseDate(str) {
-  if (!str) return null;
-  const cleaned = str.replace(/年/g, '-').replace(/月/g, '-').replace(/日/g, '').trim();
-  const d = new Date(cleaned);
-  return isNaN(d.getTime()) ? null : d.toISOString();
-}
-
-// ── 主入口 ───────────────────────────────────────────────────
-
-export async function fetchAll() {
-  const results = [];
-  const skipped = [];
-
-  for (const source of SOURCES) {
-    if (!shouldRun(source)) {
-      skipped.push(source.name);
-      continue;
+  for (const source of selectedSources) {
+    try {
+      console.log(`[fetch] ${source.shortName || source.name}`);
+      const items = source.type === 'rss' ? await fetchRSS(source) : await fetchWeb(source);
+      allItems.push(...items);
+      await sleep(400);
+    } catch (error) {
+      failures.push({ sourceId: source.id, name: source.name, error: error.message });
     }
-
-    let items = [];
-    if (source.type === 'rss') {
-      items = await fetchRSS(source);
-    } else if (source.type === 'web') {
-      items = await fetchWeb(source);
-    } else if (source.type === 'cnki-search') {
-      items = await fetchCnkiSearch(source);
-    }
-
-    results.push(...items);
-    await new Promise(r => setTimeout(r, 800));
   }
 
-  if (skipped.length) {
-    console.log(`\n⏭  跳过（环境不符）: ${skipped.join('、')}`);
-  }
-  console.log(`\n✅ 共抓取 ${results.length} 条原始数据`);
-  return results;
+  return { items: allItems, failures };
 }

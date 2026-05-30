@@ -1,110 +1,73 @@
-# 金文动态 · JinWen News
+# 金文速递
 
-金文、出土文献及先秦史学术资讯聚合站。
+面向金文、青铜器铭文、出土文献与先秦史相关研究的每日资讯自动化项目。
 
-## 项目结构
+当前版本以邮件日报为主，静态网页归档为辅：
 
+1. GitHub Actions 每天北京时间 8:00 自动运行。
+2. 抓取 RSS 与重点机构页面。
+3. 先用规则初筛，再用 AI 精筛、分类、摘要和简短解读。
+4. 通过 SMTP 发送 HTML 邮件。
+5. 把历史条目和日报写入 `data/` 与 `docs/`，用于 GitHub Pages 归档。
+
+## 目录
+
+```text
+fetcher/                 Node.js 自动化程序
+data/articles.json        长期去重条目库
+data/digests/YYYY-MM-DD.json
+docs/index.html           静态归档页
+docs/data.json            归档页数据
+.github/workflows/daily.yml
 ```
-jinshu-news/
-├── fetcher/          Node.js 数据抓取脚本
-│   ├── sources.js    信源配置
-│   ├── fetch.js      RSS + 网页抓取
-│   ├── ai.js         Claude API 过滤与摘要
-│   ├── upload.js     Supabase 写入
-│   ├── export.js     导出为 web/data.json
-│   └── index.js      主程序
-├── web/
-│   ├── index.html    前端页面（GitHub Pages 部署）
-│   └── data.json     每日自动生成的数据文件
-├── .github/workflows/
-│   └── daily.yml     GitHub Actions 定时任务
-└── supabase_schema.sql  数据库建表语句
+
+## GitHub Secrets
+
+必须配置：
+
+```text
+SMTP_HOST
+SMTP_PORT
+SMTP_USER
+SMTP_PASS
+MAIL_TO
+MAIL_FROM
+AI_API_KEY
 ```
 
----
+可选配置：
 
-## 部署步骤
+```text
+AI_API_BASE   默认 https://api.deepseek.com/chat/completions
+AI_MODEL      默认 deepseek-chat
+SMTP_SECURE   465 端口默认 true；其他端口默认 STARTTLS
+```
 
-### 第一步：Supabase 建表
+如果没有 `AI_API_KEY`，程序会退回规则筛选。如果没有 SMTP 配置，程序会生成归档但跳过发信。
 
-1. 在 [Supabase](https://supabase.com) 新建项目
-2. 进入 SQL Editor，执行 `supabase_schema.sql` 中的内容
-3. 记录下：
-   - **Project URL**（形如 `https://xxxx.supabase.co`）
-   - **anon key**（前端用，只读）
-   - **service_role key**（脚本写入用，保密！）
+## 本地运行
 
-### 第二步：配置 GitHub Secrets
-
-在 GitHub 仓库 → Settings → Secrets and variables → Actions → New repository secret，添加：
-
-| 名称 | 值 |
-|------|-----|
-| `ANTHROPIC_API_KEY` | 你的 Claude API Key |
-| `SUPABASE_URL` | Supabase Project URL |
-| `SUPABASE_SERVICE_KEY` | service_role key |
-
-### 第三步：本地测试
-
-```bash
-cd fetcher
+```powershell
+cd "D:\Desktop\make progress\jinshu-news\fetcher"
 npm install
-
-# 设置环境变量（Windows PowerShell）
-$env:ANTHROPIC_API_KEY="sk-ant-..."
-$env:SUPABASE_URL="https://xxxx.supabase.co"
-$env:SUPABASE_SERVICE_KEY="eyJ..."
-
-# 运行一次抓取
-node index.js
-
-# 导出数据到前端
-node export.js
+npm run dry
 ```
 
-### 第四步：GitHub Pages 部署
+dry run 会生成：
 
-1. 推送代码到 GitHub
-2. Settings → Pages → Source 选择 `main` 分支 `/web` 文件夹
-3. 等待第一次 Actions 运行后，`web/data.json` 会自动生成
-
----
-
-## 关于网页抓取（非RSS信源）
-
-清华、复旦、武大、先秦史研究室四个网站需要网页抓取，
-页面结构各不相同，首次运行时可能需要手动调整 `sources.js` 中各信源的 `selector` 配置。
-
-调试方法：
-```bash
-# 在 Node.js 中测试某个信源
-node -e "
-import('./fetch.js').then(m => m.fetchAll()).then(items => {
-  const filtered = items.filter(i => i.sourceId === 'fudan-dgwz');
-  console.log(JSON.stringify(filtered.slice(0,3), null, 2));
-});
-"
+```text
+docs/preview-email.html
+docs/preview-email.txt
 ```
 
----
+正式运行：
 
-## 定时任务
+```powershell
+npm run daily
+```
 
-GitHub Actions 配置为每天 **北京时间早 8:00** 自动运行。
-也可在 Actions 页面手动点击 "Run workflow" 立即触发。
+只更新归档、不发邮件：
 
----
-
-## 扩展信源（已注释，随时可激活）
-
-`sources.js` 中注释掉的 CNKI 期刊可按需在 `SOURCES` 数组中取消注释并添加：
-- 《甲骨文与殷商史》《青铜器与金文》（最相关，优先激活）
-- 《殷都学刊》《简帛》
-- 各省文物期刊
-
----
-
-## 本地开发（不连接数据库）
-
-直接打开 `web/index.html`，若无 `data.json` 文件，
-页面会自动加载内置的8条演示数据，可用于调试前端样式。
+```powershell
+npm run no-email
+```
