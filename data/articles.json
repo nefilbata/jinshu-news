@@ -1,7 +1,247 @@
 {
-  "updatedAt": "2026-05-30T04:57:36.156Z",
+  "updatedAt": "2026-05-30T05:45:44.956Z",
   "total": 232,
   "articles": [
+    {
+      "id": "wuhan-bsm:http://www.ctwx.tsinghua.edu.cn/",
+      "sourceId": "wuhan-bsm",
+      "sourceName": "武汉大学简帛研究中心",
+      "sourceShortName": "武大简帛",
+      "sourcePriority": "medium",
+      "bucketHint": "news",
+      "title": "清華大學出土文獻研究與保護中心",
+      "link": "http://www.ctwx.tsinghua.edu.cn/",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-05-30T05:44:29.271Z",
+      "fetchedAt": "2026-05-30T05:44:29.271Z",
+      "relevant": true,
+      "score": 60,
+      "bucket": "news",
+      "summary": "清华大学出土文献研究与保护中心网站，发布金文、简帛等出土文献研究动态。",
+      "insight": "可作为金文资讯的持续关注来源。",
+      "tags": [
+        "研究机构",
+        "出土文献",
+        "金文"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-05-30T04:57:36.156Z",
+      "lastSeenAt": "2026-05-30T05:45:44.956Z",
+      "sources": [
+        "武大简帛"
+      ]
+    },
+    {
+      "id": "wuhan-bsm:http://www.shindai.zinbun.kyoto-u.ac.jp/index.html",
+      "sourceId": "wuhan-bsm",
+      "sourceName": "武汉大学简帛研究中心",
+      "sourceShortName": "武大简帛",
+      "sourcePriority": "medium",
+      "bucketHint": "news",
+      "title": "秦代出土文字史料研究",
+      "link": "http://www.shindai.zinbun.kyoto-u.ac.jp/index.html",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-05-30T05:44:29.271Z",
+      "fetchedAt": "2026-05-30T05:44:29.271Z",
+      "relevant": true,
+      "score": 60,
+      "bucket": "news",
+      "summary": "秦代出土文字史料研究网站，涉及秦系文字，与金文研究有交叉。",
+      "insight": "秦文字与金文关系密切，可关注其研究动态。",
+      "tags": [
+        "秦文字",
+        "出土文献",
+        "金文"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-05-30T04:57:36.156Z",
+      "lastSeenAt": "2026-05-30T05:45:44.956Z",
+      "sources": [
+        "武大简帛"
+      ]
+    },
+    {
+      "id": "wuhan-bsm:/?xiaox/9638.html",
+      "sourceId": "wuhan-bsm",
+      "sourceName": "武汉大学简帛研究中心",
+      "sourceShortName": "武大简帛",
+      "sourcePriority": "medium",
+      "bucketHint": "news",
+      "title": "Bamboo and Silk第8卷第1期出版",
+      "link": "http://www.bsm.org.cn/?xiaox/9638.html",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-05-30T05:44:29.268Z",
+      "fetchedAt": "2026-05-30T05:44:29.268Z",
+      "relevant": true,
+      "score": 70,
+      "bucket": "paper",
+      "summary": "Bamboo and Silk第8卷第1期出版，该刊常刊载与金文互证的出土文献研究。",
+      "insight": "可关注本期是否有涉及金文与简帛互证的文章。",
+      "tags": [
+        "出土文献",
+        "期刊出版",
+        "金文互证"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-05-30T04:57:36.156Z",
+      "lastSeenAt": "2026-05-30T05:45:44.956Z",
+      "sources": [
+        "武大简帛"
+      ]
+    },
+    {
+      "id": "wuhan-bsm:/?xiaox/9783.html",
+      "sourceId": "wuhan-bsm",
+      "sourceName": "武汉大学简帛研究中心",
+      "sourceShortName": "武大简帛",
+      "sourcePriority": "medium",
+      "bucketHint": "news",
+      "title": "《簡帛》（第三十輯）出版",
+      "link": "http://www.bsm.org.cn/?xiaox/9783.html",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-05-30T05:44:29.268Z",
+      "fetchedAt": "2026-05-30T05:44:29.268Z",
+      "relevant": true,
+      "score": 70,
+      "bucket": "paper",
+      "summary": "《簡帛》第三十輯出版，该刊常刊载与金文互证的出土文献研究。",
+      "insight": "可关注本辑是否有涉及金文与简帛互证的文章。",
+      "tags": [
+        "出土文献",
+        "期刊出版",
+        "金文互证"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-05-30T04:57:36.156Z",
+      "lastSeenAt": "2026-05-30T05:45:44.956Z",
+      "sources": [
+        "武大简帛"
+      ]
+    },
+    {
+      "id": "wuhan-bsm:/?xiaox/9857.html",
+      "sourceId": "wuhan-bsm",
+      "sourceName": "武汉大学简帛研究中心",
+      "sourceShortName": "武大简帛",
+      "sourcePriority": "medium",
+      "bucketHint": "news",
+      "title": "Bamboo and Silk第8卷第2期出版",
+      "link": "http://www.bsm.org.cn/?xiaox/9857.html",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-05-30T05:44:29.267Z",
+      "fetchedAt": "2026-05-30T05:44:29.267Z",
+      "relevant": true,
+      "score": 70,
+      "bucket": "paper",
+      "summary": "Bamboo and Silk第8卷第2期出版，该刊常刊载与金文互证的出土文献研究。",
+      "insight": "可关注本期是否有涉及金文与简帛互证的文章。",
+      "tags": [
+        "出土文献",
+        "期刊出版",
+        "金文互证"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-05-30T04:57:36.156Z",
+      "lastSeenAt": "2026-05-30T05:45:44.956Z",
+      "sources": [
+        "武大简帛"
+      ]
+    },
+    {
+      "id": "wuhan-bsm:/?xiaox/10058.html",
+      "sourceId": "wuhan-bsm",
+      "sourceName": "武汉大学简帛研究中心",
+      "sourceShortName": "武大简帛",
+      "sourcePriority": "medium",
+      "bucketHint": "news",
+      "title": "Bamboo and Silk第9卷第1期出版",
+      "link": "http://www.bsm.org.cn/?xiaox/10058.html",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-05-30T05:44:29.256Z",
+      "fetchedAt": "2026-05-30T05:44:29.256Z",
+      "relevant": true,
+      "score": 70,
+      "bucket": "book",
+      "summary": "Bamboo and Silk第9卷第1期出版，聚焦简帛与出土文献研究。",
+      "insight": "英文期刊，可能包含与金文互证的简帛研究。",
+      "tags": [
+        "简帛",
+        "出土文献",
+        "国际期刊"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-05-30T04:57:36.156Z",
+      "lastSeenAt": "2026-05-30T05:45:44.956Z",
+      "sources": [
+        "武大简帛"
+      ]
+    },
+    {
+      "id": "wuhan-bsm:/?xiaox/10040.html",
+      "sourceId": "wuhan-bsm",
+      "sourceName": "武汉大学简帛研究中心",
+      "sourceShortName": "武大简帛",
+      "sourcePriority": "medium",
+      "bucketHint": "news",
+      "title": "《簡帛》（第三十一輯）出版",
+      "link": "http://www.bsm.org.cn/?xiaox/10040.html",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-05-30T05:44:29.256Z",
+      "fetchedAt": "2026-05-30T05:44:29.256Z",
+      "relevant": true,
+      "score": 70,
+      "bucket": "book",
+      "summary": "《簡帛》（第三十一輯）出版，收录简帛与古文字研究论文。",
+      "insight": "简帛集刊常涉及与金文相关的文字考释与互证。",
+      "tags": [
+        "简帛",
+        "古文字",
+        "出土文献"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-05-30T04:57:36.156Z",
+      "lastSeenAt": "2026-05-30T05:45:44.956Z",
+      "sources": [
+        "武大简帛"
+      ]
+    },
+    {
+      "id": "wuhan-bsm:/?xiaox/10059.html",
+      "sourceId": "wuhan-bsm",
+      "sourceName": "武汉大学简帛研究中心",
+      "sourceShortName": "武大简帛",
+      "sourcePriority": "medium",
+      "bucketHint": "news",
+      "title": "《簡帛研究二〇二五（秋冬卷）》出版",
+      "link": "http://www.bsm.org.cn/?xiaox/10059.html",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-05-30T05:44:29.255Z",
+      "fetchedAt": "2026-05-30T05:44:29.255Z",
+      "relevant": true,
+      "score": 70,
+      "bucket": "book",
+      "summary": "《簡帛研究二〇二五（秋冬卷）》出版，收录简帛与古文字研究论文。",
+      "insight": "简帛研究集刊常刊载与金文互证的出土文献研究。",
+      "tags": [
+        "简帛",
+        "出土文献",
+        "古文字"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-05-30T04:57:36.156Z",
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "武大简帛"
+      ]
+    },
     {
       "id": "wuhan-bsm:http://www.fdgwz.org.cn/",
       "sourceId": "wuhan-bsm",
@@ -24,127 +264,6 @@
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
       "lastSeenAt": "2026-05-30T04:57:36.155Z"
-    },
-    {
-      "id": "wuhan-bsm:http://www.ctwx.tsinghua.edu.cn/",
-      "sourceId": "wuhan-bsm",
-      "sourceName": "武汉大学简帛研究中心",
-      "sourceShortName": "武大简帛",
-      "sourcePriority": "medium",
-      "bucketHint": "news",
-      "title": "清華大學出土文獻研究與保護中心",
-      "link": "http://www.ctwx.tsinghua.edu.cn/",
-      "author": "",
-      "excerpt": "",
-      "publishedAt": "2026-05-30T04:56:41.482Z",
-      "fetchedAt": "2026-05-30T04:56:41.482Z",
-      "relevant": false,
-      "score": 17,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
-      "firstSeenAt": "2026-05-30T04:57:36.156Z",
-      "lastSeenAt": "2026-05-30T04:57:36.156Z"
-    },
-    {
-      "id": "wuhan-bsm:http://www.shindai.zinbun.kyoto-u.ac.jp/index.html",
-      "sourceId": "wuhan-bsm",
-      "sourceName": "武汉大学简帛研究中心",
-      "sourceShortName": "武大简帛",
-      "sourcePriority": "medium",
-      "bucketHint": "news",
-      "title": "秦代出土文字史料研究",
-      "link": "http://www.shindai.zinbun.kyoto-u.ac.jp/index.html",
-      "author": "",
-      "excerpt": "",
-      "publishedAt": "2026-05-30T04:56:41.482Z",
-      "fetchedAt": "2026-05-30T04:56:41.482Z",
-      "relevant": false,
-      "score": 17,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
-      "firstSeenAt": "2026-05-30T04:57:36.156Z",
-      "lastSeenAt": "2026-05-30T04:57:36.156Z"
-    },
-    {
-      "id": "wuhan-bsm:/?xiaox/9857.html",
-      "sourceId": "wuhan-bsm",
-      "sourceName": "武汉大学简帛研究中心",
-      "sourceShortName": "武大简帛",
-      "sourcePriority": "medium",
-      "bucketHint": "news",
-      "title": "Bamboo and Silk第8卷第2期出版",
-      "link": "http://www.bsm.org.cn/?xiaox/9857.html",
-      "author": "",
-      "excerpt": "",
-      "publishedAt": "2026-05-30T04:56:41.481Z",
-      "fetchedAt": "2026-05-30T04:56:41.481Z",
-      "relevant": false,
-      "score": 17,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [
-        "新书"
-      ],
-      "ai": false,
-      "firstSeenAt": "2026-05-30T04:57:36.156Z",
-      "lastSeenAt": "2026-05-30T04:57:36.156Z"
-    },
-    {
-      "id": "wuhan-bsm:/?xiaox/9638.html",
-      "sourceId": "wuhan-bsm",
-      "sourceName": "武汉大学简帛研究中心",
-      "sourceShortName": "武大简帛",
-      "sourcePriority": "medium",
-      "bucketHint": "news",
-      "title": "Bamboo and Silk第8卷第1期出版",
-      "link": "http://www.bsm.org.cn/?xiaox/9638.html",
-      "author": "",
-      "excerpt": "",
-      "publishedAt": "2026-05-30T04:56:41.481Z",
-      "fetchedAt": "2026-05-30T04:56:41.481Z",
-      "relevant": false,
-      "score": 17,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [
-        "新书"
-      ],
-      "ai": false,
-      "firstSeenAt": "2026-05-30T04:57:36.156Z",
-      "lastSeenAt": "2026-05-30T04:57:36.156Z"
-    },
-    {
-      "id": "wuhan-bsm:/?xiaox/9783.html",
-      "sourceId": "wuhan-bsm",
-      "sourceName": "武汉大学简帛研究中心",
-      "sourceShortName": "武大简帛",
-      "sourcePriority": "medium",
-      "bucketHint": "news",
-      "title": "《簡帛》（第三十輯）出版",
-      "link": "http://www.bsm.org.cn/?xiaox/9783.html",
-      "author": "",
-      "excerpt": "",
-      "publishedAt": "2026-05-30T04:56:41.481Z",
-      "fetchedAt": "2026-05-30T04:56:41.481Z",
-      "relevant": false,
-      "score": 17,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [
-        "新书"
-      ],
-      "ai": false,
-      "firstSeenAt": "2026-05-30T04:57:36.156Z",
-      "lastSeenAt": "2026-05-30T04:57:36.156Z"
     },
     {
       "id": "wuhan-bsm:/?xiaox/9870.html",
@@ -170,87 +289,6 @@
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.156Z",
       "lastSeenAt": "2026-05-30T04:57:36.156Z"
-    },
-    {
-      "id": "wuhan-bsm:/?xiaox/10059.html",
-      "sourceId": "wuhan-bsm",
-      "sourceName": "武汉大学简帛研究中心",
-      "sourceShortName": "武大简帛",
-      "sourcePriority": "medium",
-      "bucketHint": "news",
-      "title": "《簡帛研究二〇二五（秋冬卷）》出版",
-      "link": "http://www.bsm.org.cn/?xiaox/10059.html",
-      "author": "",
-      "excerpt": "",
-      "publishedAt": "2026-05-30T04:56:41.478Z",
-      "fetchedAt": "2026-05-30T04:56:41.478Z",
-      "relevant": false,
-      "score": 17,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [
-        "新书"
-      ],
-      "ai": false,
-      "firstSeenAt": "2026-05-30T04:57:36.156Z",
-      "lastSeenAt": "2026-05-30T04:57:36.156Z"
-    },
-    {
-      "id": "wuhan-bsm:/?xiaox/10058.html",
-      "sourceId": "wuhan-bsm",
-      "sourceName": "武汉大学简帛研究中心",
-      "sourceShortName": "武大简帛",
-      "sourcePriority": "medium",
-      "bucketHint": "news",
-      "title": "Bamboo and Silk第9卷第1期出版",
-      "link": "http://www.bsm.org.cn/?xiaox/10058.html",
-      "author": "",
-      "excerpt": "",
-      "publishedAt": "2026-05-30T04:56:41.478Z",
-      "fetchedAt": "2026-05-30T04:56:41.478Z",
-      "relevant": false,
-      "score": 17,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [
-        "新书"
-      ],
-      "ai": false,
-      "firstSeenAt": "2026-05-30T04:57:36.156Z",
-      "lastSeenAt": "2026-05-30T04:57:36.156Z",
-      "sources": [
-        "武大简帛"
-      ]
-    },
-    {
-      "id": "wuhan-bsm:/?xiaox/10040.html",
-      "sourceId": "wuhan-bsm",
-      "sourceName": "武汉大学简帛研究中心",
-      "sourceShortName": "武大简帛",
-      "sourcePriority": "medium",
-      "bucketHint": "news",
-      "title": "《簡帛》（第三十一輯）出版",
-      "link": "http://www.bsm.org.cn/?xiaox/10040.html",
-      "author": "",
-      "excerpt": "",
-      "publishedAt": "2026-05-30T04:56:41.478Z",
-      "fetchedAt": "2026-05-30T04:56:41.478Z",
-      "relevant": false,
-      "score": 17,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [
-        "新书"
-      ],
-      "ai": false,
-      "firstSeenAt": "2026-05-30T04:57:36.156Z",
-      "lastSeenAt": "2026-05-30T04:57:36.156Z",
-      "sources": [
-        "武大简帛"
-      ]
     },
     {
       "id": "wuhan-bsm:/?xiaox/10010.html",
@@ -312,18 +350,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-05-19T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.501Z",
+      "fetchedAt": "2026-05-30T05:44:27.704Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+      "score": 90,
+      "bucket": "paper",
+      "summary": "对王厚之《钟鼎款识》进行校勘与简注，涉及宋代金文著录的整理。",
+      "insight": "宋代金文著录的校注对追溯铭文流传与考释史有重要参考价值。",
       "tags": [
-        "青铜器"
+        "金文著录",
+        "宋代金石学",
+        "校勘"
       ],
-      "ai": false,
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13378",
@@ -406,18 +449,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-03-24T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.501Z",
+      "fetchedAt": "2026-05-30T05:44:27.706Z",
       "relevant": true,
-      "score": 36,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+      "score": 95,
+      "bucket": "book",
+      "summary": "《山东馆藏文物精品大系·青铜器卷》商周铜器著录对照表及新见铜器铭文，重要青铜器著录。",
+      "insight": "系统著录山东馆藏青铜器，提供新见铭文。",
       "tags": [
-        "历史年代"
+        "青铜器著录",
+        "山东馆藏",
+        "新见铭文"
       ],
-      "ai": false,
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13365",
@@ -477,16 +525,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-02-06T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.502Z",
+      "fetchedAt": "2026-05-30T05:44:27.706Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 85,
+      "bucket": "paper",
+      "summary": "对《铭四》著录的青铜礼器铭文进行杂识考释，涉及多件有铭铜器。",
+      "insight": "直接针对青铜器铭文考释，适合收录。",
+      "tags": [
+        "青铜器铭文",
+        "考释",
+        "著录"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13356",
@@ -500,16 +555,24 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-01-20T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.502Z",
+      "fetchedAt": "2026-05-30T05:44:27.707Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 95,
+      "bucket": "paper",
+      "summary": "研究曲沃北赵晋侯墓地M113出土雚盉铭文释读及相关问题。",
+      "insight": "涉及新出西周有铭铜器，考释与历史背景并重，价值高。",
+      "tags": [
+        "晋侯墓地",
+        "雚盉",
+        "铭文释读",
+        "西周"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13354",
@@ -523,16 +586,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-01-18T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.502Z",
+      "fetchedAt": "2026-05-30T05:44:27.707Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 85,
+      "bucket": "paper",
+      "summary": "对《铭图四》中收录的兵器铭文进行读后考释，涉及金文字形与内容解读。",
+      "insight": "兵器铭文是金文研究的重要分支，该文可补充兵器铭文释读成果。",
+      "tags": [
+        "兵器铭文",
+        "金文考释",
+        "铭图"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13353",
@@ -546,16 +616,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-01-17T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.502Z",
+      "fetchedAt": "2026-05-30T05:44:27.707Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 95,
+      "bucket": "paper",
+      "summary": "多位学者合作考释差钟、差鎛铭文，为青铜乐器铭文研究提供新见解。",
+      "insight": "钟鎛铭文考释是金文核心议题，合作研究体现学术深度。",
+      "tags": [
+        "钟鼎文",
+        "铭文考释",
+        "青铜乐器"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13352",
@@ -569,16 +646,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-01-16T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.502Z",
+      "fetchedAt": "2026-05-30T05:44:27.708Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 95,
+      "bucket": "paper",
+      "summary": "接续上篇，继续对差钟、差鎛铭文进行考释，完整呈现研究成果。",
+      "insight": "上下篇连续发表，系统性强，对金文释读有重要推进。",
+      "tags": [
+        "钟鼎文",
+        "铭文考释",
+        "青铜乐器"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:/Web/Show/13351",
@@ -2520,16 +2604,22 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2025-12-27T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.503Z",
+      "fetchedAt": "2026-05-30T05:44:27.708Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 70,
+      "bucket": "paper",
+      "summary": "系列说字小记，可能涉及古文字字形考释，需关注是否包含金文。",
+      "insight": "若涉及金文字形，则对字词考释有参考价值。",
+      "tags": [
+        "古文字",
+        "字形考释"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "xianqin-blog:https://www.xianqin.org/blog/archives/24153.html",
@@ -2543,18 +2633,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2025-11-01T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:43.624Z",
+      "fetchedAt": "2026-05-30T05:44:35.838Z",
       "relevant": true,
-      "score": 21,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+      "score": 85,
+      "bucket": "lecture",
+      "summary": "第三届“古文字与夏商周文明”学术研讨会会议纪要发布，涵盖古文字与夏商周文明研究。",
+      "insight": "会议纪要是了解古文字与金文研究前沿动态的重要窗口。",
       "tags": [
-        "历史年代"
+        "古文字",
+        "夏商周",
+        "学术会议"
       ],
-      "ai": false,
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "先秦史研究室"
+      ]
     },
     {
       "id": "xianqin-blog:https://www.xianqin.org/blog/archives/24114.html",
@@ -2568,19 +2663,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2025-10-26T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:43.625Z",
+      "fetchedAt": "2026-05-30T05:44:35.838Z",
       "relevant": true,
-      "score": 41,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+      "score": 65,
+      "bucket": "lecture",
+      "summary": "讲座探讨战国文字‘囟’与西周甲骨文‘囟’的关系，涉及古文字考释。",
+      "insight": "虽侧重甲骨，但字形考释与金文相关。",
       "tags": [
-        "出土文献",
-        "历史年代"
+        "战国文字",
+        "甲骨文",
+        "字形考释"
       ],
-      "ai": false,
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.956Z",
+      "sources": [
+        "先秦史研究室"
+      ]
     },
     {
       "id": "cnki-kgxb:https://kns.cnki.net/kcms2/article/abstract?v=VfSiRbMmQk06ICJN7YUFTZcn1Q2w3v4gxRLtfKo7QxIiKrBH0m5POaMhHmK6mnXMa8O34cMei1FEIgwBMgt2sqBoGx7qIzCBneZb6kr76zoJu5q8ZRLMMb4i5fLEbjhYDE6vIG1NWlXoWx3yCuf3iVRPVm8Xa5PW4-9NxI9--zS5aRHvNTJpag==&uniplatform=NZKPT&language=CHS",
@@ -3868,16 +3967,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2024-12-10T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.503Z",
+      "fetchedAt": "2026-05-30T05:44:27.708Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 80,
+      "bucket": "news",
+      "summary": "汇总2024年出土文献与古文字专业硕博论文目录，含金文相关选题。",
+      "insight": "提供金文研究动态和学术资源索引，便于追踪最新成果。",
+      "tags": [
+        "学术目录",
+        "学位论文",
+        "金文动态"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:http://www.fdgwz.org.cn/forum/forum.php?mod=viewthread&tid=25050",
@@ -3916,16 +4022,22 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2024-05-14T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.503Z",
+      "fetchedAt": "2026-05-30T05:44:27.708Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 70,
+      "bucket": "news",
+      "summary": "汇总2023年出土文献与古文字专业硕博论文目录，含金文相关研究。",
+      "insight": "可作为金文研究动态的索引，便于追踪最新学位论文。",
+      "tags": [
+        "学位论文",
+        "学术动态"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "cnki-gyjw:https://kns.cnki.net/kcms2/article/abstract?v=VfSiRbMmQk2GLIFP_0TOC7KDceeGYfKLo6DwpOqy7zZyYWleTz2tjLUzl-t9gMLQgsIO6UVglGSS59vE6sLicpGWqJ6Y4sdydc_ZH7ZAK6C6zNiqX0SGOsAgT2CVuR8uovHJEhtQcZn3GcyEXMOYO6oyyIYpj0KTb9tg9Evp182gQJJkQAuldA==&uniplatform=NZKPT&language=CHS",
@@ -5109,16 +5221,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2023-01-08T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.503Z",
+      "fetchedAt": "2026-05-30T05:44:27.708Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 90,
+      "bucket": "paper",
+      "summary": "对凌伯盘铭文进行补释，涉及金文字形考释与铭文解读。",
+      "insight": "直接针对青铜器铭文考释，是金文研究核心内容。",
+      "tags": [
+        "金文考释",
+        "凌伯盘",
+        "铭文补释"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:http://www.fdgwz.org.cn/forum/forum.php?mod=viewthread&tid=25042",
@@ -5132,16 +5251,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2022-12-11T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.503Z",
+      "fetchedAt": "2026-05-30T05:44:27.709Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 60,
+      "bucket": "paper",
+      "summary": "对战国竹书《参不韦》第一段进行试解，属出土文献研究。",
+      "insight": "虽非金文，但可与金文互证，属于相关出土文献。",
+      "tags": [
+        "出土文献",
+        "战国竹书",
+        "互证"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.956Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:http://www.fdgwz.org.cn/forum/forum.php?mod=viewthread&tid=25041",
@@ -5155,18 +5281,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2022-12-01T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.503Z",
+      "fetchedAt": "2026-05-30T05:44:27.709Z",
       "relevant": true,
-      "score": 42,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+      "score": 75,
+      "bucket": "paper",
+      "summary": "研读《清华大学藏战国竹简》（拾贰）《三不违》，属于与金文互证的出土文献。",
+      "insight": "战国竹简与金文可互证，提供新视角。",
       "tags": [
-        "历史年代"
+        "清华简",
+        "战国竹简",
+        "互证"
       ],
-      "ai": false,
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "xianqin-blog:https://www.xianqin.org/blog/archives/17216.html",
@@ -5207,16 +5338,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2022-05-27T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.503Z",
+      "fetchedAt": "2026-05-30T05:44:27.709Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 85,
+      "bucket": "paper",
+      "summary": "考释“柬宜生”一词，可能涉及金文或出土文献中的字词解读。",
+      "insight": "字词考释是金文研究基础，需确认具体材料是否含金文。",
+      "tags": [
+        "字词考释",
+        "金文",
+        "出土文献"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:http://www.fdgwz.org.cn/forum/forum.php?mod=viewthread&tid=25031",
@@ -5278,18 +5416,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2022-03-26T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.503Z",
+      "fetchedAt": "2026-05-30T05:44:27.710Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+      "score": 95,
+      "bucket": "news",
+      "summary": "发布寧女方鼎照片，为有铭青铜器提供图像资料。",
+      "insight": "直接提供金文实物图像，对铭文研究有重要参考价值。",
       "tags": [
-        "青铜器"
+        "寧女方鼎",
+        "青铜器照片",
+        "有铭铜器"
       ],
-      "ai": false,
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:http://www.fdgwz.org.cn/forum/forum.php?mod=viewthread&tid=4940",
@@ -5303,16 +5446,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2022-03-20T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.504Z",
+      "fetchedAt": "2026-05-30T05:44:27.710Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 60,
+      "bucket": "paper",
+      "summary": "对《命》篇进行补释两则，属战国竹书研究，可与金文互证。",
+      "insight": "出土文献与金文互证，有助于理解先秦文字与制度。",
+      "tags": [
+        "出土文献",
+        "战国竹书",
+        "互证"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.956Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:http://www.fdgwz.org.cn/forum/forum.php?mod=viewthread&tid=24950",
@@ -5326,16 +5476,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2022-02-08T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.504Z",
+      "fetchedAt": "2026-05-30T05:44:27.710Z",
       "relevant": true,
-      "score": 32,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
-      "tags": [],
-      "ai": false,
+      "score": 75,
+      "bucket": "paper",
+      "summary": "讨论古文字中“月部”与“屋部”是否可通假，涉及音韵与字形考释。",
+      "insight": "通假问题直接关联金文释读，对铭文考释有参考价值。",
+      "tags": [
+        "金文字形",
+        "通假",
+        "音韵"
+      ],
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:http://www.fdgwz.org.cn/forum/forum.php?mod=viewthread&tid=25030",
@@ -5425,18 +5582,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2021-12-01T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:40.504Z",
+      "fetchedAt": "2026-05-30T05:44:27.710Z",
       "relevant": true,
-      "score": 60,
-      "bucket": "news",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+      "score": 70,
+      "bucket": "paper",
+      "summary": "对卫侯之孙书钟铭文提出新的解读思路，属于金文字形考释与铭文讨论。",
+      "insight": "脑洞式探讨，可能激发新观点。",
       "tags": [
-        "金文考释"
+        "钟铭",
+        "金文考释",
+        "卫侯"
       ],
-      "ai": false,
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "复旦出土文献"
+      ]
     },
     {
       "id": "fudan-gwz:http://www.fdgwz.org.cn/forum/forum.php?mod=viewthread&tid=25017",
@@ -5498,20 +5660,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2020-10-28T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:43.627Z",
+      "fetchedAt": "2026-05-30T05:44:35.843Z",
       "relevant": true,
-      "score": 63,
+      "score": 85,
       "bucket": "lecture",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+      "summary": "任博士主讲《商周青铜簋整理与研究》讲座，聚焦青铜簋的整理与研究，属于金文青铜器系列。",
+      "insight": "系统整理青铜簋，为金文研究提供基础资料。",
       "tags": [
-        "金文考释",
-        "青铜器",
-        "历史年代"
+        "青铜簋",
+        "金文讲座",
+        "商周"
       ],
-      "ai": false,
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "先秦史研究室"
+      ]
     },
     {
       "id": "xianqin-blog:https://www.xianqin.org/blog/archives/12288.html",
@@ -5602,19 +5767,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2018-05-19T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:43.627Z",
+      "fetchedAt": "2026-05-30T05:44:35.844Z",
       "relevant": true,
-      "score": 45,
+      "score": 90,
       "bucket": "paper",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+      "summary": "付强考释新见第三件舲簋铭文，首发新见有铭铜器材料。",
+      "insight": "新见铜器铭文考释，直接推动金文研究。",
       "tags": [
-        "金文考释",
-        "青铜器"
+        "舲簋",
+        "新见铜器",
+        "铭文考释"
       ],
-      "ai": false,
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "先秦史研究室"
+      ]
     },
     {
       "id": "xianqin-blog:https://www.xianqin.org/blog/archives/10586.html",
@@ -5679,18 +5848,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2018-03-09T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:43.627Z",
+      "fetchedAt": "2026-05-30T05:44:35.844Z",
       "relevant": true,
-      "score": 35,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+      "score": 88,
+      "bucket": "paper",
+      "summary": "王子杨对大河口霸国墓地M1017出土青铜铭文材料的几点认识，涉及新出有铭铜器。",
+      "insight": "新出墓地铭文材料，补充西周金文资料。",
       "tags": [
-        "金文考释"
+        "霸国墓地",
+        "新出铜器",
+        "西周金文"
       ],
-      "ai": false,
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-05-30T04:57:36.155Z"
+      "lastSeenAt": "2026-05-30T05:45:44.955Z",
+      "sources": [
+        "先秦史研究室"
+      ]
     },
     {
       "id": "xianqin-blog:https://www.xianqin.org/blog/archives/9825.html",
@@ -5756,20 +5930,23 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2011-11-25T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T04:56:43.626Z",
-      "relevant": false,
-      "score": 17,
-      "bucket": "lowConfidence",
-      "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
-      "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+      "fetchedAt": "2026-05-30T05:44:35.841Z",
+      "relevant": true,
+      "score": 65,
+      "bucket": "book",
+      "summary": "《商代史》11卷出版，宋镇豪主编，涉及商代金文与青铜器研究。",
+      "insight": "大型商代史著作，包含金文资料与研究成果。",
       "tags": [
-        "出土文献",
-        "历史年代",
-        "新书"
+        "商代史",
+        "金文",
+        "青铜器"
       ],
-      "ai": false,
+      "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.156Z",
-      "lastSeenAt": "2026-05-30T04:57:36.156Z"
+      "lastSeenAt": "2026-05-30T05:45:44.956Z",
+      "sources": [
+        "先秦史研究室"
+      ]
     },
     {
       "id": "xianqin-blog:https://www.xianqin.org/blog/archives/1474.html",
