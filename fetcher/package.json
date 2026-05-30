@@ -1,16 +1,23 @@
 {
   "name": "jinshu-news-fetcher",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
-  "description": "金文资讯站数据抓取与处理",
+  "description": "金文速递：抓取、筛选、邮件日报与静态归档生成器",
   "main": "index.js",
   "scripts": {
-    "fetch": "node index.js",
-    "export": "node export.js"
+    "start": "node index.js",
+    "daily": "node index.js",
+    "dry": "node index.js --dry-run --limit-sources=5 --no-ai",
+    "no-email": "node index.js --no-email",
+    "export": "node export.js",
+    "check": "node check.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.49.0",
     "cheerio": "^1.0.0",
+    "iconv-lite": "^0.7.2",
     "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

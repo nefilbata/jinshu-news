@@ -1,39 +1,79 @@
-/**
- * 金文资讯站 - 主程序
- * 运行：node index.js
- */
-
+import { writeFile } from 'fs/promises';
+import { join } from 'path';
 import { fetchAll } from './fetch.js';
-import { filterAndEnrich } from './ai.js';
-import { uploadArticles, cleanOldArticles } from './upload.js';
+import { enrichItems } from './ai.js';
+import { buildDigest, todayInShanghai } from './digest.js';
+import { renderArchiveHtml, renderEmailHtml, renderPlainText } from './render.js';
+import { sendMail } from './mailer.js';
+import {
+  DOCS_DIR,
+  ensureDirs,
+  loadArticles,
+  mergeArticles,
+  saveArticles,
+  saveDigest,
+  updateDocsData,
+} from './storage.js';
 
-async function main() {
-  console.log('═══════════════════════════════════');
-  console.log('  金文资讯 - 数据更新');
-  console.log(`  ${new Date().toLocaleString('zh-CN')}`);
-  console.log('═══════════════════════════════════\n');
-
-  // 1. 抓取所有信源
-  const rawItems = await fetchAll();
-
-  if (rawItems.length === 0) {
-    console.log('⚠️  未抓取到任何内容，请检查网络或信源配置');
-    process.exit(0);
-  }
-
-  // 2. AI 过滤+摘要
-  const enriched = await filterAndEnrich(rawItems);
-
-  // 3. 写入数据库
-  await uploadArticles(enriched);
-
-  // 4. 清理旧数据（可选）
-  // await cleanOldArticles(90);
-
-  console.log('\n🎉 更新完成！');
+function parseArgs(argv) {
+  const args = new Set(argv);
+  const limitArg = argv.find((arg) => arg.startsWith('--limit-sources='));
+  return {
+    dryRun: args.has('--dry-run'),
+    noEmail: args.has('--no-email') || args.has('--dry-run'),
+    noAI: args.has('--no-ai'),
+    limitSources: limitArg ? Number(limitArg.split('=')[1]) : undefined,
+    includeSeen: args.has('--include-seen'),
+  };
 }
 
-main().catch(err => {
-  console.error('❌ 运行出错:', err);
+async function main() {
+  const options = parseArgs(process.argv.slice(2));
+  await ensureDirs();
+
+  console.log(`金文速递更新开始：${todayInShanghai()}`);
+  const { items: fetchedItems, failures } = await fetchAll({ limitSources: options.limitSources });
+  console.log(`[main] fetched ${fetchedItems.length} raw items`);
+
+  const enriched = await enrichItems(fetchedItems, { noAI: options.noAI });
+  console.log(`[main] kept ${enriched.length} relevant candidates`);
+
+  const existing = await loadArticles();
+  const { articles, newArticles } = mergeArticles(existing, enriched);
+  const savedArticles = options.dryRun ? articles : await saveArticles(articles);
+  const digestArticles = options.includeSeen ? enriched : newArticles;
+  const digest = buildDigest({
+    articles: digestArticles,
+    failures,
+    fetchedCount: fetchedItems.length,
+  });
+
+  const html = renderEmailHtml(digest);
+  const text = renderPlainText(digest);
+
+  if (!options.dryRun) {
+    await saveDigest(digest);
+    await updateDocsData(digest, savedArticles);
+    await writeFile(join(DOCS_DIR, 'index.html'), renderArchiveHtml(), 'utf8');
+  } else {
+    await writeFile(join(DOCS_DIR, 'preview-email.html'), html, 'utf8');
+    await writeFile(join(DOCS_DIR, 'preview-email.txt'), text, 'utf8');
+    console.log('[main] dry run wrote docs/preview-email.html and docs/preview-email.txt');
+  }
+
+  if (!options.noEmail && !options.dryRun) {
+    try {
+      await sendMail({ subject: digest.title, html, text });
+    } catch (error) {
+      console.error(`[mail] failed: ${error.message}`);
+      process.exitCode = 1;
+    }
+  }
+
+  console.log(`[main] done. new=${digest.newCount}, stored=${savedArticles.length}`);
+}
+
+main().catch((error) => {
+  console.error(error);
   process.exit(1);
 });

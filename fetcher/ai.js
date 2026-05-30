@@ -1,125 +1,151 @@
-/**
- * 金文资讯站 - AI 处理模块（DeepSeek 版）
- * Secret 名称保持 ANTHROPIC_API_KEY，填入 DeepSeek key 即可
- */
+import { BUCKETS, KEYWORDS } from './sources.js';
 
-import { JINSHU_KEYWORDS } from './sources.js';
+const BUCKET_IDS = new Set(BUCKETS.map((bucket) => bucket.id));
 
-function keywordFilter(item) {
-  const text = `${item.title} ${item.summary}`.toLowerCase();
-  return JINSHU_KEYWORDS.some(kw => text.includes(kw));
+function includesAny(text, words) {
+  return words.some((word) => text.includes(word.toLowerCase()));
 }
 
-const BATCH_SIZE = 8;
-
-async function processWithAI(items) {
-  const prompt = `你是一位专治金文（青铜器铭文）的学术助手，负责为"金文动态"资讯站筛选内容。
-
-本站的定位是：**汇聚最新金文相关学术动态**，核心是青铜器铭文研究。
-
-【收录标准】以下内容标为 relevant=true：
-- 金文字形考释、铭文释读、文字学研究
-- 有铭青铜器的发现、著录、研究（即使是考古发掘报告，只要涉及铭文铜器即收）
-- 西周、商代金文与历史年代研究
-- 金文相关的礼制、族氏、称谓研究
-- 出土文献中与金文直接相关的内容（如清华简涉及西周史、金文印证）
-- 铜器铸造工艺、形制研究（与铭文研究有关联的）
-
-【排除标准】以下内容标为 relevant=false：
-- 纯楚简、帛书研究（与金文无交集的）
-- 纯甲骨文研究（不涉及金文或商周铜器的）
-- 纯考古发掘报告（无铭文铜器出土的）
-- 玻璃器、陶器、骨器等非铜器文物研究
-- 现代文物保护、科技考古（材料分析等）
-- 与金文无关的先秦史、民族史研究
-
-【评分标准】score（1-100）：
-- 90+：核心金文研究（铭文考释、金文字形、有铭铜器著录）
-- 70-89：重要关联（西周铜器考古、金文印证的历史研究）
-- 50-69：周边相关（铜器形制、铸造工艺、无铭器但同坑有铭）
-- 50以下且 relevant=false：排除
-
-待处理条目：
-${JSON.stringify(items.map(it => ({ id: it._tempId, title: it.title, summary: it.summary?.slice(0, 200) })), null, 2)}
-
-对每条返回：
-1. relevant (boolean)
-2. score (1-100)
-3. summary：不超过80字中文摘要。有原文摘要则压缩改写；仅有标题则推断并注明「（据题推断）」
-4. tags：从以下选1-3个：["金文考释", "青铜器", "出土文献", "历史年代", "先秦史", "考古发掘", "器物研究", "学术综述", "新出材料", "铸造工艺"]
-
-请仅返回 JSON 数组，不要有任何其他文字：
-[{"id": "...", "relevant": true, "score": 85, "summary": "...", "tags": ["金文考释"]}]`;
-
-  try {
-    const response = await fetch('https://api.deepseek.com/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${process.env.ANTHROPIC_API_KEY}`,
-      },
-      body: JSON.stringify({
-        model: 'deepseek-chat',
-        max_tokens: 2000,
-        messages: [{ role: 'user', content: prompt }],
-      }),
-      signal: AbortSignal.timeout(30000),
-    });
-
-    if (!response.ok) throw new Error(`DeepSeek API ${response.status}`);
-    const data = await response.json();
-    const text = data.choices[0].message.content.trim();
-    const jsonStr = text.replace(/```json\n?|\n?```/g, '').trim();
-    return JSON.parse(jsonStr);
-  } catch (err) {
-    console.error('[AI] 处理失败:', err.message);
-    return [];
-  }
+function keywordScore(item) {
+  const text = `${item.title} ${item.excerpt || ''} ${item.sourceName}`.toLowerCase();
+  let score = 0;
+  for (const word of KEYWORDS.strong) if (text.includes(word.toLowerCase())) score += 28;
+  for (const word of KEYWORDS.medium) if (text.includes(word.toLowerCase())) score += 10;
+  for (const word of KEYWORDS.weak) if (text.includes(word.toLowerCase())) score += 4;
+  for (const word of KEYWORDS.negative) if (text.includes(word.toLowerCase())) score -= 12;
+  if (item.sourcePriority === 'high') score += 8;
+  if (item.sourcePriority === 'medium') score += 3;
+  return Math.max(0, Math.min(98, score));
 }
 
-export async function filterAndEnrich(rawItems) {
-  console.log(`\n🔍 关键词初筛 ${rawItems.length} 条...`);
+function classifyBucket(item) {
+  const text = `${item.title} ${item.excerpt || ''}`.toLowerCase();
+  if (includesAny(text, ['讲座', '会议', '论坛', '研讨会', '通知', '征稿'])) return 'lecture';
+  if (includesAny(text, ['新书', '出版', '书讯', '目录', '读书会', '著作'])) return 'book';
+  if (includesAny(text, ['论文', '刊', '研究', '考释', '释读', '简报', '报告'])) return 'paper';
+  return item.bucketHint || 'news';
+}
 
-  const candidates = rawItems.filter(keywordFilter);
-  console.log(`   关键词命中 ${candidates.length} 条，送 AI 精筛`);
+function tagsFor(item) {
+  const text = `${item.title} ${item.excerpt || ''}`;
+  const tags = [];
+  if (includesAny(text, ['金文', '铭文', '钟鼎文', '彝铭'])) tags.push('金文考释');
+  if (includesAny(text, ['青铜器', '铜器', '鼎', '簋', '壶', '爵'])) tags.push('青铜器');
+  if (includesAny(text, ['出土文献', '简帛', '甲骨'])) tags.push('出土文献');
+  if (includesAny(text, ['西周', '殷商', '商周', '东周', '战国'])) tags.push('历史年代');
+  if (includesAny(text, ['考古', '发掘', '墓葬', '遗址'])) tags.push('考古发现');
+  if (includesAny(text, ['新书', '出版', '著作'])) tags.push('新书');
+  return tags.slice(0, 4);
+}
 
-  candidates.forEach((item, i) => { item._tempId = `item_${i}`; });
+function fallbackSummary(item) {
+  const score = keywordScore(item);
+  const reason = item.excerpt ? item.excerpt.slice(0, 90) : '据题名判断，可能与金文、青铜器或出土文献研究相关。';
+  return {
+    ...item,
+    relevant: score >= 20,
+    score,
+    bucket: score < 45 ? 'lowConfidence' : classifyBucket(item),
+    summary: reason,
+    insight: score >= 70 ? '优先阅读：与金文或有铭青铜器研究的关联较直接。' : '可快速浏览，确认是否有可用材料或书目信息。',
+    tags: tagsFor(item),
+    ai: false,
+  };
+}
+
+function safeParseJson(text) {
+  const stripped = text.replace(/```json\s*/g, '').replace(/```\s*/g, '').trim();
+  const start = stripped.indexOf('[');
+  const end = stripped.lastIndexOf(']');
+  if (start === -1 || end === -1) return [];
+  return JSON.parse(stripped.slice(start, end + 1));
+}
+
+async function callAI(items) {
+  if (!process.env.AI_API_KEY) return [];
+
+  const endpoint = process.env.AI_API_BASE || 'https://api.deepseek.com/chat/completions';
+  const model = process.env.AI_MODEL || 'deepseek-chat';
+  const prompt = `你是古文字与金文方向的学术资讯助理。请判断下列条目是否适合收入个人“金文速递”日报，并做简短解读。
+
+收录重点：金文、青铜器铭文、商周有铭铜器、钟鼎文、青铜器著录、金文字形考释、与金文能互证的出土文献、相关讲座会议与新书。
+排除重点：与金文/有铭铜器无关的普通考古、纯文物保护材料、纯陶瓷/玻璃/佛教美术等。
+
+分类 bucket 只能取：paper, book, lecture, news, lowConfidence。
+返回 JSON 数组，不要附加解释。字段：
+id, relevant(boolean), score(0-100), bucket, summary(60字内), insight(40字内), tags(1-4个中文标签)。
+
+条目：
+${JSON.stringify(items.map((item) => ({
+    id: item.id,
+    title: item.title,
+    source: item.sourceName,
+    excerpt: item.excerpt?.slice(0, 180) || '',
+  })), null, 2)}`;
+
+  const response = await fetch(endpoint, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${process.env.AI_API_KEY}`,
+    },
+    body: JSON.stringify({
+      model,
+      temperature: 0.2,
+      max_tokens: 2600,
+      messages: [{ role: 'user', content: prompt }],
+    }),
+    signal: AbortSignal.timeout(45000),
+  });
+
+  if (!response.ok) throw new Error(`AI API HTTP ${response.status}`);
+  const data = await response.json();
+  return safeParseJson(data.choices?.[0]?.message?.content || '');
+}
+
+export function ruleFilter(items) {
+  return items
+    .map(fallbackSummary)
+    .filter((item) => item.relevant || item.score >= 14)
+    .sort((a, b) => b.score - a.score);
+}
+
+export async function enrichItems(rawItems, { noAI = false } = {}) {
+  const candidates = ruleFilter(rawItems);
+  if (noAI || !process.env.AI_API_KEY || candidates.length === 0) return candidates;
 
   const enriched = [];
+  const batchSize = 8;
 
-  for (let i = 0; i < candidates.length; i += BATCH_SIZE) {
-    const batch = candidates.slice(i, i + BATCH_SIZE);
-    console.log(`[AI] 处理批次 ${Math.floor(i / BATCH_SIZE) + 1}/${Math.ceil(candidates.length / BATCH_SIZE)}`);
-
-    const results = await processWithAI(batch);
-
-    for (const result of results) {
-      if (!result.relevant) continue;
-      const original = batch.find(b => b._tempId === result.id);
-      if (!original) continue;
-
-      enriched.push({
-        source_id: original.sourceId,
-        source_name: original.sourceName,
-        source_short_name: original.sourceShortName,
-        category: original.category,
-        title: original.title,
-        link: original.link,
-        author: original.author,
-        published_at: original.publishedAt,
-        summary: result.summary,
-        score: result.score,
-        tags: result.tags,
-        fetched_at: new Date().toISOString(),
-      });
-    }
-
-    if (i + BATCH_SIZE < candidates.length) {
-      await new Promise(r => setTimeout(r, 1000));
+  for (let i = 0; i < candidates.length; i += batchSize) {
+    const batch = candidates.slice(i, i + batchSize);
+    try {
+      const aiResults = await callAI(batch);
+      const aiById = new Map(aiResults.map((result) => [result.id, result]));
+      for (const item of batch) {
+        const ai = aiById.get(item.id);
+        if (!ai) {
+          enriched.push(item);
+          continue;
+        }
+        if (!ai.relevant && Number(ai.score || 0) < 35) continue;
+        const bucket = BUCKET_IDS.has(ai.bucket) ? ai.bucket : item.bucket;
+        enriched.push({
+          ...item,
+          relevant: Boolean(ai.relevant),
+          score: Number(ai.score || item.score),
+          bucket: Number(ai.score || item.score) < 45 ? 'lowConfidence' : bucket,
+          summary: ai.summary || item.summary,
+          insight: ai.insight || item.insight,
+          tags: Array.isArray(ai.tags) ? ai.tags.slice(0, 4) : item.tags,
+          ai: true,
+        });
+      }
+    } catch (error) {
+      console.warn(`[ai] batch failed, using rules: ${error.message}`);
+      enriched.push(...batch);
     }
   }
 
-  enriched.sort((a, b) => b.score - a.score);
-  console.log(`\n✅ AI 精筛后保留 ${enriched.length} 条相关内容`);
-  return enriched;
+  return enriched.sort((a, b) => b.score - a.score);
 }
