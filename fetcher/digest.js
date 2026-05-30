@@ -32,6 +32,17 @@ function byScoreThenDate(a, b) {
   return new Date(b.publishedAt || b.fetchedAt) - new Date(a.publishedAt || a.fetchedAt);
 }
 
+function sourceStats(articles) {
+  const counts = new Map();
+  for (const article of articles) {
+    const name = article.sourceShortName || article.sourceName || '未知来源';
+    counts.set(name, (counts.get(name) || 0) + 1);
+  }
+  return Array.from(counts.entries())
+    .map(([source, count]) => ({ source, count }))
+    .sort((a, b) => b.count - a.count);
+}
+
 export function buildDigest({ date = todayInShanghai(), articles, failures = [], fetchedCount = 0, actualNewCount = null, fallback = false }) {
   const sorted = articles.slice().sort(byScoreThenDate);
   const highlights = sorted.filter((article) => article.bucket !== 'lowConfidence').slice(0, 5).map(compactArticle);
@@ -56,6 +67,7 @@ export function buildDigest({ date = todayInShanghai(), articles, failures = [],
     newCount: actualNewCount ?? articles.length,
     contentCount: articles.length,
     mode: fallback ? 'fallback' : (articles.length === 0 ? 'empty' : 'digest'),
+    sourceStats: sourceStats(articles),
     failures,
     counts: Object.fromEntries(BUCKETS.map((bucket) => [bucket.id, sections[bucket.id]?.length || 0])),
     sections,
