@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-18",
+  "title": "金文速递 2026-06-18",
+  "generatedAt": "2026-06-18T04:23:43.636Z",
+  "fetchedCount": 239,
+  "newCount": 1,
+  "contentCount": 1,
+  "mode": "digest",
+  "sourceStats": [
+    {
+      "source": "先秦史研究室",
+      "count": 1
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 1,
+    "paper": 0,
+    "book": 0,
+    "lecture": 0,
+    "news": 1,
+    "lowConfidence": 0
+  },
+  "sections": {
+    "highlight": [
+      {
+        "title": "通用古文字检测系统（简牍文字检测、甲骨文检测）—来自河南大学张重生",
+        "link": "https://www.xianqin.org/blog/archives/24762.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2026-06-18T00:00:00.000Z",
+        "fetchedAt": "2026-06-18T04:21:54.148Z",
+        "score": 65,
+        "bucket": "news",
+        "summary": "河南大学张重生团队开发通用古文字检测系统，支持简牍、甲骨文检测。",
+        "insight": "技术工具可辅助金文数字化与字形识别，具跨文种应用潜力。",
+        "tags": [
+          "古文字检测",
+          "数字化",
+          "AI"
+        ],
+        "ai": true
+      }
+    ],
+    "paper": [],
+    "book": [],
+    "lecture": [],
+    "news": [
+      {
+        "title": "通用古文字检测系统（简牍文字检测、甲骨文检测）—来自河南大学张重生",
+        "link": "https://www.xianqin.org/blog/archives/24762.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2026-06-18T00:00:00.000Z",
+        "fetchedAt": "2026-06-18T04:21:54.148Z",
+        "score": 65,
+        "bucket": "news",
+        "summary": "河南大学张重生团队开发通用古文字检测系统，支持简牍、甲骨文检测。",
+        "insight": "技术工具可辅助金文数字化与字形识别，具跨文种应用潜力。",
+        "tags": [
+          "古文字检测",
+          "数字化",
+          "AI"
+        ],
+        "ai": true
+      }
+    ],
+    "lowConfidence": []
+  }
+}
