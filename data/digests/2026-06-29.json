@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-29",
+  "title": "金文速递 2026-06-29",
+  "generatedAt": "2026-06-29T04:20:50.448Z",
+  "fetchedCount": 239,
+  "newCount": 1,
+  "contentCount": 1,
+  "mode": "digest",
+  "sourceStats": [
+    {
+      "source": "复旦出土文献",
+      "count": 1
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 1,
+    "paper": 1,
+    "book": 0,
+    "lecture": 0,
+    "news": 0,
+    "lowConfidence": 0
+  },
+  "sections": {
+    "highlight": [
+      {
+        "title": "鄔可晶：讀書鐘銘文小札",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13390",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-06-28T00:00:00.000Z",
+        "fetchedAt": "2026-06-29T04:18:56.896Z",
+        "score": 90,
+        "bucket": "paper",
+        "summary": "鄔可晶对钟铭文进行考释，提出新的解读意见。",
+        "insight": "直接针对金文铭文的考释，学术价值高。",
+        "tags": [
+          "金文考释",
+          "钟铭",
+          "青铜器铭文"
+        ],
+        "ai": true
+      }
+    ],
+    "paper": [
+      {
+        "title": "鄔可晶：讀書鐘銘文小札",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13390",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-06-28T00:00:00.000Z",
+        "fetchedAt": "2026-06-29T04:18:56.896Z",
+        "score": 90,
+        "bucket": "paper",
+        "summary": "鄔可晶对钟铭文进行考释，提出新的解读意见。",
+        "insight": "直接针对金文铭文的考释，学术价值高。",
+        "tags": [
+          "金文考释",
+          "钟铭",
+          "青铜器铭文"
+        ],
+        "ai": true
+      }
+    ],
+    "book": [],
+    "lecture": [],
+    "news": [],
+    "lowConfidence": []
+  }
+}
