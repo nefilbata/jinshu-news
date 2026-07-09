@@ -1,0 +1,72 @@
+{
+  "date": "2026-07-09",
+  "title": "金文速递 2026-07-09",
+  "generatedAt": "2026-07-09T03:41:11.556Z",
+  "fetchedCount": 239,
+  "newCount": 1,
+  "contentCount": 1,
+  "mode": "digest",
+  "sourceStats": [
+    {
+      "source": "复旦出土文献",
+      "count": 1
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 1,
+    "paper": 0,
+    "book": 0,
+    "lecture": 0,
+    "news": 1,
+    "lowConfidence": 0
+  },
+  "sections": {
+    "highlight": [
+      {
+        "title": "竹千代：《金道錫行：蘇家壟國家考古遺址公園印記》讀後",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13393",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-07-08T00:00:00.000Z",
+        "fetchedAt": "2026-07-09T03:39:12.242Z",
+        "score": 60,
+        "bucket": "news",
+        "summary": "读《金道锡行：苏家垄国家考古遗址公园印记》，涉及青铜器与金文背景。",
+        "insight": "书评介绍青铜器考古遗址，关联金文。",
+        "tags": [
+          "苏家垄",
+          "青铜器",
+          "书评"
+        ],
+        "ai": true
+      }
+    ],
+    "paper": [],
+    "book": [],
+    "lecture": [],
+    "news": [
+      {
+        "title": "竹千代：《金道錫行：蘇家壟國家考古遺址公園印記》讀後",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13393",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-07-08T00:00:00.000Z",
+        "fetchedAt": "2026-07-09T03:39:12.242Z",
+        "score": 60,
+        "bucket": "news",
+        "summary": "读《金道锡行：苏家垄国家考古遗址公园印记》，涉及青铜器与金文背景。",
+        "insight": "书评介绍青铜器考古遗址，关联金文。",
+        "tags": [
+          "苏家垄",
+          "青铜器",
+          "书评"
+        ],
+        "ai": true
+      }
+    ],
+    "lowConfidence": []
+  }
+}

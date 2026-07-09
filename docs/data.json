@@ -1,8 +1,80 @@
 {
-  "updatedAt": "2026-07-08T03:17:20.711Z",
-  "articleCount": 234,
-  "digestCount": 40,
+  "updatedAt": "2026-07-09T03:41:11.568Z",
+  "articleCount": 235,
+  "digestCount": 41,
   "digests": [
+    {
+      "date": "2026-07-09",
+      "title": "金文速递 2026-07-09",
+      "generatedAt": "2026-07-09T03:41:11.556Z",
+      "fetchedCount": 239,
+      "newCount": 1,
+      "contentCount": 1,
+      "mode": "digest",
+      "sourceStats": [
+        {
+          "source": "复旦出土文献",
+          "count": 1
+        }
+      ],
+      "failures": [],
+      "counts": {
+        "highlight": 1,
+        "paper": 0,
+        "book": 0,
+        "lecture": 0,
+        "news": 1,
+        "lowConfidence": 0
+      },
+      "sections": {
+        "highlight": [
+          {
+            "title": "竹千代：《金道錫行：蘇家壟國家考古遺址公園印記》讀後",
+            "link": "https://www.fdgwz.org.cn/Web/Show/13393",
+            "sourceName": "复旦大学出土文献与古文字研究中心",
+            "sourceShortName": "复旦出土文献",
+            "author": "",
+            "publishedAt": "2026-07-08T00:00:00.000Z",
+            "fetchedAt": "2026-07-09T03:39:12.242Z",
+            "score": 60,
+            "bucket": "news",
+            "summary": "读《金道锡行：苏家垄国家考古遗址公园印记》，涉及青铜器与金文背景。",
+            "insight": "书评介绍青铜器考古遗址，关联金文。",
+            "tags": [
+              "苏家垄",
+              "青铜器",
+              "书评"
+            ],
+            "ai": true
+          }
+        ],
+        "paper": [],
+        "book": [],
+        "lecture": [],
+        "news": [
+          {
+            "title": "竹千代：《金道錫行：蘇家壟國家考古遺址公園印記》讀後",
+            "link": "https://www.fdgwz.org.cn/Web/Show/13393",
+            "sourceName": "复旦大学出土文献与古文字研究中心",
+            "sourceShortName": "复旦出土文献",
+            "author": "",
+            "publishedAt": "2026-07-08T00:00:00.000Z",
+            "fetchedAt": "2026-07-09T03:39:12.242Z",
+            "score": 60,
+            "bucket": "news",
+            "summary": "读《金道锡行：苏家垄国家考古遗址公园印记》，涉及青铜器与金文背景。",
+            "insight": "书评介绍青铜器考古遗址，关联金文。",
+            "tags": [
+              "苏家垄",
+              "青铜器",
+              "书评"
+            ],
+            "ai": true
+          }
+        ],
+        "lowConfidence": []
+      }
+    },
     {
       "date": "2026-07-08",
       "title": "金文速递 2026-07-08",
@@ -18743,6 +18815,33 @@
   ],
   "articles": [
     {
+      "id": "fudan-gwz:/Web/Show/13393",
+      "sourceId": "fudan-gwz",
+      "sourceName": "复旦大学出土文献与古文字研究中心",
+      "sourceShortName": "复旦出土文献",
+      "sourcePriority": "high",
+      "bucketHint": "news",
+      "title": "竹千代：《金道錫行：蘇家壟國家考古遺址公園印記》讀後",
+      "link": "https://www.fdgwz.org.cn/Web/Show/13393",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "fetchedAt": "2026-07-09T03:39:12.242Z",
+      "relevant": true,
+      "score": 60,
+      "bucket": "news",
+      "summary": "读《金道锡行：苏家垄国家考古遗址公园印记》，涉及青铜器与金文背景。",
+      "insight": "书评介绍青铜器考古遗址，关联金文。",
+      "tags": [
+        "苏家垄",
+        "青铜器",
+        "书评"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-07-09T03:41:11.551Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z"
+    },
+    {
       "id": "fudan-gwz:/Web/Show/13390",
       "sourceId": "fudan-gwz",
       "sourceName": "复旦大学出土文献与古文字研究中心",
@@ -18767,7 +18866,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-06-29T04:20:50.444Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -18797,7 +18896,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-06-18T04:23:43.632Z",
-      "lastSeenAt": "2026-07-07T03:49:34.668Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -19163,7 +19262,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -19189,7 +19288,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -19219,7 +19318,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -19245,7 +19344,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -19275,7 +19374,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -19305,7 +19404,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -19335,7 +19434,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -19365,7 +19464,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -19396,7 +19495,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -19426,7 +19525,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -19456,7 +19555,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -19486,7 +19585,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -19516,7 +19615,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -19546,7 +19645,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -21495,7 +21594,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -21525,7 +21624,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-08T03:17:20.690Z",
+      "lastSeenAt": "2026-07-09T03:41:11.551Z",
       "sources": [
         "先秦史研究室"
       ]
