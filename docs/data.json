@@ -1,8 +1,174 @@
 {
-  "updatedAt": "2026-07-24T02:57:11.416Z",
+  "updatedAt": "2026-07-25T02:56:27.750Z",
   "articleCount": 236,
-  "digestCount": 56,
+  "digestCount": 57,
   "digests": [
+    {
+      "date": "2026-07-25",
+      "title": "金文速递 2026-07-25",
+      "generatedAt": "2026-07-25T02:56:27.737Z",
+      "fetchedCount": 236,
+      "newCount": 0,
+      "contentCount": 20,
+      "mode": "fallback",
+      "sourceStats": [
+        {
+          "source": "复旦出土文献",
+          "count": 16
+        },
+        {
+          "source": "先秦史研究室",
+          "count": 4
+        }
+      ],
+      "failures": [],
+      "counts": {
+        "highlight": 0,
+        "paper": 0,
+        "book": 0,
+        "lecture": 0,
+        "news": 0,
+        "lowConfidence": 8
+      },
+      "sections": {
+        "highlight": [],
+        "paper": [],
+        "book": [],
+        "lecture": [],
+        "news": [],
+        "lowConfidence": [
+          {
+            "title": "古代史研究所举办“战国文字‘囟’跟西周甲骨文‘囟’到底是什么关系？”学术讲座",
+            "link": "https://www.xianqin.org/blog/archives/24114.html",
+            "sourceName": "先秦史研究室",
+            "sourceShortName": "先秦史研究室",
+            "author": "",
+            "publishedAt": "2025-10-26T00:00:00.000Z",
+            "fetchedAt": "2026-07-25T02:55:41.270Z",
+            "score": 41,
+            "bucket": "lowConfidence",
+            "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+            "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+            "tags": [
+              "出土文献",
+              "历史年代"
+            ],
+            "ai": false
+          },
+          {
+            "title": "竹千代：《金道錫行：蘇家壟國家考古遺址公園印記》讀後",
+            "link": "https://www.fdgwz.org.cn/Web/Show/13393",
+            "sourceName": "复旦大学出土文献与古文字研究中心",
+            "sourceShortName": "复旦出土文献",
+            "author": "",
+            "publishedAt": "2026-07-08T00:00:00.000Z",
+            "fetchedAt": "2026-07-25T02:55:32.863Z",
+            "score": 36,
+            "bucket": "lowConfidence",
+            "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+            "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+            "tags": [
+              "考古发现"
+            ],
+            "ai": false
+          },
+          {
+            "title": "張博倫、張博皓：《山東館藏文物精品大系·青銅器卷》商周銅器著錄對照表及新見銅器銘",
+            "link": "https://www.fdgwz.org.cn/Web/Show/13368",
+            "sourceName": "复旦大学出土文献与古文字研究中心",
+            "sourceShortName": "复旦出土文献",
+            "author": "",
+            "publishedAt": "2026-03-24T00:00:00.000Z",
+            "fetchedAt": "2026-07-25T02:55:32.865Z",
+            "score": 36,
+            "bucket": "lowConfidence",
+            "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+            "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+            "tags": [
+              "历史年代"
+            ],
+            "ai": false
+          },
+          {
+            "title": "吴海生：説“【釆廾】”及相關字",
+            "link": "https://www.fdgwz.org.cn/Web/Show/13399",
+            "sourceName": "复旦大学出土文献与古文字研究中心",
+            "sourceShortName": "复旦出土文献",
+            "author": "",
+            "publishedAt": "2026-07-20T00:00:00.000Z",
+            "fetchedAt": "2026-07-25T02:55:32.862Z",
+            "score": 32,
+            "bucket": "lowConfidence",
+            "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+            "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+            "tags": [],
+            "ai": false
+          },
+          {
+            "title": "鄔可晶：讀書鐘銘文小札",
+            "link": "https://www.fdgwz.org.cn/Web/Show/13390",
+            "sourceName": "复旦大学出土文献与古文字研究中心",
+            "sourceShortName": "复旦出土文献",
+            "author": "",
+            "publishedAt": "2026-06-28T00:00:00.000Z",
+            "fetchedAt": "2026-07-25T02:55:32.864Z",
+            "score": 32,
+            "bucket": "lowConfidence",
+            "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+            "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+            "tags": [],
+            "ai": false
+          },
+          {
+            "title": "費文彬：王厚之《鐘鼎款識》一卷簡校簡注",
+            "link": "https://www.fdgwz.org.cn/Web/Show/13384",
+            "sourceName": "复旦大学出土文献与古文字研究中心",
+            "sourceShortName": "复旦出土文献",
+            "author": "",
+            "publishedAt": "2026-05-19T00:00:00.000Z",
+            "fetchedAt": "2026-07-25T02:55:32.864Z",
+            "score": 32,
+            "bucket": "lowConfidence",
+            "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+            "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+            "tags": [
+              "青铜器"
+            ],
+            "ai": false
+          },
+          {
+            "title": "汪搏：北大秦簡《公子從軍》幾處簡序的調整",
+            "link": "https://www.fdgwz.org.cn/Web/Show/13378",
+            "sourceName": "复旦大学出土文献与古文字研究中心",
+            "sourceShortName": "复旦出土文献",
+            "author": "",
+            "publishedAt": "2026-04-23T00:00:00.000Z",
+            "fetchedAt": "2026-07-25T02:55:32.864Z",
+            "score": 32,
+            "bucket": "lowConfidence",
+            "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+            "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+            "tags": [],
+            "ai": false
+          },
+          {
+            "title": "張恆：清華簡《四告》“寵之克之”解",
+            "link": "https://www.fdgwz.org.cn/Web/Show/13370",
+            "sourceName": "复旦大学出土文献与古文字研究中心",
+            "sourceShortName": "复旦出土文献",
+            "author": "",
+            "publishedAt": "2026-04-02T00:00:00.000Z",
+            "fetchedAt": "2026-07-25T02:55:32.864Z",
+            "score": 32,
+            "bucket": "lowConfidence",
+            "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+            "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+            "tags": [],
+            "ai": false
+          }
+        ]
+      }
+    },
     {
       "date": "2026-07-24",
       "title": "金文速递 2026-07-24",
@@ -25443,7 +25609,7 @@
       "tags": [],
       "ai": true,
       "firstSeenAt": "2026-07-21T02:59:05.841Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -25473,7 +25639,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-07-09T03:41:11.551Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -25503,7 +25669,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-06-29T04:20:50.444Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -25533,7 +25699,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-06-18T04:23:43.632Z",
-      "lastSeenAt": "2026-07-23T03:18:31.465Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -25899,7 +26065,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -25925,7 +26091,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -25955,7 +26121,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -25981,7 +26147,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -26011,7 +26177,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -26041,7 +26207,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -26071,7 +26237,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -26101,7 +26267,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -26132,7 +26298,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -26162,7 +26328,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -26192,7 +26358,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -26222,7 +26388,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -26252,7 +26418,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -28231,7 +28397,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -28261,7 +28427,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-07-24T02:57:11.396Z",
+      "lastSeenAt": "2026-07-25T02:56:27.733Z",
       "sources": [
         "先秦史研究室"
       ]
