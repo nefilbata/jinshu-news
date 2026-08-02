@@ -1,0 +1,51 @@
+{
+  "date": "2026-08-02",
+  "title": "金文速递 2026-08-02",
+  "generatedAt": "2026-08-02T03:22:31.462Z",
+  "fetchedCount": 237,
+  "newCount": 1,
+  "contentCount": 1,
+  "mode": "digest",
+  "sourceStats": [
+    {
+      "source": "复旦出土文献",
+      "count": 1
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 0,
+    "paper": 0,
+    "book": 0,
+    "lecture": 0,
+    "news": 0,
+    "lowConfidence": 1
+  },
+  "sections": {
+    "highlight": [],
+    "paper": [],
+    "book": [],
+    "lecture": [],
+    "news": [],
+    "lowConfidence": [
+      {
+        "title": "李凡：包山楚简地名“啻【艹虘又】”考",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13401",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-08-01T00:00:00.000Z",
+        "fetchedAt": "2026-08-02T03:20:14.295Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "考释包山楚简地名，属楚简研究，与金文无直接关联。",
+        "insight": "楚简与金文偶有互证，但此文主题为地名，关联度低。",
+        "tags": [
+          "楚简",
+          "地名考释"
+        ],
+        "ai": true
+      }
+    ]
+  }
+}

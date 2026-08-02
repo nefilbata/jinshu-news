@@ -1,8 +1,59 @@
 {
-  "updatedAt": "2026-08-01T03:21:41.097Z",
-  "articleCount": 236,
-  "digestCount": 64,
+  "updatedAt": "2026-08-02T03:22:31.477Z",
+  "articleCount": 237,
+  "digestCount": 65,
   "digests": [
+    {
+      "date": "2026-08-02",
+      "title": "金文速递 2026-08-02",
+      "generatedAt": "2026-08-02T03:22:31.462Z",
+      "fetchedCount": 237,
+      "newCount": 1,
+      "contentCount": 1,
+      "mode": "digest",
+      "sourceStats": [
+        {
+          "source": "复旦出土文献",
+          "count": 1
+        }
+      ],
+      "failures": [],
+      "counts": {
+        "highlight": 0,
+        "paper": 0,
+        "book": 0,
+        "lecture": 0,
+        "news": 0,
+        "lowConfidence": 1
+      },
+      "sections": {
+        "highlight": [],
+        "paper": [],
+        "book": [],
+        "lecture": [],
+        "news": [],
+        "lowConfidence": [
+          {
+            "title": "李凡：包山楚简地名“啻【艹虘又】”考",
+            "link": "https://www.fdgwz.org.cn/Web/Show/13401",
+            "sourceName": "复旦大学出土文献与古文字研究中心",
+            "sourceShortName": "复旦出土文献",
+            "author": "",
+            "publishedAt": "2026-08-01T00:00:00.000Z",
+            "fetchedAt": "2026-08-02T03:20:14.295Z",
+            "score": 32,
+            "bucket": "lowConfidence",
+            "summary": "考释包山楚简地名，属楚简研究，与金文无直接关联。",
+            "insight": "楚简与金文偶有互证，但此文主题为地名，关联度低。",
+            "tags": [
+              "楚简",
+              "地名考释"
+            ],
+            "ai": true
+          }
+        ]
+      }
+    },
     {
       "date": "2026-08-01",
       "title": "金文速递 2026-08-01",
@@ -28645,6 +28696,32 @@
   ],
   "articles": [
     {
+      "id": "fudan-gwz:/Web/Show/13401",
+      "sourceId": "fudan-gwz",
+      "sourceName": "复旦大学出土文献与古文字研究中心",
+      "sourceShortName": "复旦出土文献",
+      "sourcePriority": "high",
+      "bucketHint": "news",
+      "title": "李凡：包山楚简地名“啻【艹虘又】”考",
+      "link": "https://www.fdgwz.org.cn/Web/Show/13401",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "fetchedAt": "2026-08-02T03:20:14.295Z",
+      "relevant": false,
+      "score": 32,
+      "bucket": "lowConfidence",
+      "summary": "考释包山楚简地名，属楚简研究，与金文无直接关联。",
+      "insight": "楚简与金文偶有互证，但此文主题为地名，关联度低。",
+      "tags": [
+        "楚简",
+        "地名考释"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-08-02T03:22:31.457Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z"
+    },
+    {
       "id": "fudan-gwz:/Web/Show/13399",
       "sourceId": "fudan-gwz",
       "sourceName": "复旦大学出土文献与古文字研究中心",
@@ -28669,7 +28746,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-07-21T02:59:05.841Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -28699,7 +28776,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-07-09T03:41:11.551Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -28729,7 +28806,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-06-29T04:20:50.444Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -28759,7 +28836,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-06-18T04:23:43.632Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -29125,7 +29202,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -29151,7 +29228,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -29181,7 +29258,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -29207,7 +29284,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -29237,7 +29314,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -29267,7 +29344,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -29297,7 +29374,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -29327,7 +29404,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -29358,7 +29435,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -29388,7 +29465,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -29418,7 +29495,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -29448,7 +29525,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -31457,7 +31534,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -31487,7 +31564,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-01T03:21:41.076Z",
+      "lastSeenAt": "2026-08-02T03:22:31.457Z",
       "sources": [
         "先秦史研究室"
       ]
