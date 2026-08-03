@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-03",
+  "title": "金文速递 2026-08-03",
+  "generatedAt": "2026-08-03T03:23:42.755Z",
+  "fetchedCount": 237,
+  "newCount": 1,
+  "contentCount": 1,
+  "mode": "digest",
+  "sourceStats": [
+    {
+      "source": "复旦出土文献",
+      "count": 1
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 1,
+    "paper": 1,
+    "book": 0,
+    "lecture": 0,
+    "news": 0,
+    "lowConfidence": 0
+  },
+  "sections": {
+    "highlight": [
+      {
+        "title": "丹恆：清華陸《管仲》中的“疋【余口】之邦”或可釋為“須臾之邦”",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13402",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-08-02T00:00:00.000Z",
+        "fetchedAt": "2026-08-03T03:21:24.968Z",
+        "score": 70,
+        "bucket": "paper",
+        "summary": "讨论清华简《管仲》中“疋【余口】之邦”的释读，提出“须臾之邦”说，属简文与金文互证范畴。",
+        "insight": "简文释读可为相关金文词语提供参照，但直接关联度中等。",
+        "tags": [
+          "清华简",
+          "释读",
+          "出土文献"
+        ],
+        "ai": true
+      }
+    ],
+    "paper": [
+      {
+        "title": "丹恆：清華陸《管仲》中的“疋【余口】之邦”或可釋為“須臾之邦”",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13402",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-08-02T00:00:00.000Z",
+        "fetchedAt": "2026-08-03T03:21:24.968Z",
+        "score": 70,
+        "bucket": "paper",
+        "summary": "讨论清华简《管仲》中“疋【余口】之邦”的释读，提出“须臾之邦”说，属简文与金文互证范畴。",
+        "insight": "简文释读可为相关金文词语提供参照，但直接关联度中等。",
+        "tags": [
+          "清华简",
+          "释读",
+          "出土文献"
+        ],
+        "ai": true
+      }
+    ],
+    "book": [],
+    "lecture": [],
+    "news": [],
+    "lowConfidence": []
+  }
+}
