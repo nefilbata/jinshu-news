@@ -1,0 +1,508 @@
+{
+  "date": "2026-08-05",
+  "title": "金文速递 2026-08-05",
+  "generatedAt": "2026-08-05T02:49:54.001Z",
+  "fetchedCount": 237,
+  "newCount": 0,
+  "contentCount": 20,
+  "mode": "fallback",
+  "sourceStats": [
+    {
+      "source": "复旦出土文献",
+      "count": 16
+    },
+    {
+      "source": "先秦史研究室",
+      "count": 4
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 5,
+    "paper": 8,
+    "book": 3,
+    "lecture": 2,
+    "news": 2,
+    "lowConfidence": 5
+  },
+  "sections": {
+    "highlight": [
+      {
+        "title": "張博倫：曲沃北趙晉侯墓地M113出土雚盉銘文釋讀及相關問題研究",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13356",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-01-20T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.652Z",
+        "score": 95,
+        "bucket": "paper",
+        "summary": "研究晋侯墓地M113出土雚盉铭文，涉及西周金文释读及相关历史问题。",
+        "insight": "新出青铜器铭文研究，对西周史和金文字形考释有重要价值。",
+        "tags": [
+          "晋侯墓地",
+          "雚盉",
+          "西周金文"
+        ],
+        "ai": true
+      },
+      {
+        "title": "張光裕、謝明文、郭理遠、傅修才：差鐘、差鎛銘文考釋（下）",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13353",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-01-17T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.652Z",
+        "score": 95,
+        "bucket": "paper",
+        "summary": "对差钟、差镈铭文进行系统考释（下篇），直接涉及金文研究。",
+        "insight": "钟镈铭文考释，对音乐史和青铜器断代有重要参考。",
+        "tags": [
+          "钟镈",
+          "铭文考释",
+          "金文"
+        ],
+        "ai": true
+      },
+      {
+        "title": "鄔可晶：讀書鐘銘文小札",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13390",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-06-28T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.649Z",
+        "score": 90,
+        "bucket": "paper",
+        "summary": "对钟铭文进行读书札记式考释，涉及金文字词释读与铭文理解。",
+        "insight": "钟铭文考释直接对应金文研究，札记形式或提供新见。",
+        "tags": [
+          "钟铭",
+          "金文考释"
+        ],
+        "ai": true
+      },
+      {
+        "title": "彈正少忠：《銘四》青銅禮器銘文雜識",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13360",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-02-06T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.652Z",
+        "score": 90,
+        "bucket": "paper",
+        "summary": "对《铭四》青铜礼器铭文进行杂识考释，直接涉及金文研究。",
+        "insight": "青铜礼器铭文考释，是金文研究核心内容。",
+        "tags": [
+          "青铜礼器",
+          "铭文考释",
+          "金文"
+        ],
+        "ai": true
+      },
+      {
+        "title": "第三届“古文字与夏商周文明”学术研讨会会议纪要",
+        "link": "https://www.xianqin.org/blog/archives/24153.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2025-11-01T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:49.801Z",
+        "score": 90,
+        "bucket": "lecture",
+        "summary": "第三届“古文字与夏商周文明”学术研讨会纪要发布，涵盖古文字与金文研究前沿议题。",
+        "insight": "会议纪要为金文研究提供最新学术动态，值得关注相关论文与讨论。",
+        "tags": [
+          "学术会议",
+          "夏商周",
+          "古文字"
+        ],
+        "ai": true
+      }
+    ],
+    "paper": [
+      {
+        "title": "張博倫：曲沃北趙晉侯墓地M113出土雚盉銘文釋讀及相關問題研究",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13356",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-01-20T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.652Z",
+        "score": 95,
+        "bucket": "paper",
+        "summary": "研究晋侯墓地M113出土雚盉铭文，涉及西周金文释读及相关历史问题。",
+        "insight": "新出青铜器铭文研究，对西周史和金文字形考释有重要价值。",
+        "tags": [
+          "晋侯墓地",
+          "雚盉",
+          "西周金文"
+        ],
+        "ai": true
+      },
+      {
+        "title": "張光裕、謝明文、郭理遠、傅修才：差鐘、差鎛銘文考釋（下）",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13353",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-01-17T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.652Z",
+        "score": 95,
+        "bucket": "paper",
+        "summary": "对差钟、差镈铭文进行系统考释（下篇），直接涉及金文研究。",
+        "insight": "钟镈铭文考释，对音乐史和青铜器断代有重要参考。",
+        "tags": [
+          "钟镈",
+          "铭文考释",
+          "金文"
+        ],
+        "ai": true
+      },
+      {
+        "title": "鄔可晶：讀書鐘銘文小札",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13390",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-06-28T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.649Z",
+        "score": 90,
+        "bucket": "paper",
+        "summary": "对钟铭文进行读书札记式考释，涉及金文字词释读与铭文理解。",
+        "insight": "钟铭文考释直接对应金文研究，札记形式或提供新见。",
+        "tags": [
+          "钟铭",
+          "金文考释"
+        ],
+        "ai": true
+      },
+      {
+        "title": "彈正少忠：《銘四》青銅禮器銘文雜識",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13360",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-02-06T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.652Z",
+        "score": 90,
+        "bucket": "paper",
+        "summary": "对《铭四》青铜礼器铭文进行杂识考释，直接涉及金文研究。",
+        "insight": "青铜礼器铭文考释，是金文研究核心内容。",
+        "tags": [
+          "青铜礼器",
+          "铭文考释",
+          "金文"
+        ],
+        "ai": true
+      },
+      {
+        "title": "許世和：《銘四》兵器讀後",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13354",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-01-18T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.652Z",
+        "score": 85,
+        "bucket": "paper",
+        "summary": "对《铭四》中青铜兵器铭文进行读后考释，属金文研究范畴。",
+        "insight": "兵器铭文是金文重要类别，考释有助于补充史料。",
+        "tags": [
+          "兵器铭文",
+          "金文考释"
+        ],
+        "ai": true
+      },
+      {
+        "title": "吴海生：説“【釆廾】”及相關字",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13399",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-07-20T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.649Z",
+        "score": 70,
+        "bucket": "paper",
+        "summary": "考释古文字“【釆廾】”及相关字形，涉及金文与战国文字中的字形演变与释读。",
+        "insight": "字形考释对金文读解有参考价值，但需确认是否直接涉及金文材料。",
+        "tags": [
+          "字形考释",
+          "古文字"
+        ],
+        "ai": true
+      },
+      {
+        "title": "魏子荊：重論《越公其事》中的“𡐰”字",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13365",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-03-08T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.651Z",
+        "score": 65,
+        "bucket": "paper",
+        "summary": "讨论清华简《越公其事》中“𡐰”字，涉及战国文字与金文比较，可互证字形。",
+        "insight": "战国简帛文字与金文互证，有助于考释疑难字。",
+        "tags": [
+          "战国文字",
+          "清华简",
+          "字形考释"
+        ],
+        "ai": true
+      },
+      {
+        "title": "任龍龍：安大三《哀誦》“【孚風】”及相關之字補說",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13364",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-03-06T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.652Z",
+        "score": 60,
+        "bucket": "paper",
+        "summary": "补说安大三《哀诵》中“孚风”及相关字，涉及战国文字与金文比较。",
+        "insight": "简帛文字与金文互证，可深化对相关字形的理解。",
+        "tags": [
+          "战国文字",
+          "安大三",
+          "字形考释"
+        ],
+        "ai": true
+      }
+    ],
+    "book": [
+      {
+        "title": "費文彬：王厚之《鐘鼎款識》一卷簡校簡注",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13384",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-05-19T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.649Z",
+        "score": 85,
+        "bucket": "book",
+        "summary": "对宋代王厚之《钟鼎款识》进行校注，属青铜器著录文献整理，涉及金文材料。",
+        "insight": "宋代金石著录的整理对金文研究史与铭文校勘有重要价值。",
+        "tags": [
+          "钟鼎款识",
+          "著录",
+          "金石学"
+        ],
+        "ai": true
+      },
+      {
+        "title": "張博倫、張博皓：《山東館藏文物精品大系·青銅器卷》商周銅器著錄對照表及新見銅器銘",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13368",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-03-24T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.650Z",
+        "score": 85,
+        "bucket": "book",
+        "summary": "《山东馆藏文物精品大系·青铜器卷》著录对照表及新见铜器铭文，属青铜器著录与铭文资料。",
+        "insight": "著录对照表与新见铭文是金文资料整理的重要成果，便于检索与研究。",
+        "tags": [
+          "著录",
+          "山东",
+          "新见铭文"
+        ],
+        "ai": true
+      },
+      {
+        "title": "竹千代：《金道錫行：蘇家壟國家考古遺址公園印記》讀後",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13393",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-07-08T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.649Z",
+        "score": 60,
+        "bucket": "book",
+        "summary": "《金道錫行：蘇家壟國家考古遺址公園印記》讀後，涉及青铜器与金文相关遗址及文化。",
+        "insight": "苏家垄遗址与青铜器、金文相关，书评可提供资料线索与学术动态。",
+        "tags": [
+          "苏家垄",
+          "书评",
+          "青铜器"
+        ],
+        "ai": true
+      }
+    ],
+    "lecture": [
+      {
+        "title": "第三届“古文字与夏商周文明”学术研讨会会议纪要",
+        "link": "https://www.xianqin.org/blog/archives/24153.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2025-11-01T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:49.801Z",
+        "score": 90,
+        "bucket": "lecture",
+        "summary": "第三届“古文字与夏商周文明”学术研讨会纪要发布，涵盖古文字与金文研究前沿议题。",
+        "insight": "会议纪要为金文研究提供最新学术动态，值得关注相关论文与讨论。",
+        "tags": [
+          "学术会议",
+          "夏商周",
+          "古文字"
+        ],
+        "ai": true
+      },
+      {
+        "title": "古代史研究所举办“战国文字‘囟’跟西周甲骨文‘囟’到底是什么关系？”学术讲座",
+        "link": "https://www.xianqin.org/blog/archives/24114.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2025-10-26T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:49.801Z",
+        "score": 65,
+        "bucket": "lecture",
+        "summary": "讲座探讨战国文字“囟”与西周甲骨文“囟”的关系，涉及古文字字形比较，与金文相关。",
+        "insight": "字形源流探讨有助于金文与甲骨文、战国文字的比较研究。",
+        "tags": [
+          "字形",
+          "战国文字",
+          "甲骨文"
+        ],
+        "ai": true
+      }
+    ],
+    "news": [
+      {
+        "title": "通用古文字检测系统（简牍文字检测、甲骨文检测）—来自河南大学张重生",
+        "link": "https://www.xianqin.org/blog/archives/24762.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2026-06-18T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:49.810Z",
+        "score": 75,
+        "bucket": "news",
+        "summary": "河南大学张重生团队开发通用古文字检测系统，支持简牍、甲骨文检测，或可扩展至金文。",
+        "insight": "AI技术应用于古文字识别，对金文字形考释与数字化有潜在价值。",
+        "tags": [
+          "古文字",
+          "AI检测",
+          "数字化"
+        ],
+        "ai": true
+      },
+      {
+        "title": "通用古文字检测系统（简牍文字检测、甲骨文检测）—来自河南大学张重生",
+        "link": "https://www.xianqin.org/blog/archives/24762.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2026-06-18T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:49.811Z",
+        "score": 75,
+        "bucket": "news",
+        "summary": "河南大学张重生团队开发通用古文字检测系统，支持简牍、甲骨文等文字检测，或可辅助金文资料整理。",
+        "insight": "AI技术应用于古文字检测，未来或可扩展至金文，提升青铜器铭文数字化效率。",
+        "tags": [
+          "古文字",
+          "AI检测",
+          "数字化"
+        ],
+        "ai": true
+      }
+    ],
+    "lowConfidence": [
+      {
+        "title": "丹恆：清華陸《管仲》中的“疋【余口】之邦”或可釋為“須臾之邦”",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13402",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-08-02T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.648Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "讨论清华简《管仲》中词语释读，属战国竹简文字考释，与金文无直接关联。",
+        "insight": "虽为出土文献，但非金文材料，关联度低。",
+        "tags": [
+          "清华简",
+          "战国文字"
+        ],
+        "ai": true
+      },
+      {
+        "title": "李凡：包山楚简地名“啻【艹虘又】”考",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13401",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-08-01T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.648Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "考释包山楚简地名，属楚简文字与历史地理研究，与金文无直接关联。",
+        "insight": "楚简地名考释虽可旁证古文字，但非金文核心内容。",
+        "tags": [
+          "包山楚简",
+          "地名"
+        ],
+        "ai": true
+      },
+      {
+        "title": "汪搏：北大秦簡《公子從軍》幾處簡序的調整",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13378",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-04-23T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.649Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "调整北大秦简《公子从军》简序，属秦简整理，与金文无关。",
+        "insight": "秦简研究虽属出土文献，但非金文方向。",
+        "tags": [
+          "秦简",
+          "简牍"
+        ],
+        "ai": true
+      },
+      {
+        "title": "張恆：清華簡《四告》“寵之克之”解",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13370",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-04-02T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.650Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "解释清华简《四告》中“宠之克之”，属战国竹简文意训释，与金文无直接关联。",
+        "insight": "清华简研究虽重要，但非金文材料，关联度低。",
+        "tags": [
+          "清华简",
+          "训诂"
+        ],
+        "ai": true
+      },
+      {
+        "title": "方勇：岳麓秦簡（叁）札記一則",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13369",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-04-01T00:00:00.000Z",
+        "fetchedAt": "2026-08-05T02:47:41.650Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "岳麓秦简札记，属秦汉简牍文字考释，与金文无直接关联。",
+        "insight": "秦简与金文时代相近，但非直接互证材料。",
+        "tags": [
+          "秦简",
+          "文字考释"
+        ],
+        "ai": true
+      }
+    ]
+  }
+}
