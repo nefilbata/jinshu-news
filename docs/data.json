@@ -1,8 +1,59 @@
 {
-  "updatedAt": "2026-08-25T01:28:02.460Z",
-  "articleCount": 238,
-  "digestCount": 88,
+  "updatedAt": "2026-08-26T01:37:40.336Z",
+  "articleCount": 239,
+  "digestCount": 89,
   "digests": [
+    {
+      "date": "2026-08-26",
+      "title": "金文速递 2026-08-26",
+      "generatedAt": "2026-08-26T01:37:40.318Z",
+      "fetchedCount": 235,
+      "newCount": 1,
+      "contentCount": 1,
+      "mode": "digest",
+      "sourceStats": [
+        {
+          "source": "复旦出土文献",
+          "count": 1
+        }
+      ],
+      "failures": [],
+      "counts": {
+        "highlight": 0,
+        "paper": 0,
+        "book": 0,
+        "lecture": 0,
+        "news": 0,
+        "lowConfidence": 1
+      },
+      "sections": {
+        "highlight": [],
+        "paper": [],
+        "book": [],
+        "lecture": [],
+        "news": [],
+        "lowConfidence": [
+          {
+            "title": "冯先思：中國文化遺產研究院藏西域刻本文獻小記",
+            "link": "https://www.fdgwz.org.cn/Web/Show/13403",
+            "sourceName": "复旦大学出土文献与古文字研究中心",
+            "sourceShortName": "复旦出土文献",
+            "author": "",
+            "publishedAt": "2026-08-25T00:00:00.000Z",
+            "fetchedAt": "2026-08-26T01:35:22.905Z",
+            "score": 32,
+            "bucket": "lowConfidence",
+            "summary": "介绍文化遗产研究院藏西域刻本文献，属西域文献而非金文或青铜器铭文。",
+            "insight": "与金文无直接关联，但可能涉及出土文献互证，暂不收录。",
+            "tags": [
+              "西域文献",
+              "出土文献"
+            ],
+            "ai": true
+          }
+        ]
+      }
+    },
     {
       "date": "2026-08-25",
       "title": "金文速递 2026-08-25",
@@ -39403,6 +39454,32 @@
   ],
   "articles": [
     {
+      "id": "fudan-gwz:/Web/Show/13403",
+      "sourceId": "fudan-gwz",
+      "sourceName": "复旦大学出土文献与古文字研究中心",
+      "sourceShortName": "复旦出土文献",
+      "sourcePriority": "high",
+      "bucketHint": "news",
+      "title": "冯先思：中國文化遺產研究院藏西域刻本文獻小記",
+      "link": "https://www.fdgwz.org.cn/Web/Show/13403",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "fetchedAt": "2026-08-26T01:35:22.905Z",
+      "relevant": false,
+      "score": 32,
+      "bucket": "lowConfidence",
+      "summary": "介绍文化遗产研究院藏西域刻本文献，属西域文献而非金文或青铜器铭文。",
+      "insight": "与金文无直接关联，但可能涉及出土文献互证，暂不收录。",
+      "tags": [
+        "西域文献",
+        "出土文献"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-08-26T01:37:40.313Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z"
+    },
+    {
       "id": "fudan-gwz:/Web/Show/13402",
       "sourceId": "fudan-gwz",
       "sourceName": "复旦大学出土文献与古文字研究中心",
@@ -39427,7 +39504,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-03T03:23:42.751Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -39457,7 +39534,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-02T03:22:31.457Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -39487,7 +39564,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-07-21T02:59:05.841Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -39517,7 +39594,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-07-09T03:41:11.551Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -39547,7 +39624,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-06-29T04:20:50.444Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -39577,7 +39654,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-06-18T04:23:43.632Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -39943,7 +40020,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -39969,7 +40046,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -39986,20 +40063,20 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-04-02T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T15:08:17.201Z",
+      "fetchedAt": "2026-08-26T01:35:22.907Z",
       "relevant": true,
-      "score": 75,
+      "score": 85,
       "bucket": "paper",
-      "summary": "解读清华简《四告》中“宠之克之”，可与金文用语互证。",
-      "insight": "简文与金文辞例比较，有助于理解西周训诰用语。",
+      "summary": "考释清华简《四告》中“宠之克之”的训释，属出土文献字词考释，与金文可互证。",
+      "insight": "简文训诂与金文用字可互参，有助于通读两周文献。",
       "tags": [
         "清华简",
-        "四告",
-        "金文互证"
+        "字词考释",
+        "出土文献"
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -40025,7 +40102,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -40055,7 +40132,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -40085,7 +40162,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -40115,7 +40192,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -40145,7 +40222,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -40162,21 +40239,20 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-01-20T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T05:44:27.707Z",
+      "fetchedAt": "2026-08-26T01:35:22.907Z",
       "relevant": true,
-      "score": 95,
+      "score": 98,
       "bucket": "paper",
-      "summary": "研究曲沃北赵晋侯墓地M113出土雚盉铭文释读及相关问题。",
-      "insight": "涉及新出西周有铭铜器，考释与历史背景并重，价值高。",
+      "summary": "研究晋侯墓地M113出土雚盉铭文，涉及新出金文材料释读与相关历史问题。",
+      "insight": "新出晋国青铜器铭文，对西周封国制度与文字研究价值极高。",
       "tags": [
+        "金文",
         "晋侯墓地",
-        "雚盉",
-        "铭文释读",
-        "西周"
+        "新出材料"
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -40193,20 +40269,20 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-01-18T00:00:00.000Z",
-      "fetchedAt": "2026-05-30T05:44:27.707Z",
+      "fetchedAt": "2026-08-26T01:35:22.907Z",
       "relevant": true,
-      "score": 85,
+      "score": 90,
       "bucket": "paper",
-      "summary": "对《铭图四》中收录的兵器铭文进行读后考释，涉及金文字形与内容解读。",
-      "insight": "兵器铭文是金文研究的重要分支，该文可补充兵器铭文释读成果。",
+      "summary": "读《铭四》所收兵器铭文，属青铜器铭文考释，聚焦兵器类金文。",
+      "insight": "兵器铭文是金文重要分支，此文可补礼器铭文研究之缺。",
       "tags": [
+        "金文",
         "兵器铭文",
-        "金文考释",
-        "铭图"
+        "铭文考释"
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -42276,7 +42352,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -42306,7 +42382,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-08-25T01:28:02.430Z",
+      "lastSeenAt": "2026-08-26T01:37:40.313Z",
       "sources": [
         "先秦史研究室"
       ]

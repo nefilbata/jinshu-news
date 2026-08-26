@@ -1,0 +1,51 @@
+{
+  "date": "2026-08-26",
+  "title": "金文速递 2026-08-26",
+  "generatedAt": "2026-08-26T01:37:40.318Z",
+  "fetchedCount": 235,
+  "newCount": 1,
+  "contentCount": 1,
+  "mode": "digest",
+  "sourceStats": [
+    {
+      "source": "复旦出土文献",
+      "count": 1
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 0,
+    "paper": 0,
+    "book": 0,
+    "lecture": 0,
+    "news": 0,
+    "lowConfidence": 1
+  },
+  "sections": {
+    "highlight": [],
+    "paper": [],
+    "book": [],
+    "lecture": [],
+    "news": [],
+    "lowConfidence": [
+      {
+        "title": "冯先思：中國文化遺產研究院藏西域刻本文獻小記",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13403",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-08-25T00:00:00.000Z",
+        "fetchedAt": "2026-08-26T01:35:22.905Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "介绍文化遗产研究院藏西域刻本文献，属西域文献而非金文或青铜器铭文。",
+        "insight": "与金文无直接关联，但可能涉及出土文献互证，暂不收录。",
+        "tags": [
+          "西域文献",
+          "出土文献"
+        ],
+        "ai": true
+      }
+    ]
+  }
+}
