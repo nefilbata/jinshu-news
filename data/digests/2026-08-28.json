@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-28",
+  "title": "金文速递 2026-08-28",
+  "generatedAt": "2026-08-28T10:25:35.992Z",
+  "fetchedCount": 235,
+  "newCount": 1,
+  "contentCount": 1,
+  "mode": "digest",
+  "sourceStats": [
+    {
+      "source": "复旦出土文献",
+      "count": 1
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 1,
+    "paper": 1,
+    "book": 0,
+    "lecture": 0,
+    "news": 0,
+    "lowConfidence": 0
+  },
+  "sections": {
+    "highlight": [
+      {
+        "title": "張懷通：《洪範》“庶徵”章與清華簡《芮良夫毖》“德刑”節新釋",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13406",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-08-27T00:00:00.000Z",
+        "fetchedAt": "2026-08-28T10:23:28.181Z",
+        "score": 70,
+        "bucket": "paper",
+        "summary": "结合传世《洪范》与清华简《芮良夫毖》对读，新释“庶徵”与“德刑”相关文句，属出土文献与传世文献互证。",
+        "insight": "清华简与今文《尚书》互证，虽非金文，但属可互证的出土文献，具参考价值。",
+        "tags": [
+          "清华简",
+          "尚书",
+          "互证"
+        ],
+        "ai": true
+      }
+    ],
+    "paper": [
+      {
+        "title": "張懷通：《洪範》“庶徵”章與清華簡《芮良夫毖》“德刑”節新釋",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13406",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-08-27T00:00:00.000Z",
+        "fetchedAt": "2026-08-28T10:23:28.181Z",
+        "score": 70,
+        "bucket": "paper",
+        "summary": "结合传世《洪范》与清华简《芮良夫毖》对读，新释“庶徵”与“德刑”相关文句，属出土文献与传世文献互证。",
+        "insight": "清华简与今文《尚书》互证，虽非金文，但属可互证的出土文献，具参考价值。",
+        "tags": [
+          "清华简",
+          "尚书",
+          "互证"
+        ],
+        "ai": true
+      }
+    ],
+    "book": [],
+    "lecture": [],
+    "news": [],
+    "lowConfidence": []
+  }
+}
