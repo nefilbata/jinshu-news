@@ -1,0 +1,149 @@
+{
+  "date": "2026-09-04",
+  "title": "金文速递 2026-09-04",
+  "generatedAt": "2026-09-04T03:47:08.327Z",
+  "fetchedCount": 203,
+  "newCount": 0,
+  "contentCount": 3,
+  "mode": "fallback",
+  "sourceStats": [
+    {
+      "source": "先秦史研究室",
+      "count": 3
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 3,
+    "paper": 0,
+    "book": 0,
+    "lecture": 1,
+    "news": 2,
+    "lowConfidence": 0
+  },
+  "sections": {
+    "highlight": [
+      {
+        "title": "第三届“古文字与夏商周文明”学术研讨会会议纪要",
+        "link": "https://www.xianqin.org/blog/archives/24153.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2025-11-01T00:00:00.000Z",
+        "fetchedAt": "2026-09-04T03:45:50.728Z",
+        "score": 90,
+        "bucket": "lecture",
+        "summary": "第三届“古文字与夏商周文明”学术研讨会纪要，议题涵盖古文字与夏商周文明，金文研究是核心方向之一。",
+        "insight": "会议纪要反映金文研究前沿动态，值得关注相关学者新论。",
+        "tags": [
+          "会议",
+          "夏商周",
+          "古文字"
+        ],
+        "ai": true
+      },
+      {
+        "title": "通用古文字检测系统（简牍文字检测、甲骨文检测）—来自河南大学张重生",
+        "link": "https://www.xianqin.org/blog/archives/24762.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2026-06-18T00:00:00.000Z",
+        "fetchedAt": "2026-09-04T03:45:50.738Z",
+        "score": 75,
+        "bucket": "news",
+        "summary": "河南大学张重生团队开发通用古文字检测系统，支持简牍、甲骨文等检测，或可扩展至金文，对古文字数字化研究有助益。",
+        "insight": "AI古文字检测技术进展，或可迁移至金文材料整理与识别。",
+        "tags": [
+          "古文字",
+          "AI检测",
+          "数字化"
+        ],
+        "ai": true
+      },
+      {
+        "title": "通用古文字检测系统（简牍文字检测、甲骨文检测）—来自河南大学张重生",
+        "link": "https://www.xianqin.org/blog/archives/24762.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2026-06-18T00:00:00.000Z",
+        "fetchedAt": "2026-09-04T03:45:50.737Z",
+        "score": 70,
+        "bucket": "news",
+        "summary": "河南大学张重生团队开发通用古文字检测系统，支持简牍、甲骨文检测，或可扩展至金文，具应用潜力。",
+        "insight": "古文字数字化工具对金文研究有辅助价值，值得关注其后续是否支持金文。",
+        "tags": [
+          "古文字",
+          "数字人文",
+          "检测系统"
+        ],
+        "ai": true
+      }
+    ],
+    "paper": [],
+    "book": [],
+    "lecture": [
+      {
+        "title": "第三届“古文字与夏商周文明”学术研讨会会议纪要",
+        "link": "https://www.xianqin.org/blog/archives/24153.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2025-11-01T00:00:00.000Z",
+        "fetchedAt": "2026-09-04T03:45:50.728Z",
+        "score": 90,
+        "bucket": "lecture",
+        "summary": "第三届“古文字与夏商周文明”学术研讨会纪要，议题涵盖古文字与夏商周文明，金文研究是核心方向之一。",
+        "insight": "会议纪要反映金文研究前沿动态，值得关注相关学者新论。",
+        "tags": [
+          "会议",
+          "夏商周",
+          "古文字"
+        ],
+        "ai": true
+      }
+    ],
+    "news": [
+      {
+        "title": "通用古文字检测系统（简牍文字检测、甲骨文检测）—来自河南大学张重生",
+        "link": "https://www.xianqin.org/blog/archives/24762.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2026-06-18T00:00:00.000Z",
+        "fetchedAt": "2026-09-04T03:45:50.738Z",
+        "score": 75,
+        "bucket": "news",
+        "summary": "河南大学张重生团队开发通用古文字检测系统，支持简牍、甲骨文等检测，或可扩展至金文，对古文字数字化研究有助益。",
+        "insight": "AI古文字检测技术进展，或可迁移至金文材料整理与识别。",
+        "tags": [
+          "古文字",
+          "AI检测",
+          "数字化"
+        ],
+        "ai": true
+      },
+      {
+        "title": "通用古文字检测系统（简牍文字检测、甲骨文检测）—来自河南大学张重生",
+        "link": "https://www.xianqin.org/blog/archives/24762.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2026-06-18T00:00:00.000Z",
+        "fetchedAt": "2026-09-04T03:45:50.737Z",
+        "score": 70,
+        "bucket": "news",
+        "summary": "河南大学张重生团队开发通用古文字检测系统，支持简牍、甲骨文检测，或可扩展至金文，具应用潜力。",
+        "insight": "古文字数字化工具对金文研究有辅助价值，值得关注其后续是否支持金文。",
+        "tags": [
+          "古文字",
+          "数字人文",
+          "检测系统"
+        ],
+        "ai": true
+      }
+    ],
+    "lowConfidence": []
+  }
+}
