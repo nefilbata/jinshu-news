@@ -1,7 +1,34 @@
 {
-  "updatedAt": "2026-09-21T04:09:07.777Z",
-  "total": 242,
+  "updatedAt": "2026-09-22T04:05:59.223Z",
+  "total": 243,
   "articles": [
+    {
+      "id": "fudan-gwz:/Web/Show/13408",
+      "sourceId": "fudan-gwz",
+      "sourceName": "复旦大学出土文献与古文字研究中心",
+      "sourceShortName": "复旦出土文献",
+      "sourcePriority": "high",
+      "bucketHint": "news",
+      "title": "譚憲炳：利用計算機視覺輔助金文通鑒《銘四》部分拓片查重的嘗試",
+      "link": "https://www.fdgwz.org.cn/Web/Show/13408",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "fetchedAt": "2026-09-22T04:04:16.372Z",
+      "relevant": true,
+      "score": 90,
+      "bucket": "paper",
+      "summary": "利用计算机视觉辅助金文通鉴铭四拓片查重，属金文著录数字化方法。",
+      "insight": "技术手段介入金文拓片整理，提升著录效率。",
+      "tags": [
+        "金文",
+        "数字化",
+        "著录"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-09-22T04:05:59.222Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z"
+    },
     {
       "id": "xianqin-blog:https://www.xianqin.org/blog/archives/26039.html",
       "sourceId": "xianqin-blog",
@@ -27,7 +54,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-09-07T03:45:31.966Z",
-      "lastSeenAt": "2026-09-20T04:11:41.321Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -57,7 +84,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-28T10:25:35.988Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -112,7 +139,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-27T08:24:21.336Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -142,7 +169,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-03T03:23:42.751Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -172,7 +199,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-02T03:22:31.457Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -202,7 +229,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-07-21T02:59:05.841Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -233,7 +260,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-07-09T03:41:11.551Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -264,7 +291,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-06-29T04:20:50.444Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -294,7 +321,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-06-18T04:23:43.632Z",
-      "lastSeenAt": "2026-09-20T04:11:41.321Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -660,7 +687,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -686,7 +713,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -716,7 +743,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -742,7 +769,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -772,7 +799,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -802,7 +829,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -832,7 +859,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -862,7 +889,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -2992,7 +3019,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -3023,7 +3050,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-09-21T04:09:07.777Z",
+      "lastSeenAt": "2026-09-22T04:05:59.222Z",
       "sources": [
         "先秦史研究室"
       ]
