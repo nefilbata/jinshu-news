@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-09",
+  "title": "金文速递 2026-10-09",
+  "generatedAt": "2026-10-09T05:22:28.315Z",
+  "fetchedCount": 241,
+  "newCount": 1,
+  "contentCount": 1,
+  "mode": "digest",
+  "sourceStats": [
+    {
+      "source": "复旦出土文献",
+      "count": 1
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 0,
+    "paper": 0,
+    "book": 0,
+    "lecture": 0,
+    "news": 0,
+    "lowConfidence": 1
+  },
+  "sections": {
+    "highlight": [],
+    "paper": [],
+    "book": [],
+    "lecture": [],
+    "news": [],
+    "lowConfidence": [
+      {
+        "title": "易戎威、林浠帆：湖北鄂州新廟茅草墓地M3出土買地鉛券釋文訂補",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13417",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "fetchedAt": "2026-10-09T05:20:59.604Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "湖北鄂州新庙茅草墓地M3出土买地铅券释文订补。",
+        "insight": "买地铅券属后世镇墓文书，非商周有铭铜器。",
+        "tags": [
+          "铅券",
+          "释文订补"
+        ],
+        "ai": true
+      }
+    ]
+  }
+}
