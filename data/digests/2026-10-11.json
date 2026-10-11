@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-11",
+  "title": "金文速递 2026-10-11",
+  "generatedAt": "2026-10-11T04:56:09.050Z",
+  "fetchedCount": 241,
+  "newCount": 1,
+  "contentCount": 1,
+  "mode": "digest",
+  "sourceStats": [
+    {
+      "source": "复旦出土文献",
+      "count": 1
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 0,
+    "paper": 0,
+    "book": 0,
+    "lecture": 0,
+    "news": 0,
+    "lowConfidence": 1
+  },
+  "sections": {
+    "highlight": [],
+    "paper": [],
+    "book": [],
+    "lecture": [],
+    "news": [],
+    "lowConfidence": [
+      {
+        "title": "布之道：《說文》讀札",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13418",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-10-10T00:00:00.000Z",
+        "fetchedAt": "2026-10-11T04:54:40.383Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "布之道《说文》读札，属文字学札记，非金文专题。",
+        "insight": "虽涉古文字，但非青铜铭文或金文字形考释，不宜入金文速递。",
+        "tags": [
+          "说文",
+          "文字学"
+        ],
+        "ai": true
+      }
+    ]
+  }
+}

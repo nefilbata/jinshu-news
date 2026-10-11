@@ -1,7 +1,33 @@
 {
-  "updatedAt": "2026-10-10T05:06:38.782Z",
-  "total": 244,
+  "updatedAt": "2026-10-11T04:56:09.046Z",
+  "total": 245,
   "articles": [
+    {
+      "id": "fudan-gwz:/Web/Show/13418",
+      "sourceId": "fudan-gwz",
+      "sourceName": "复旦大学出土文献与古文字研究中心",
+      "sourceShortName": "复旦出土文献",
+      "sourcePriority": "high",
+      "bucketHint": "news",
+      "title": "布之道：《說文》讀札",
+      "link": "https://www.fdgwz.org.cn/Web/Show/13418",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-10-10T00:00:00.000Z",
+      "fetchedAt": "2026-10-11T04:54:40.383Z",
+      "relevant": false,
+      "score": 32,
+      "bucket": "lowConfidence",
+      "summary": "布之道《说文》读札，属文字学札记，非金文专题。",
+      "insight": "虽涉古文字，但非青铜铭文或金文字形考释，不宜入金文速递。",
+      "tags": [
+        "说文",
+        "文字学"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-10-11T04:56:09.046Z",
+      "lastSeenAt": "2026-10-11T04:56:09.046Z"
+    },
     {
       "id": "fudan-gwz:/Web/Show/13417",
       "sourceId": "fudan-gwz",
@@ -26,7 +52,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-10-09T05:22:28.310Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.046Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -56,7 +82,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-09-22T04:05:59.222Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.045Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -116,7 +142,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-28T10:25:35.988Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.045Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -171,7 +197,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-27T08:24:21.336Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.046Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -201,7 +227,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-03T03:23:42.751Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.046Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -231,7 +257,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-02T03:22:31.457Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.046Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -248,20 +274,20 @@
       "author": "",
       "excerpt": "",
       "publishedAt": "2026-07-20T00:00:00.000Z",
-      "fetchedAt": "2026-07-27T03:31:03.487Z",
+      "fetchedAt": "2026-10-11T04:54:40.386Z",
       "relevant": true,
-      "score": 85,
+      "score": 88,
       "bucket": "paper",
-      "summary": "吴海生考释古文字“釆廾”及相关字形，涉及金文或古文字构形分析。",
-      "insight": "对疑难字形的考释有助于金文释读。",
+      "summary": "考释“【釆廾】”及相关字，属金文字形考释类研究。",
+      "insight": "字形考释可助厘清相关铜器铭文释读。",
       "tags": [
+        "金文",
         "字形考释",
-        "古文字",
-        "金文"
+        "古文字"
       ],
       "ai": true,
       "firstSeenAt": "2026-07-21T02:59:05.841Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.045Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -292,7 +318,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-07-09T03:41:11.551Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.045Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -323,7 +349,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-06-29T04:20:50.444Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.045Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -719,7 +745,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.045Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -745,7 +771,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.046Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -775,7 +801,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.046Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -801,7 +827,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.046Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -831,7 +857,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.045Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -861,7 +887,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.046Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -3051,7 +3077,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.045Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -3082,7 +3108,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-10T05:06:38.782Z",
+      "lastSeenAt": "2026-10-11T04:56:09.045Z",
       "sources": [
         "先秦史研究室"
       ]
