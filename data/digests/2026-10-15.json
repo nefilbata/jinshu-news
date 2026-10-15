@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-15",
+  "title": "金文速递 2026-10-15",
+  "generatedAt": "2026-10-15T04:01:47.805Z",
+  "fetchedCount": 241,
+  "newCount": 0,
+  "contentCount": 21,
+  "mode": "fallback",
+  "sourceStats": [
+    {
+      "source": "复旦出土文献",
+      "count": 16
+    },
+    {
+      "source": "先秦史研究室",
+      "count": 5
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 1,
+    "paper": 0,
+    "book": 0,
+    "lecture": 0,
+    "news": 1,
+    "lowConfidence": 8
+  },
+  "sections": {
+    "highlight": [
+      {
+        "title": "譚憲炳：利用計算機視覺輔助金文通鑒《銘四》部分拓片查重的嘗試",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13408",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-09-21T00:00:00.000Z",
+        "fetchedAt": "2026-10-15T03:54:06.920Z",
+        "score": 60,
+        "bucket": "news",
+        "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+        "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+        "tags": [
+          "金文考释"
+        ],
+        "ai": false
+      }
+    ],
+    "paper": [],
+    "book": [],
+    "lecture": [],
+    "news": [
+      {
+        "title": "譚憲炳：利用計算機視覺輔助金文通鑒《銘四》部分拓片查重的嘗試",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13408",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-09-21T00:00:00.000Z",
+        "fetchedAt": "2026-10-15T03:54:06.920Z",
+        "score": 60,
+        "bucket": "news",
+        "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+        "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+        "tags": [
+          "金文考释"
+        ],
+        "ai": false
+      }
+    ],
+    "lowConfidence": [
+      {
+        "title": "古代史研究所举办“战国文字‘囟’跟西周甲骨文‘囟’到底是什么关系？”学术讲座",
+        "link": "https://www.xianqin.org/blog/archives/24114.html",
+        "sourceName": "先秦史研究室",
+        "sourceShortName": "先秦史研究室",
+        "author": "",
+        "publishedAt": "2025-10-26T00:00:00.000Z",
+        "fetchedAt": "2026-10-15T03:54:15.667Z",
+        "score": 41,
+        "bucket": "lowConfidence",
+        "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+        "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+        "tags": [
+          "出土文献",
+          "历史年代"
+        ],
+        "ai": false
+      },
+      {
+        "title": "竹千代：《金道錫行：蘇家壟國家考古遺址公園印記》讀後",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13393",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-07-08T00:00:00.000Z",
+        "fetchedAt": "2026-10-15T03:54:06.921Z",
+        "score": 36,
+        "bucket": "lowConfidence",
+        "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+        "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+        "tags": [
+          "考古发现"
+        ],
+        "ai": false
+      },
+      {
+        "title": "張博倫、張博皓：《山東館藏文物精品大系·青銅器卷》商周銅器著錄對照表及新見銅器銘",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13368",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-03-24T00:00:00.000Z",
+        "fetchedAt": "2026-10-15T03:54:06.922Z",
+        "score": 36,
+        "bucket": "lowConfidence",
+        "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+        "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+        "tags": [
+          "历史年代"
+        ],
+        "ai": false
+      },
+      {
+        "title": "布之道：《說文》讀札",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13418",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-10-10T00:00:00.000Z",
+        "fetchedAt": "2026-10-15T03:54:06.920Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+        "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+        "tags": [],
+        "ai": false
+      },
+      {
+        "title": "易戎威、林浠帆：湖北鄂州新廟茅草墓地M3出土買地鉛券釋文訂補",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13417",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "fetchedAt": "2026-10-15T03:54:06.920Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+        "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+        "tags": [],
+        "ai": false
+      },
+      {
+        "title": "張懷通：《洪範》“庶徵”章與清華簡《芮良夫毖》“德刑”節新釋",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13406",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-08-27T00:00:00.000Z",
+        "fetchedAt": "2026-10-15T03:54:06.920Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+        "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+        "tags": [],
+        "ai": false
+      },
+      {
+        "title": "馮先思：中國文化遺產研究院藏西域刻本文獻小記",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13403",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-08-25T00:00:00.000Z",
+        "fetchedAt": "2026-10-15T03:54:06.921Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+        "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+        "tags": [],
+        "ai": false
+      },
+      {
+        "title": "丹恆：清華陸《管仲》中的“疋【余口】之邦”或可釋為“須臾之邦”",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13402",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-08-02T00:00:00.000Z",
+        "fetchedAt": "2026-10-15T03:54:06.921Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "据题名判断，可能与金文、青铜器或出土文献研究相关。",
+        "insight": "可快速浏览，确认是否有可用材料或书目信息。",
+        "tags": [],
+        "ai": false
+      }
+    ]
+  }
+}
