@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-16",
+  "title": "金文速递 2026-10-16",
+  "generatedAt": "2026-10-16T03:51:39.516Z",
+  "fetchedCount": 241,
+  "newCount": 1,
+  "contentCount": 1,
+  "mode": "digest",
+  "sourceStats": [
+    {
+      "source": "复旦出土文献",
+      "count": 1
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 1,
+    "paper": 1,
+    "book": 0,
+    "lecture": 0,
+    "news": 0,
+    "lowConfidence": 0
+  },
+  "sections": {
+    "highlight": [
+      {
+        "title": "婁新志：豳公盨“逑方設正”解",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13419",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "fetchedAt": "2026-10-16T03:49:57.097Z",
+        "score": 97,
+        "bucket": "paper",
+        "summary": "娄新志考释豳公盨“逑方設正”，属西周青铜器铭文疑难字词考释。",
+        "insight": "豳公盨铭文关键词语新解，有助于理解西周政治与思想。",
+        "tags": [
+          "豳公盨",
+          "金文考释",
+          "西周铭文"
+        ],
+        "ai": true
+      }
+    ],
+    "paper": [
+      {
+        "title": "婁新志：豳公盨“逑方設正”解",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13419",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "fetchedAt": "2026-10-16T03:49:57.097Z",
+        "score": 97,
+        "bucket": "paper",
+        "summary": "娄新志考释豳公盨“逑方設正”，属西周青铜器铭文疑难字词考释。",
+        "insight": "豳公盨铭文关键词语新解，有助于理解西周政治与思想。",
+        "tags": [
+          "豳公盨",
+          "金文考释",
+          "西周铭文"
+        ],
+        "ai": true
+      }
+    ],
+    "book": [],
+    "lecture": [],
+    "news": [],
+    "lowConfidence": []
+  }
+}

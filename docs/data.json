@@ -1,8 +1,80 @@
 {
-  "updatedAt": "2026-10-15T04:01:47.831Z",
-  "articleCount": 245,
+  "updatedAt": "2026-10-16T03:51:39.538Z",
+  "articleCount": 246,
   "digestCount": 120,
   "digests": [
+    {
+      "date": "2026-10-16",
+      "title": "金文速递 2026-10-16",
+      "generatedAt": "2026-10-16T03:51:39.516Z",
+      "fetchedCount": 241,
+      "newCount": 1,
+      "contentCount": 1,
+      "mode": "digest",
+      "sourceStats": [
+        {
+          "source": "复旦出土文献",
+          "count": 1
+        }
+      ],
+      "failures": [],
+      "counts": {
+        "highlight": 1,
+        "paper": 1,
+        "book": 0,
+        "lecture": 0,
+        "news": 0,
+        "lowConfidence": 0
+      },
+      "sections": {
+        "highlight": [
+          {
+            "title": "婁新志：豳公盨“逑方設正”解",
+            "link": "https://www.fdgwz.org.cn/Web/Show/13419",
+            "sourceName": "复旦大学出土文献与古文字研究中心",
+            "sourceShortName": "复旦出土文献",
+            "author": "",
+            "publishedAt": "2026-10-15T00:00:00.000Z",
+            "fetchedAt": "2026-10-16T03:49:57.097Z",
+            "score": 97,
+            "bucket": "paper",
+            "summary": "娄新志考释豳公盨“逑方設正”，属西周青铜器铭文疑难字词考释。",
+            "insight": "豳公盨铭文关键词语新解，有助于理解西周政治与思想。",
+            "tags": [
+              "豳公盨",
+              "金文考释",
+              "西周铭文"
+            ],
+            "ai": true
+          }
+        ],
+        "paper": [
+          {
+            "title": "婁新志：豳公盨“逑方設正”解",
+            "link": "https://www.fdgwz.org.cn/Web/Show/13419",
+            "sourceName": "复旦大学出土文献与古文字研究中心",
+            "sourceShortName": "复旦出土文献",
+            "author": "",
+            "publishedAt": "2026-10-15T00:00:00.000Z",
+            "fetchedAt": "2026-10-16T03:49:57.097Z",
+            "score": 97,
+            "bucket": "paper",
+            "summary": "娄新志考释豳公盨“逑方設正”，属西周青铜器铭文疑难字词考释。",
+            "insight": "豳公盨铭文关键词语新解，有助于理解西周政治与思想。",
+            "tags": [
+              "豳公盨",
+              "金文考释",
+              "西周铭文"
+            ],
+            "ai": true
+          }
+        ],
+        "book": [],
+        "lecture": [],
+        "news": [],
+        "lowConfidence": []
+      }
+    },
     {
       "date": "2026-10-15",
       "title": "金文速递 2026-10-15",
@@ -51522,81 +51594,36 @@
           }
         ]
       }
-    },
-    {
-      "date": "2026-06-18",
-      "title": "金文速递 2026-06-18",
-      "generatedAt": "2026-06-18T04:23:43.636Z",
-      "fetchedCount": 239,
-      "newCount": 1,
-      "contentCount": 1,
-      "mode": "digest",
-      "sourceStats": [
-        {
-          "source": "先秦史研究室",
-          "count": 1
-        }
-      ],
-      "failures": [],
-      "counts": {
-        "highlight": 1,
-        "paper": 0,
-        "book": 0,
-        "lecture": 0,
-        "news": 1,
-        "lowConfidence": 0
-      },
-      "sections": {
-        "highlight": [
-          {
-            "title": "通用古文字检测系统（简牍文字检测、甲骨文检测）—来自河南大学张重生",
-            "link": "https://www.xianqin.org/blog/archives/24762.html",
-            "sourceName": "先秦史研究室",
-            "sourceShortName": "先秦史研究室",
-            "author": "",
-            "publishedAt": "2026-06-18T00:00:00.000Z",
-            "fetchedAt": "2026-06-18T04:21:54.148Z",
-            "score": 65,
-            "bucket": "news",
-            "summary": "河南大学张重生团队开发通用古文字检测系统，支持简牍、甲骨文检测。",
-            "insight": "技术工具可辅助金文数字化与字形识别，具跨文种应用潜力。",
-            "tags": [
-              "古文字检测",
-              "数字化",
-              "AI"
-            ],
-            "ai": true
-          }
-        ],
-        "paper": [],
-        "book": [],
-        "lecture": [],
-        "news": [
-          {
-            "title": "通用古文字检测系统（简牍文字检测、甲骨文检测）—来自河南大学张重生",
-            "link": "https://www.xianqin.org/blog/archives/24762.html",
-            "sourceName": "先秦史研究室",
-            "sourceShortName": "先秦史研究室",
-            "author": "",
-            "publishedAt": "2026-06-18T00:00:00.000Z",
-            "fetchedAt": "2026-06-18T04:21:54.148Z",
-            "score": 65,
-            "bucket": "news",
-            "summary": "河南大学张重生团队开发通用古文字检测系统，支持简牍、甲骨文检测。",
-            "insight": "技术工具可辅助金文数字化与字形识别，具跨文种应用潜力。",
-            "tags": [
-              "古文字检测",
-              "数字化",
-              "AI"
-            ],
-            "ai": true
-          }
-        ],
-        "lowConfidence": []
-      }
     }
   ],
   "articles": [
+    {
+      "id": "fudan-gwz:/Web/Show/13419",
+      "sourceId": "fudan-gwz",
+      "sourceName": "复旦大学出土文献与古文字研究中心",
+      "sourceShortName": "复旦出土文献",
+      "sourcePriority": "high",
+      "bucketHint": "news",
+      "title": "婁新志：豳公盨“逑方設正”解",
+      "link": "https://www.fdgwz.org.cn/Web/Show/13419",
+      "author": "",
+      "excerpt": "",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "fetchedAt": "2026-10-16T03:49:57.097Z",
+      "relevant": true,
+      "score": 97,
+      "bucket": "paper",
+      "summary": "娄新志考释豳公盨“逑方設正”，属西周青铜器铭文疑难字词考释。",
+      "insight": "豳公盨铭文关键词语新解，有助于理解西周政治与思想。",
+      "tags": [
+        "豳公盨",
+        "金文考释",
+        "西周铭文"
+      ],
+      "ai": true,
+      "firstSeenAt": "2026-10-16T03:51:39.512Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z"
+    },
     {
       "id": "fudan-gwz:/Web/Show/13418",
       "sourceId": "fudan-gwz",
@@ -51621,7 +51648,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-10-11T04:56:09.046Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -51650,7 +51677,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-10-09T05:22:28.310Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -51680,7 +51707,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-09-22T04:05:59.222Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -51710,7 +51737,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-09-07T03:45:31.966Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -51740,7 +51767,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-28T10:25:35.988Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -51795,7 +51822,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-27T08:24:21.336Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -51825,7 +51852,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-03T03:23:42.751Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -51855,7 +51882,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-08-02T03:22:31.457Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -51885,7 +51912,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-07-21T02:59:05.841Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -51915,7 +51942,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-07-09T03:41:11.551Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -51946,7 +51973,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-06-29T04:20:50.444Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -52342,7 +52369,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -52368,7 +52395,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -52398,7 +52425,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -52424,7 +52451,7 @@
       "tags": [],
       "ai": false,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -52454,7 +52481,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "复旦出土文献"
       ]
@@ -54674,7 +54701,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "先秦史研究室"
       ]
@@ -54705,7 +54732,7 @@
       ],
       "ai": true,
       "firstSeenAt": "2026-05-30T04:57:36.155Z",
-      "lastSeenAt": "2026-10-15T04:01:47.801Z",
+      "lastSeenAt": "2026-10-16T03:51:39.512Z",
       "sources": [
         "先秦史研究室"
       ]
