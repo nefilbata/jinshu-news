@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-18",
+  "title": "金文速递 2026-10-18",
+  "generatedAt": "2026-10-18T03:47:33.718Z",
+  "fetchedCount": 240,
+  "newCount": 1,
+  "contentCount": 1,
+  "mode": "digest",
+  "sourceStats": [
+    {
+      "source": "复旦出土文献",
+      "count": 1
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 1,
+    "paper": 1,
+    "book": 0,
+    "lecture": 0,
+    "news": 0,
+    "lowConfidence": 0
+  },
+  "sections": {
+    "highlight": [
+      {
+        "title": "姚偉邦：談隨州葉家山墓地出土銅器的“媿”字",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13454",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-10-17T00:00:00.000Z",
+        "fetchedAt": "2026-10-18T03:46:02.693Z",
+        "score": 93,
+        "bucket": "paper",
+        "summary": "考释随州叶家山墓地出土铜器中的“媿”字，属金文字形考释。",
+        "insight": "叶家山曾国铜器铭文考释，涉及金文字形与族属问题。",
+        "tags": [
+          "叶家山",
+          "金文考释",
+          "曾国"
+        ],
+        "ai": true
+      }
+    ],
+    "paper": [
+      {
+        "title": "姚偉邦：談隨州葉家山墓地出土銅器的“媿”字",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13454",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-10-17T00:00:00.000Z",
+        "fetchedAt": "2026-10-18T03:46:02.693Z",
+        "score": 93,
+        "bucket": "paper",
+        "summary": "考释随州叶家山墓地出土铜器中的“媿”字，属金文字形考释。",
+        "insight": "叶家山曾国铜器铭文考释，涉及金文字形与族属问题。",
+        "tags": [
+          "叶家山",
+          "金文考释",
+          "曾国"
+        ],
+        "ai": true
+      }
+    ],
+    "book": [],
+    "lecture": [],
+    "news": [],
+    "lowConfidence": []
+  }
+}
