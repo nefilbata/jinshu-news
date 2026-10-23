@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-23",
+  "title": "金文速递 2026-10-23",
+  "generatedAt": "2026-10-23T04:02:19.064Z",
+  "fetchedCount": 239,
+  "newCount": 1,
+  "contentCount": 1,
+  "mode": "digest",
+  "sourceStats": [
+    {
+      "source": "复旦出土文献",
+      "count": 1
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "highlight": 0,
+    "paper": 0,
+    "book": 0,
+    "lecture": 0,
+    "news": 0,
+    "lowConfidence": 1
+  },
+  "sections": {
+    "highlight": [],
+    "paper": [],
+    "book": [],
+    "lecture": [],
+    "news": [],
+    "lowConfidence": [
+      {
+        "title": "關達明：北大秦簡《魯久次問數於陳起》“三方三圓”辨正",
+        "link": "https://www.fdgwz.org.cn/Web/Show/13459",
+        "sourceName": "复旦大学出土文献与古文字研究中心",
+        "sourceShortName": "复旦出土文献",
+        "author": "",
+        "publishedAt": "2026-10-22T00:00:00.000Z",
+        "fetchedAt": "2026-10-23T04:00:43.920Z",
+        "score": 32,
+        "bucket": "lowConfidence",
+        "summary": "北大秦简《鲁久次问数于陈起》数术内容辨正，属秦简研究。",
+        "insight": "与金文及有铭铜器无直接关联，不宜收录。",
+        "tags": [
+          "秦简",
+          "数术"
+        ],
+        "ai": true
+      }
+    ]
+  }
+}
