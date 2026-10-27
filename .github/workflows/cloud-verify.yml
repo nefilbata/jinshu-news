@@ -5,6 +5,7 @@ on:
     paths:
       - .github/workflows/cloud-verify.yml
       - fetcher/cloud-verify.js
+      - fetcher/cloud-network-diagnose.js
 permissions:
   contents: read
 jobs:
