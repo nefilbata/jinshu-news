@@ -26,8 +26,8 @@ jobs:
         working-directory: fetcher
       - run: npm test
         working-directory: fetcher
-      - name: Fetch twice and verify deduplication
-        run: node cloud-verify.js 2>&1 | tee cloud-verification.log
+      - name: Diagnose DNS and verified TLS connections
+        run: node cloud-network-diagnose.js 2>&1 | tee cloud-verification.log
         working-directory: fetcher
       - uses: actions/upload-artifact@v4
         if: always()
