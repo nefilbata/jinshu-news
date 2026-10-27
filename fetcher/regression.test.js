@@ -5,6 +5,29 @@ import { SOURCES } from './sources.js';
 import { keepRecent, selectDigestArticles, maySendEmail } from './policy.js';
 import { mergeArticles } from './storage.js';
 import { ruleFilter } from './ai.js';
+import { requestWeb } from './web-request.js';
+
+test('HTTPS fallback preserves byte content and content type', async () => {
+  const r = await requestWeb('https://example.invalid/', {headers:{}}, {
+    request: async () => {throw new Error('timeout');},
+    run: async (_exe,args) => {
+      assert.equal(args.includes('--insecure'), false);
+      assert.equal(args.includes('-k'), false);
+      assert.ok(args.includes('=https'));
+      return {stdout: Buffer.from('<html>正文</html>\n__JINSHU_RESPONSE_META__200\ttext/html; charset=utf-8')};
+    },
+  });
+  assert.equal(r.status, 200);
+  assert.equal(await r.text(), '<html>正文</html>');
+});
+
+test('HTTPS fallback propagates certificate failures and disallows HTTP downgrade', async () => {
+  await assert.rejects(requestWeb('https://example.invalid/', {headers:{}}, {
+    request: async () => {throw new Error('certificate mismatch');},
+    run: async () => {throw new Error('curl certificate verify failed');},
+  }), /certificate verify failed/);
+  await assert.rejects(requestWeb('http://example.invalid/', {}), /requires HTTPS/);
+});
 
 test('network failures retain actionable TLS and per-address error codes', () => {
   const tlsError = new Error('fetch failed', {cause: Object.assign(new Error('Hostname/IP does not match certificate'), {code:'ERR_TLS_CERT_ALTNAME_INVALID'})});

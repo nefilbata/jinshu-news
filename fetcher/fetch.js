@@ -3,6 +3,7 @@ import iconv from 'iconv-lite';
 import Parser from 'rss-parser';
 import { getDefaultAutoSelectFamilyAttemptTimeout, setDefaultAutoSelectFamilyAttemptTimeout } from 'node:net';
 import { SOURCES } from './sources.js';
+import { requestWeb } from './web-request.js';
 
 // The default 250 ms can abandon a valid IPv4 connection to China before
 // its handshake completes, then attempt unreachable IPv6 on hosted runners.
@@ -176,7 +177,7 @@ export function parseWeb(html, source) {
 
 async function fetchWeb(source) {
   const html = await withRetry(`${source.id} web`, async () => {
-    const response = await fetch(source.url, {
+    const response = await requestWeb(source.url, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (compatible; JinshuNews/2.0)',
         Accept: 'text/html,application/xhtml+xml',
