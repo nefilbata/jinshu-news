@@ -1,0 +1,39 @@
+name: Cloud fetch and dedupe verification (no email)
+on:
+  push:
+    branches: [verify/cloud-fetch-20261027]
+    paths:
+      - .github/workflows/cloud-verify.yml
+      - fetcher/cloud-verify.js
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      EMAIL_ENABLED: 'false'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: fetcher/package-lock.json
+      - run: npm ci --ignore-scripts
+        working-directory: fetcher
+      - run: npm test
+        working-directory: fetcher
+      - name: Fetch twice and verify deduplication
+        run: node cloud-verify.js 2>&1 | tee cloud-verification.log
+        working-directory: fetcher
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cloud-fetch-dedupe-results
+          path: |
+            fetcher/cloud-results/
+            fetcher/cloud-verification.log
+          retention-days: 14
