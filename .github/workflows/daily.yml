@@ -1,8 +1,6 @@
 name: 金文速递每日更新
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
   workflow_dispatch:
 
 permissions:
@@ -10,6 +8,8 @@ permissions:
 
 jobs:
   daily:
+    # Paused at the owner's request; retain history and manual entry for later restoration.
+    if: ${{ false }}
     runs-on: ubuntu-latest
     timeout-minutes: 25
 
