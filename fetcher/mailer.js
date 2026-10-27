@@ -83,6 +83,10 @@ export function hasMailConfig() {
 }
 
 export async function sendMail({ subject, html, text }) {
+  if (process.env.EMAIL_ENABLED !== 'true') {
+    console.log('[mail] disabled; skipped sending.');
+    return { skipped: true };
+  }
   if (!hasMailConfig()) {
     console.log('[mail] SMTP not configured; skipped sending.');
     return { skipped: true };

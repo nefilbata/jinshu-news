@@ -70,22 +70,30 @@ function absolutizeUrl(href, baseUrl) {
 
 export function parseDate(value) {
   if (!value) return null;
+  if (/^\d{4}-\d{2}-\d{2}T/.test(String(value))) {
+    const date = new Date(value);
+    return Number.isNaN(date.getTime()) ? null : date.toISOString();
+  }
   const text = cleanText(String(value))
     .replace(/[年月.]/g, '-')
     .replace(/[日号]/g, '')
     .replace(/\//g, '-');
-  const match = text.match(/(20\d{2}|19\d{2})[-年.]?(\d{1,2})?[-月.]?(\d{1,2})?/);
+  // Require a complete numeric date. RFC 822 dates must reach Date's parser.
+  const match = text.match(/\b((?:20|19)\d{2})-\s*(\d{1,2})-?\s*(\d{1,2})\b/);
   if (match) {
-    const [, year, month = '1', day = '1'] = match;
+    const [, year, month, day] = match;
     const date = new Date(Date.UTC(Number(year), Number(month) - 1, Number(day)));
-    if (!Number.isNaN(date.getTime())) return date.toISOString();
+    if (date.getUTCFullYear() === Number(year) && date.getUTCMonth() === Number(month) - 1 && date.getUTCDate() === Number(day)) return date.toISOString();
+    return null;
   }
+  if (!/[A-Za-z]/.test(text)) return null;
   const date = new Date(value);
   return Number.isNaN(date.getTime()) ? null : date.toISOString();
 }
 
 async function fetchRSS(source) {
   const urls = [source.url, ...(source.fallbackUrls || [])];
+  const errors = [];
   for (const url of urls) {
     try {
       const xml = await withRetry(`${source.id} rss`, async () => {
@@ -112,81 +120,81 @@ async function fetchRSS(source) {
           link: item.link || item.guid || url,
           author: cleanText(item.creator || item.author || ''),
           excerpt: cleanText(item.contentSnippet || item.summary || item.content || ''),
-        publishedAt: parseDate(item.pubDate || item.isoDate || item.dcDate) || null,
+          publishedAt: parseDate(item.isoDate || item.pubDate || item.dcDate) || null,
           fetchedAt: new Date().toISOString(),
         }))
         .filter((item) => item.title && item.link);
     } catch (error) {
-      console.warn(`[fetch] RSS source skipped: ${source.name} (${url}) ${error.message}`);
+      errors.push(`${url}: ${error.message}${error.cause?.message ? ` (${error.cause.message})` : ''}`);
     }
   }
-  return [];
+  throw new Error(errors.join('; '));
+}
+
+export function parseWeb(html, source) {
+  const $ = cheerio.load(html);
+  const items = new Map();
+  const selector = source.selector;
+  if (!$(selector.list).length) throw new Error(`列表选择器无匹配: ${selector.list}`);
+  $(selector.list).each((_, element) => {
+    const titleNode = $(element).find(selector.title).first();
+    const linkNode = $(element).find(selector.link).first();
+    const dateNode = $(element).find(selector.date).first();
+    const title = cleanText(titleNode.text());
+    const href = linkNode.attr('href') || titleNode.attr('href') || '';
+    const link = absolutizeUrl(href, source.url);
+    if (!title || title.length < 4 || !/^https?:\/\//.test(link) || !href || href.startsWith('#')) return;
+    const rawDate = selector.dateAttribute
+      ? (linkNode.attr(selector.dateAttribute) || '').match(/(?:發布時間|发布时间)[：:]\s*([^\r\n]+)/)?.[1]
+      : dateNode.attr('datetime') || dateNode.text();
+    items.set(link, {
+      id: `${source.id}:${link}`, sourceId: source.id, sourceName: source.name,
+      sourceShortName: source.shortName, sourcePriority: source.priority,
+      bucketHint: source.bucket, title, link, author: '', excerpt: '',
+      publishedAt: parseDate(rawDate) || null, fetchedAt: new Date().toISOString(),
+    });
+  });
+  if (!items.size) throw new Error('页面可访问，但未解析到有效文章');
+  return [...items.values()];
 }
 
 async function fetchWeb(source) {
-  try {
-    const response = await withRetry(`${source.id} web`, () => fetch(source.url, {
+  const html = await withRetry(`${source.id} web`, async () => {
+    const response = await fetch(source.url, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (compatible; JinshuNews/2.0)',
         Accept: 'text/html,application/xhtml+xml',
         'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.6',
       },
       signal: AbortSignal.timeout(16000),
-    }));
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-    const html = await responseText(response);
-    const $ = cheerio.load(html);
-    const items = [];
-    const selector = source.selector;
-
-    $(selector.list).each((_, element) => {
-      const titleNode = $(element).find(selector.title).first();
-      const linkNode = $(element).find(selector.link).first();
-      const dateNode = $(element).find(selector.date).first();
-      const title = cleanText(titleNode.text());
-      const href = linkNode.attr('href') || titleNode.attr('href') || '';
-
-      if (!title || title.length < 4 || !href) return;
-
-      items.push({
-        id: `${source.id}:${href}`,
-        sourceId: source.id,
-        sourceName: source.name,
-        sourceShortName: source.shortName,
-        sourcePriority: source.priority,
-        bucketHint: source.bucket,
-        title,
-        link: absolutizeUrl(href, source.url),
-        author: '',
-        excerpt: '',
-        publishedAt: parseDate(dateNode.text()) || null,
-        fetchedAt: new Date().toISOString(),
-      });
     });
-
-    return items;
-  } catch (error) {
-    console.warn(`[fetch] Web source skipped: ${source.name} ${error.message}`);
-    return [];
-  }
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return responseText(response);
+  });
+  return parseWeb(html, source);
 }
 
-export async function fetchAll({ limitSources } = {}) {
-  const selectedSources = Number.isFinite(limitSources) ? SOURCES.slice(0, limitSources) : SOURCES;
+export async function fetchAll({ limitSources, sources = SOURCES } = {}) {
+  const selectedSources = Number.isFinite(limitSources) ? sources.slice(0, limitSources) : sources;
   const allItems = [];
   const failures = [];
+  const sourceResults = [];
 
   for (const source of selectedSources) {
     try {
       console.log(`[fetch] ${source.shortName || source.name}`);
       const items = source.type === 'rss' ? await fetchRSS(source) : await fetchWeb(source);
       allItems.push(...items);
+      sourceResults.push({ sourceId: source.id, name: source.name, status: 'ok', count: items.length, undatedCount: items.filter(item => !item.publishedAt).length });
+      console.log(`[fetch] ${source.id}: ${items.length} items`);
       await sleep(400);
     } catch (error) {
-      failures.push({ sourceId: source.id, name: source.name, error: error.message });
+      const failure = { sourceId: source.id, name: source.name, error: `${error.message}${error.cause?.message ? ` (${error.cause.message})` : ''}` };
+      failures.push(failure);
+      sourceResults.push({ ...failure, status: 'failed', count: 0 });
+      console.warn(`[fetch] ${source.id}: FAILED ${failure.error}`);
     }
   }
 
-  return { items: allItems, failures };
+  return { items: allItems, failures, sourceResults };
 }

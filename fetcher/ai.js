@@ -2,12 +2,19 @@ import { BUCKETS, KEYWORDS } from './sources.js';
 
 const BUCKET_IDS = new Set(BUCKETS.map((bucket) => bucket.id));
 
+// Fold common title variants for matching only; preserve the original text.
+const MATCH_VARIANTS = { 銅:'铜', 銘:'铭', 釋:'释', 讀:'读', 簡:'简', 學:'学', 術:'术', 會:'会', 議:'议', 書:'书', 訊:'讯', 著:'著', 錄:'录', 禮:'礼', 戰:'战', 國:'国', 見:'见', 體:'体', 墳:'坟', 關:'关', 與:'与' };
+function matchText(value) {
+  return String(value).toLowerCase().replace(/[銅銘釋讀簡學術會議書訊錄禮戰國見體墳關與]/g, char => MATCH_VARIANTS[char]);
+}
+
 function includesAny(text, words) {
-  return words.some((word) => text.includes(word.toLowerCase()));
+  const normalized = matchText(text);
+  return words.some((word) => normalized.includes(matchText(word)));
 }
 
 function keywordScore(item) {
-  const text = `${item.title} ${item.excerpt || ''} ${item.sourceName}`.toLowerCase();
+  const text = matchText(`${item.title} ${item.excerpt || ''} ${item.sourceName}`);
   let score = 0;
   for (const word of KEYWORDS.strong) if (text.includes(word.toLowerCase())) score += 28;
   for (const word of KEYWORDS.medium) if (text.includes(word.toLowerCase())) score += 10;

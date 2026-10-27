@@ -28,20 +28,18 @@ jobs:
         working-directory: ./fetcher
         run: npm ci
 
-      - name: Build digest, send mail, update archive
+      - name: Test fetcher
+        working-directory: ./fetcher
+        run: npm test
+
+      - name: Build digest without email, update archive
         working-directory: ./fetcher
         env:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_API_BASE: ${{ secrets.AI_API_BASE }}
           AI_MODEL: ${{ secrets.AI_MODEL }}
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          SMTP_SECURE: ${{ secrets.SMTP_SECURE }}
-          MAIL_FROM: ${{ secrets.MAIL_FROM }}
-          MAIL_TO: ${{ secrets.MAIL_TO }}
-        run: npm run daily
+          EMAIL_ENABLED: 'false'
+        run: npm run no-email
 
       - name: Commit archive updates
         run: |
