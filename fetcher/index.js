@@ -5,6 +5,7 @@ import { enrichItems } from './ai.js';
 import { buildDigest, todayInShanghai } from './digest.js';
 import { renderArchiveHtml, renderEmailHtml, renderPlainText } from './render.js';
 import { sendMail } from './mailer.js';
+import { keepRecent, selectDigestArticles, maySendEmail } from './policy.js';
 import {
   DOCS_DIR,
   ensureDirs,
@@ -23,23 +24,7 @@ function parseArgs(argv) {
     noEmail: args.has('--no-email') || args.has('--dry-run'),
     noAI: args.has('--no-ai'),
     limitSources: limitArg ? Number(limitArg.split('=')[1]) : undefined,
-    includeSeen: args.has('--include-seen'),
   };
-}
-
-function ageInDays(article) {
-  const date = article.publishedAt ? new Date(article.publishedAt) : null;
-  if (!date || Number.isNaN(date.getTime())) return Infinity;
-  return (Date.now() - date.getTime()) / 86400000;
-}
-
-function keepRecent(article) {
-  const maxAgeDays = Number(process.env.MAX_ITEM_AGE_DAYS || 540);
-  return ageInDays(article) <= maxAgeDays;
-}
-
-function selectDigestArticles(items, maxTotal = 80) {
-  return items.slice(0, maxTotal);
 }
 
 async function main() {
@@ -47,26 +32,28 @@ async function main() {
   await ensureDirs();
 
   console.log(`金文速递更新开始：${todayInShanghai()}`);
-  const { items: fetchedItems, failures } = await fetchAll({ limitSources: options.limitSources });
+  const { items: fetchedItems, failures, sourceResults } = await fetchAll({ limitSources: options.limitSources });
   console.log(`[main] fetched ${fetchedItems.length} raw items`);
 
   const enriched = await enrichItems(fetchedItems, { noAI: options.noAI });
-  const recentEnriched = enriched.filter(keepRecent);
+  const recentEnriched = enriched.filter(article => keepRecent(article)).map(article => article.publishedAt ? article : {
+    ...article, bucket: 'lowConfidence', dateStatus: 'unknown',
+    summary: `发布日期待核。${article.summary || ''}`,
+  });
   console.log(`[main] kept ${enriched.length} relevant candidates, ${recentEnriched.length} recent candidates`);
 
   const existing = await loadArticles();
   const { articles, newArticles } = mergeArticles(existing, recentEnriched);
   const savedArticles = options.dryRun ? articles : await saveArticles(articles);
-  const digestArticles = options.includeSeen || newArticles.length === 0
-    ? selectDigestArticles(recentEnriched)
-    : selectDigestArticles(newArticles);
+  const digestArticles = selectDigestArticles(newArticles);
   const digest = buildDigest({
     articles: digestArticles,
     actualNewCount: newArticles.length,
-    fallback: newArticles.length === 0 && digestArticles.length > 0,
     failures,
     fetchedCount: fetchedItems.length,
   });
+  digest.sourceResults = sourceResults;
+  digest.filterMode = options.noAI || !process.env.AI_API_KEY ? 'rules' : 'ai-assisted';
 
   const html = renderEmailHtml(digest);
   const text = renderPlainText(digest);
@@ -81,14 +68,16 @@ async function main() {
     console.log('[main] dry run wrote docs/preview-email.html and docs/preview-email.txt');
   }
 
-  if (!options.noEmail && !options.dryRun) {
+  if (maySendEmail(options, digest)) {
     try {
       await sendMail({ subject: digest.title, html, text });
     } catch (error) {
       console.error(`[mail] failed: ${error.message}`);
       process.exitCode = 1;
     }
-  }
+  } else console.log('[mail] skipped: email disabled or no new articles');
+
+  if (sourceResults.every(source => source.status === 'failed')) process.exitCode = 1;
 
   console.log(`[main] done. new=${digest.newCount}, stored=${savedArticles.length}`);
 }

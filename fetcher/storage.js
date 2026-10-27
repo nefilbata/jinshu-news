@@ -80,6 +80,9 @@ export function mergeArticles(existingArticles, incomingArticles) {
     const merged = {
       ...existing,
       ...(better ? article : {}),
+      // A corrected publication date must not depend on a higher AI score.
+      publishedAt: article.publishedAt || existing.publishedAt,
+      fetchedAt: article.fetchedAt,
       sources: Array.from(new Set([...(existing.sources || [existing.sourceShortName || existing.sourceName]), article.sourceShortName || article.sourceName].filter(Boolean))),
       lastSeenAt: new Date().toISOString(),
     };

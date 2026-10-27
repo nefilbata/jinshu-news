@@ -28,7 +28,7 @@ function formatDate(value) {
 function renderArticle(article) {
   const tags = (article.tags || []).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join('');
   return `<article class="item">
-    <div class="meta">${escapeHtml(article.sourceShortName || article.sourceName || '')} · ${formatDate(article.publishedAt)} · 相关度 ${Math.round(article.score || 0)}</div>
+    <div class="meta">${escapeHtml(article.sourceShortName || article.sourceName || '')} · ${formatDate(article.publishedAt) || '发布日期待核'} · 相关度 ${Math.round(article.score || 0)}</div>
     <h3><a href="${escapeHtml(article.link)}">${escapeHtml(article.title)}</a></h3>
     <p>${escapeHtml(article.summary || '')}</p>
     ${article.insight ? `<p class="insight">${escapeHtml(article.insight)}</p>` : ''}
@@ -57,7 +57,7 @@ export function renderEmailHtml(digest) {
     : '';
   const lead = digest.mode === 'fallback'
     ? `本次没有全新条目，以下展示 ${digest.contentCount} 条近期高相关候选供复核。抓取 ${digest.fetchedCount} 条。`
-    : `新增 ${digest.newCount} 条，展示 ${digest.contentCount} 条。抓取 ${digest.fetchedCount} 条。AI 负责筛选和提要，原文仍以链接为准。`;
+    : `首次入库 ${digest.newCount} 条，展示 ${digest.contentCount} 条。抓取 ${digest.fetchedCount} 条。${digest.filterMode === 'rules' ? '本次使用规则初筛，相关性待复核。' : 'AI 辅助筛选和提要。'}首次入库不等于今日发表，原文仍以链接为准。`;
 
   return `<!doctype html>
 <html lang="zh-CN">
@@ -104,8 +104,9 @@ export function renderEmailHtml(digest) {
 export function renderPlainText(digest) {
   const lead = digest.mode === 'fallback'
     ? `本次没有全新条目，展示 ${digest.contentCount} 条近期高相关候选供复核。抓取 ${digest.fetchedCount} 条。`
-    : `新增 ${digest.newCount} 条，展示 ${digest.contentCount} 条。抓取 ${digest.fetchedCount} 条。`;
+    : `首次入库 ${digest.newCount} 条，展示 ${digest.contentCount} 条。抓取 ${digest.fetchedCount} 条。首次入库不等于今日发表。`;
   const lines = [`${digest.title}`, lead, ''];
+  if (digest.failures?.length) lines.push(`未抓取成功：${digest.failures.map(item => `${item.name}（${item.error}）`).join('；')}`, '');
   if (digest.sourceStats?.length) {
     lines.push(`来源分布：${digest.sourceStats.slice(0, 8).map((item) => `${item.source} ${item.count}`).join(' · ')}`);
     lines.push('');
