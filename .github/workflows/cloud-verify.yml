@@ -6,6 +6,7 @@ on:
       - .github/workflows/cloud-verify.yml
       - fetcher/cloud-verify.js
       - fetcher/cloud-network-diagnose.js
+      - fetcher/fetch.js
 permissions:
   contents: read
 jobs:
@@ -27,8 +28,8 @@ jobs:
         working-directory: fetcher
       - run: npm test
         working-directory: fetcher
-      - name: Diagnose DNS and verified TLS connections
-        run: node cloud-network-diagnose.js 2>&1 | tee cloud-verification.log
+      - name: Fetch twice and verify deduplication
+        run: node cloud-verify.js 2>&1 | tee cloud-verification.log
         working-directory: fetcher
       - uses: actions/upload-artifact@v4
         if: always()

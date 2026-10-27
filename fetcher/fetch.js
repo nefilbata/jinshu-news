@@ -1,7 +1,23 @@
 import * as cheerio from 'cheerio';
 import iconv from 'iconv-lite';
 import Parser from 'rss-parser';
+import { getDefaultAutoSelectFamilyAttemptTimeout, setDefaultAutoSelectFamilyAttemptTimeout } from 'node:net';
 import { SOURCES } from './sources.js';
+
+// The default 250 ms can abandon a valid IPv4 connection to China before
+// its handshake completes, then attempt unreachable IPv6 on hosted runners.
+// Preserve TLS verification and any longer timeout configured by the host.
+if (getDefaultAutoSelectFamilyAttemptTimeout() < 2000) {
+  setDefaultAutoSelectFamilyAttemptTimeout(2000);
+}
+
+export function describeNetworkError(error) {
+  const cause = error.cause || error;
+  const code = cause.code || error.code || 'FETCH_ERROR';
+  const details = cause.errors?.map(item => `${item.code || 'ERROR'} ${item.address || ''}`).join(', ');
+  const message = String(cause.message || error.message || code);
+  return `${code}: ${message.slice(0, 240)}${message.length > 240 ? '…' : ''}${details ? ` (${details})` : ''}`;
+}
 
 const parser = new Parser({
   timeout: 15000,
@@ -48,7 +64,7 @@ async function withRetry(label, task, attempts = 2) {
       return await task();
     } catch (error) {
       lastError = error;
-      console.warn(`[fetch] ${label} failed (${i + 1}/${attempts}): ${error.message}`);
+      console.warn(`[fetch] ${label} failed (${i + 1}/${attempts}): ${describeNetworkError(error)}`);
       if (i + 1 < attempts) await sleep(800 * (i + 1));
     }
   }
@@ -125,7 +141,7 @@ async function fetchRSS(source) {
         }))
         .filter((item) => item.title && item.link);
     } catch (error) {
-      errors.push(`${url}: ${error.message}${error.cause?.message ? ` (${error.cause.message})` : ''}`);
+      errors.push(`${url}: ${describeNetworkError(error)}`);
     }
   }
   throw new Error(errors.join('; '));
@@ -189,7 +205,7 @@ export async function fetchAll({ limitSources, sources = SOURCES } = {}) {
       console.log(`[fetch] ${source.id}: ${items.length} items`);
       await sleep(400);
     } catch (error) {
-      const failure = { sourceId: source.id, name: source.name, error: `${error.message}${error.cause?.message ? ` (${error.cause.message})` : ''}` };
+      const failure = { sourceId: source.id, name: source.name, error: describeNetworkError(error) };
       failures.push(failure);
       sourceResults.push({ ...failure, status: 'failed', count: 0 });
       console.warn(`[fetch] ${source.id}: FAILED ${failure.error}`);

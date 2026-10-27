@@ -1,10 +1,17 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { parseDate, parseWeb, fetchAll } from './fetch.js';
+import { parseDate, parseWeb, fetchAll, describeNetworkError } from './fetch.js';
 import { SOURCES } from './sources.js';
 import { keepRecent, selectDigestArticles, maySendEmail } from './policy.js';
 import { mergeArticles } from './storage.js';
 import { ruleFilter } from './ai.js';
+
+test('network failures retain actionable TLS and per-address error codes', () => {
+  const tlsError = new Error('fetch failed', {cause: Object.assign(new Error('Hostname/IP does not match certificate'), {code:'ERR_TLS_CERT_ALTNAME_INVALID'})});
+  assert.match(describeNetworkError(tlsError), /ERR_TLS_CERT_ALTNAME_INVALID/);
+  const aggregate = Object.assign(new AggregateError([Object.assign(new Error('timeout'),{code:'ETIMEDOUT',address:'101.6.15.66'}),Object.assign(new Error('unreachable'),{code:'ENETUNREACH',address:'2402::1'})], ''), {code:'ETIMEDOUT'});
+  assert.match(describeNetworkError(new Error('fetch failed',{cause:aggregate})), /ENETUNREACH 2402::1/);
+});
 
 test('traditional titles match the same keywords without rewriting source text', () => {
   const base = {sourceName:'研究中心',sourcePriority:'medium',excerpt:''};
